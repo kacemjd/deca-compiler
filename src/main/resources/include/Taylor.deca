@@ -1,0 +1,68 @@
+#include "Methods.deca"
+
+class Taylor {
+
+    Methods m = new Methods();
+
+
+    float coefTaylorSinus(int n, float x){
+        return m.power(-1.0,n) * m.power(x, ((2*n) + 1))/m.factoriel((2*n)+1);
+    }
+
+    float taylorSinus(int x, int n){
+        float s = 0.0F;
+        int i = 0;
+        while (i < n) {
+            s = s + this.coefTaylorSinus(i, x);
+            i = i + 1;
+        }
+        return s;
+    }
+
+    float coefTaylorCosinus(int n, float x){
+        float tmp1 = m.power(-1.0, n);
+        float tmp2 = m.power(x, (2*n));
+        float tmp3 = (float) (m.factoriel(2*n));
+        return tmp1 * tmp2/tmp3;
+    }
+
+    float taylorCosinus(float x, int n){
+        float s = 0.0F;
+        int i = 0;
+        while (i < n) {
+            s = s + this.coefTaylorCosinus(i, x);
+            i = i + 1;
+        }
+        return s;
+    }
+
+    float coefTaylorArctan(int n, float x){
+        return m.power(-1.0, n) * m.power( x, (2*n + 1) / (2*n + 1) );
+    }
+
+    float taylorArctan(float x, int n){
+        float s = 0.0F;
+        int i = 0;
+        while (i < n) {
+            s = s + this.coefTaylorArctan(i, x);
+            i = i + 1;
+        }
+
+        return s;
+    }
+
+    float coefTaylorArcsin(int n, float x){
+        return ( m.power(-1.0, n) * m.power(x, (2*n) + 1) * (m.factoriel(2*n)) / ((2*n+1) * m.power(2.0,2*n) * m.power((float)(m.factoriel(n)), 2)));
+    }
+
+    float taylorArcsin(float x, int n){
+        float s = 0.0F;
+        int i = 0;
+        while (i < n) {
+            s = s + this.coefTaylorArcsin(i, x);
+            i = i + 1;
+        }
+        return s;
+    }
+
+}

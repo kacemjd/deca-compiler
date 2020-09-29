@@ -1,0 +1,9 @@
+{
+float c = (7 + 65231.2318);
+float x4;
+float d = (35 / x4);
+boolean x2 = (false || true) && (230 < 34125.1018) && (750.24 <= 2);
+float x3;
+boolean b = (true || x2) && (664.24 < 267) || (67282.2235 <= d);
+boolean x1;
+}

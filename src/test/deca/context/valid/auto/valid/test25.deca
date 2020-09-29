@@ -1,0 +1,9 @@
+{
+float c = (-5) - (-73) + (-9933.532);
+boolean a = (2 < 91072.3846) && (4 > 84358.6960) || (true && false) && (!false) || (16 <= 892);
+int x;
+float x1;
+x = (-6790);
+print("One Piece", "نبيل بنصغير");
+println("projetGL", "test auto", (-73) - (-7), (9 - 3) - (892 % 2) / (9 % 4));
+}

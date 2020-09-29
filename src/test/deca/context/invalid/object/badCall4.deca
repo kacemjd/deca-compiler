@@ -1,0 +1,29 @@
+class A
+{
+  int x(int a)
+  {
+    return 7;
+  }
+}
+class X
+{
+  int a ;
+  void m()
+  {
+    C c = new C();
+    B b = new B();
+    println(b.x());
+  }
+}
+class B extends A
+{
+
+}
+
+class C extends X
+{
+  int x()
+  {
+    return 4;
+  }
+}

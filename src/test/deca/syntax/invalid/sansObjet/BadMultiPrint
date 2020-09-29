@@ -1,0 +1,6 @@
+{
+    int x = 2020;
+    int y = 2021;
+    int z = 2022;
+    print(x,y:z);
+}

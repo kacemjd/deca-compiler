@@ -1,0 +1,21 @@
+//924
+class Bino{
+	int fact(int n){
+        if(n == 0){
+            return 1;
+        }
+        else{
+            return n*this.fact(n-1);
+        }
+    	}
+
+	int main(int n, int p){
+		return fact(n)/(fact(p)*fact(n-p));
+	}
+}
+
+{
+Bino B = new Bino();
+println(B.main(12,6));
+
+}

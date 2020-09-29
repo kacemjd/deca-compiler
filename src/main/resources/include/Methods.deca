@@ -1,0 +1,88 @@
+class Methods {
+
+    float racine(float x){
+        float result = x;
+        int i = 0;
+
+        if (x == 0) {
+            return 0.0f;
+        }
+
+        else {
+            while (i < 100){
+                result = (result + x/result)/2;
+                i = i + 1;
+            }
+            return result;
+        }
+
+    }
+
+    int factoriel(int n){
+        if (n == 0){
+            return 1;
+        }
+        else{
+          return n * this.factoriel(n - 1);
+        }
+    }
+
+    float power(float value1, int value2){
+        if(value2 >= 0){
+            if(value2 == 0){
+                return 1.0F;
+            }
+            else{
+                return (value1 * this.power(value1, (value2 - 1)));
+            }
+        }
+        else{
+            return  (1.0f/(float)(value1)) * this.power(value1, (value2 + 1));
+        }
+        
+    }
+
+    float abs(float x){
+        if (x > 0.0F){
+            return x;
+        }
+        else{
+          return -x;
+        }
+    }
+    float ulp(float x){
+        int e_min = -126;
+        int e_max = 127;
+        int median = 0;
+        float y = 0.0F;
+
+        if (this.abs(x) <= this.power(2.0F, -e_max)) {
+            return 1.4E-45F;
+        }
+
+        else if (this.abs(x) > this.power(2.0F, e_max) - this.power(2.0F, 104)) {
+            return this.abs(x);
+        }
+
+        else {
+            while(e_max - e_min > 1) {
+                median = (e_max + e_min) / 2;
+                y = this.power(2.0F, median);
+                if (this.abs(x) > y) {
+                    e_min = median;
+                }
+                else {
+                    e_max = median;
+                }
+            }
+
+            if (this.abs(x) == this.power(2.0F, e_max)) {
+                return this.power(2.0F, e_max - 23);
+            }
+            else {
+                return this.power(2.0F, e_max - 24);
+            }
+        }
+    }
+
+}

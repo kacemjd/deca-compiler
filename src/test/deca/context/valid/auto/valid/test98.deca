@@ -1,0 +1,25 @@
+{
+float x1 = (8 / 667.93) * (2 / 7) + (6 - 25) * (-40.3) + (-667.93);
+boolean x3;
+boolean x = (311 != 65767.3525) && (!true);
+int y;
+float x2;
+float a = (84388 / 7) - (-77910) - (-4) / (-84388);
+int d;
+float b;
+boolean z;
+boolean x5 = (true && x);
+while ((74129.9804 >= 65767.3525) || (z || x3))
+{
+}
+while ((z || z) || (8 <= 6) && (92 < 5) || (z && x3))
+{
+	x3 = (78924 != 77910) || (998.17 < 667.93) && (x && x);
+	println();
+	printlnx((92 / 1) - (y + 199) + (1 - 1), (9 / 0) * (7 / 8), "test auto", "رضوان");
+	println("groupe 53", "Naruto");
+}
+print("BestOf", "One Piece", "projetGL");
+printx();
+println();
+}

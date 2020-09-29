@@ -1,0 +1,6 @@
+#include "Algos.deca"
+
+{
+    int x;
+    int y;
+}

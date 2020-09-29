@@ -1,0 +1,6 @@
+{
+    boolean b = false;
+    if (!b){
+        print("Hello 2020");
+    }
+}

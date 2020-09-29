@@ -1,0 +1,10 @@
+class CALC {
+    int x;
+
+    void calcul(int x){
+        this.x =x;  
+    }
+}
+{
+    
+}

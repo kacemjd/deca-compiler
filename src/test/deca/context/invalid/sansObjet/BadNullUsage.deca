@@ -1,0 +1,7 @@
+{
+    int a = 100;
+    int b = 100;
+    if (b > null){
+        print("b est supérieur a null");
+    }
+}

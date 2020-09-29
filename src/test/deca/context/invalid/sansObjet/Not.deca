@@ -1,0 +1,6 @@
+{
+    boolean b,a;
+    b = true;
+    a = !b;
+    print(a);
+}

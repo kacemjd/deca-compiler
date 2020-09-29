@@ -1,0 +1,16 @@
+{
+int x5 = (24 % 4);
+boolean b;
+float a = (3 * 62901.6644) / (-6) + (26 / 4) + (-x5) - (-7);
+float x4 = (-349.43);
+float x3 = (a + 4105);
+int d;
+float x1 = (-a) / (x3 / 6) + (2 * 2792.191) * (2792.191 - 2499.626);
+float y;
+float x2 = (952 - 952) / (y / 4884.846) * (586 + 340.33);
+boolean x = (74 < 7) || (true && false) || (false || false);
+int c = (5329 / 4105);
+boolean z = (62901.6644 == 8) || (74 != 586);
+println("One Piece", "عمر", "Naruto");
+b = (b && true) && (!true) && (y != x5) && (x && z);
+}

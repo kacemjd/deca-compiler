@@ -1,0 +1,9 @@
+{
+    int i = 0;
+    while(i < 5){
+        i = i+1;
+        print("While progress");
+    }
+    print("While ended");
+    print(i);
+}

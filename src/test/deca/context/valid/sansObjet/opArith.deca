@@ -1,0 +1,18 @@
+/** @version 1.0
+    Title : Opérations arithmétiques
+*/
+{
+  // Declaration des variables
+  int a = 1;
+  float b = 15;
+  int z;
+  float y;
+
+  // Instructions
+  a = a + (100 / 2);
+  b = (19.75 - 3.5 + 1.25) / b;
+  z = a % 2;
+  y = b * z;
+  println(a, b); println("ça marche", y);
+
+}

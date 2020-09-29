@@ -1,0 +1,13 @@
+//3.33333e-01
+class A{
+	float inv(float a){
+	return 1/a;
+	}
+}
+
+{
+A a = new A();
+float f = a.inv(3);
+println(f);
+
+}

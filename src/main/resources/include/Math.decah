@@ -1,0 +1,58 @@
+// Grenoble INP - Ensimag projet GL -*- mode: java -*-
+// Library for class Math of Deca, coded in Deca
+
+#include "Algos.deca"
+
+class Math {
+    float Pi = 3.1415926f;
+    Chebychev cheb = new Chebychev();
+    Taylor tayl = new Taylor();
+    Methods m = new Methods();
+
+    float sin(float value){
+        float seuil = Pi/64;
+        if (value < seuil && value > -seuil){
+            return tayl.taylorSinus(value, 7);
+        }
+        else {
+            return cheb.sinCheb(value);
+        }
+    }
+
+    float cos(float value){
+        float seuilU = 0.1f + Pi/2;
+        float seuilD = -0.1f + Pi/2;
+
+        if (value < seuilU  && value > seuilD){
+            return tayl.taylorCosinus(value, 7);
+        }
+
+        else {
+            return cheb.cosCheb(value);
+        }
+    }
+
+    float arctan(float value){
+        if (value < 0.4f && value >-0.4f){
+            return tayl.taylorArctan(value, 7);
+        }
+
+        else {
+            return cheb.arctanCheb(value);
+        }
+    }
+
+    float arcsin(float value){
+        return cheb.arcsinCheb(value);
+    }
+
+    float ulp(float value){
+        return m.ulp(value);
+    }
+
+
+
+}
+
+
+// End of Deca Math library

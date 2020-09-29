@@ -1,0 +1,6 @@
+{
+    int a=2020;
+    if (a){
+        println("Hello 2020");
+    }
+}

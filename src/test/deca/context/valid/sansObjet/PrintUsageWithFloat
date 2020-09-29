@@ -1,0 +1,6 @@
+{
+    float  x = 2020.5f;
+    float y = 2020.5f;
+    print("x = ",x);
+    print("y= ",y);
+}

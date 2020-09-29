@@ -1,0 +1,11 @@
+{
+int x5;
+float y;
+int d;
+boolean x2 = (!true);
+float c;
+int x3 = (7 - 3) - (8 - 26) + (-4) * (1 / 38235) - (-6);
+float z;
+x5 = (4 - x5);
+println("groupe 53", "test auto", (x3 / 4) - (-0));
+}

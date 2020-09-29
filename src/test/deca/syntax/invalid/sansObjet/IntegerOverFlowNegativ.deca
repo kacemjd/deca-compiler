@@ -1,0 +1,5 @@
+{
+    //println("Start test IntegerOverFlow [-oo;0]");
+    int x = -2147483648;
+    int x = -2147483647;
+}

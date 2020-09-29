@@ -1,0 +1,6 @@
+{
+    boolean x = true;
+    boolean y = false;
+    boolean z;
+    z = x * y;
+}

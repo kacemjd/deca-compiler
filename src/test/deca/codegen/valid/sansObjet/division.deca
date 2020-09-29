@@ -1,0 +1,9 @@
+{
+int x = 1620;
+int cpt = 0;
+while(cpt < 6){
+	x = x/2;
+	cpt = cpt + 1;
+}
+println(x);
+}

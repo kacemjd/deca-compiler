@@ -1,0 +1,8 @@
+{
+    boolean x = true;
+    if(!x){
+        print("Je ne compte pas rentrer ici");
+    }else{   
+    }
+    print("Fin du test");
+}

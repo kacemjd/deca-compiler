@@ -1,0 +1,10 @@
+{
+int x2;
+int x1;
+boolean a;
+boolean b = (6068.708 >= 2) || (true && a) && (!true);
+x2 = (39 * 7) / (-5) + (-9);
+print();
+println((-3092) + (-11), "One Piece", (-1) / (x2 + 31) + (x2 / 0), "Naruto");
+printlnx((1 / 77300.2068) / (-9) + (-98860.0994), "BestOf");
+}

@@ -1,0 +1,12 @@
+//banner
+class A{
+	void imprimer(){
+		println("banner");
+	}
+
+}
+
+{
+A a = new A();
+a.imprimer();
+}

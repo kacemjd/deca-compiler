@@ -1,0 +1,13 @@
+{
+  int x = 3;
+  if(x > 7){
+    println("x est sup à 7");
+  }
+  else if(x < 4){
+    println("x est inf à 4");
+  }
+  else{
+    println("x est entre 4 et 7");
+  }
+}
+

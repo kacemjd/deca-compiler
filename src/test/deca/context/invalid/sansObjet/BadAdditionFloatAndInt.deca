@@ -1,0 +1,6 @@
+{
+    int x = 2020;
+    float y = 2020.5f;
+    int z;
+    z = x+y;
+}

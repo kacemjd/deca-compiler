@@ -1,0 +1,7 @@
+{
+    int x = 20;
+    float y = 21.0;
+    if (x < y){
+        print("Dommage");
+    }
+}

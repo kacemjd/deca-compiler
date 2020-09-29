@@ -1,0 +1,27 @@
+class A{
+	float racine(float x){
+        float result = x;
+        int i = 0;
+
+        if (x == 0) {
+            return 0.0f;
+        }
+
+        else {
+            while (i < 100){
+                result = (result + x/result)/2;
+                i = i + 1;
+            }
+            return result;
+        }
+
+    }
+
+}
+
+
+{
+A a = new A();
+println(a.racine(81));
+
+}

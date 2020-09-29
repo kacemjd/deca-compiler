@@ -1,0 +1,23 @@
+class A
+{
+  protected int x = 10;
+}
+class X
+{
+  int a ;
+  void m()
+  {
+    C c = new C();
+    B b = new B();
+    println( a.x());
+  }
+}
+class B extends A
+{
+
+}
+
+class C extends X
+{
+  int x = 7;
+}

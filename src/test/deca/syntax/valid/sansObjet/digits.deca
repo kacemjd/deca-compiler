@@ -1,0 +1,7 @@
+// test sur les digits
+{
+    int x;
+    int y = 1;
+    int z = 2.36;
+    blabla t = 45;
+}

@@ -1,0 +1,7 @@
+{
+    int a = 100;
+    boolean b = true;
+    if (a != b){
+        print("a et b sont differents");
+    }
+}

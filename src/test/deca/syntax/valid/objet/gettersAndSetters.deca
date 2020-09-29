@@ -1,0 +1,31 @@
+class A{
+    float x;
+    float y;
+
+    float getX(){
+        return this.x;
+    }
+    float getY(){
+        return this.y;
+    }
+
+    void setX(float x){
+        this.x= x;
+    }
+    void setY(float y){
+        this.y=y;
+    }
+}
+
+{
+    A a = new A();
+    float x = 20.0;
+    float y = 30.2;
+
+    a.setX(x);
+    a.setY(y);
+    print(a.getX());
+    print(a.getY());
+    
+
+}

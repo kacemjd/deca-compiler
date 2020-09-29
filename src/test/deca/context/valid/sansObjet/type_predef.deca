@@ -1,0 +1,11 @@
+/** @version 1.0
+    Les types prédéfinis
+*/
+{
+  int x = 17;
+  float y = 17.75;
+  boolean passed = true;
+  int a;
+  float b;
+  boolean failed;
+}

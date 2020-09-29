@@ -1,0 +1,10 @@
+//81
+{
+int x = 3;
+int cpt = 0;
+while(cpt < 3){
+    x = 3*x;
+    cpt = cpt + 1;
+}
+println(x);
+}

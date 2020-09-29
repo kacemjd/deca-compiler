@@ -1,0 +1,19 @@
+//1 0.00000e+00 3 4.00000e+00
+class pt2D{
+int x = 1; 
+float y;
+}
+
+class pt3D extends pt2D{
+int z = 3;
+}
+
+class pt4D extends pt3D{
+float a = 4.0;
+}
+
+
+{
+pt4D p = new pt4D();
+println(p.x, p.y, p.z, p.a);
+}

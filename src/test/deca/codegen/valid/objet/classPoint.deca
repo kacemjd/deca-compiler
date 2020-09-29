@@ -1,0 +1,57 @@
+class Point{
+int x = 2;
+int y = 2;
+void setXY(int dx, int dy){
+    x = dx;
+    y = dy;
+}
+void move(int dx, int dy){
+    x = x + dx;
+    y = y + dy;
+}
+int getX(){
+    return x;
+}
+int getY(){
+    return y;
+}
+}
+class P2{
+Point p1 = new Point();
+Point p2 = new Point();
+int op(){
+    int x = p1.getX();
+    int y = p2.getY();
+    return x * y;
+}
+}
+class po extends Point{
+int z = 1;
+void setZ(int a){
+    z = a;
+}
+int getZ(){
+    return z;
+}
+int op(){
+    return x*y*z;
+}
+}
+{
+int x;
+int y;
+int z;
+int w;
+Point p = new Point();
+P2 p3 = new P2();
+po p4 = new po();
+p.setXY(2, 3);
+p.move(1, 1);
+x = p.getX();
+y = p.getY();
+z = p3.op();
+p4.setZ(z);
+w = p4.op();
+println(x, y, z, w);
+}
+

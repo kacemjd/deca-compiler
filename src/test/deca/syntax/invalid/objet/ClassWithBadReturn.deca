@@ -1,0 +1,14 @@
+class A{
+    int x;
+    int setX(int k){
+        this.x;
+    }
+    int getX();
+}
+
+{
+    A a = new A();
+    int x;
+    x = a.setX().getX();
+    println("x= ",x);
+}

@@ -1,0 +1,13 @@
+{
+    boolean a,b,c,d,e,f,g,i;
+
+    a = true && true;
+    b = false && false;
+    c= true && false;
+    d = false && true;
+
+    e = true || false;
+    f = true || true;
+    g = false || false;
+    i = false || true;
+}

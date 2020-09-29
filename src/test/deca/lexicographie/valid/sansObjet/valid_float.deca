@@ -1,0 +1,7 @@
+{
+    float x =0.0f;
+    float x = 123.25F;
+    float float_limit_max = 3.4028235E38
+    float float_limit_min= 1.4E-45;
+
+}

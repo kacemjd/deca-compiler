@@ -1,0 +1,12 @@
+class Simple{
+    int x;
+    int y;
+    int z;
+}
+
+{
+    Simple s = new Simple();
+    s.x = 1;
+    s.y = 2;
+    s.z = 3;
+}

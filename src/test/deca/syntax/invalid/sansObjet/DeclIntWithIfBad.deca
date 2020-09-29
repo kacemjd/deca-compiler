@@ -1,0 +1,16 @@
+{
+  // list decl var
+  if (7 == 1)
+  {
+    println("HELLO");
+  }
+  else
+  {
+    int x = 4.9;
+    println(7);
+  }
+  while (!(1.6 < -8))
+  {
+   print(77);
+  }
+}

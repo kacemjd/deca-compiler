@@ -1,0 +1,20 @@
+class B{
+    int x;
+    int y;
+}
+
+
+class A extends B{
+    B b;
+    int setA(int a,int b){
+        b.x=a;
+        b.y=b;
+        return b;
+    }
+}
+
+{
+    A a = new A();
+    a.setA(4,5);
+
+}

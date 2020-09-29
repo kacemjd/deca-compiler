@@ -1,0 +1,13 @@
+/** @version 1.0
+    Title : readInt() & readFloat()
+*/
+{
+  int a = readInt();
+  float b = readFloat();
+  while( a > 0)
+  {
+    b = b / 10;
+    a = (int) (b + 1);
+  }
+
+}

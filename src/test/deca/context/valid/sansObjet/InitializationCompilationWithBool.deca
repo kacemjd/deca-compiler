@@ -1,0 +1,7 @@
+{
+    boolean a = true;
+    boolean b = false;
+    boolean c =a&&b;
+    boolean d = true || false;
+    boolean e = b;
+}

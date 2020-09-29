@@ -1,0 +1,17 @@
+/** @version 1.0
+    Title : use of : assign des booléens
+*/
+{
+  boolean passed;
+  boolean failed;
+  failed = false;
+  passed = true || failed;
+  if (passed)
+  {
+    println(" This is always true");
+  }
+  else
+  {
+    println("This is impossible");
+  }
+}

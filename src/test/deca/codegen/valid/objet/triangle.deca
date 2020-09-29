@@ -1,0 +1,50 @@
+//4
+class point{
+    int x;
+    int y;
+    int getX(){
+        return x;
+    }
+    int getY(){
+        return y;
+    }
+    void setX(int x){
+        this.x = x;
+    }
+    void setY(int y){
+        this.y = y;
+    }
+    int distance(point p2){
+        return (this.x - p2.getX())*(this.x - p2.getX()) + (this.y - p2.getY())*(this.y-p2.getY());
+}
+}
+
+class t{
+    point p1 = new point();
+    point p2 = new point();
+    point p3 = new point();
+    void isRec(){
+        if((p1.distance(p2) + p1.distance(p3)) == p3.distance(p2)){
+            println("true");
+        }
+        else{
+            println("false");
+        }
+    }
+}
+{
+t tr = new t();
+point p2 = tr.p2;
+point p1 = tr.p1;
+p2.setX(2);
+tr.p3.setY(4);
+println(p2.distance(p1));
+}
+
+
+
+
+
+
+
+

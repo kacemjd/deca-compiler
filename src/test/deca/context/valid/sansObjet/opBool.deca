@@ -1,0 +1,31 @@
+/** @version 1.0
+    Title : Opérations booléenne
+*/
+{
+  // Declaration des variables
+  int a = 1;
+  float b = 15;
+  boolean passed = true;
+  boolean failed = false;
+  if (passed && failed)
+  {
+    println("Wa kari mashta");
+  }
+  if (passed || failed)
+  {
+    println("naniiiiiiii");
+  }
+  if ( !((a<1) && passed) )
+  {
+    println("yosh");
+  }
+  if ( (b != -15) || failed )
+  {
+    println("Baaaaaka");
+  }
+  if  (a >= (15 + 16))
+  {
+    println("yosh");
+  }
+
+}

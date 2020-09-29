@@ -1,0 +1,14 @@
+/** @version 1.0
+    Title : print
+*/
+{
+  if (true)
+  {
+    print("A journey");
+  }
+  if (!false)
+  {
+    printx("Every decision against something is a decision against something else");
+  }
+  printlnx("Print with x");
+}

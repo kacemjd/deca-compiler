@@ -1,0 +1,13 @@
+class X
+{
+  int a;
+}
+class A
+{
+  X a(int a){}
+}
+
+class B extends A
+{
+  int c = a(3);
+}

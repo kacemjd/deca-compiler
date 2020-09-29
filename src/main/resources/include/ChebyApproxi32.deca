@@ -1,0 +1,44 @@
+#include "Taylor.deca"
+
+class ChebyApproxi32{
+    Methods m = new Methods();
+
+
+    float ChebychevActan(float x){
+        float c1 = 137.772398556992967072803545f;
+        float c2 = 311.6092089800060900355248812f;
+        float c3 = 243.2657933898208264206733648f;
+        float c4 = 76.1179448121611233450964866f;
+        float c5 = 8.1327059582002624490996398f;
+        float c6 = 0.1342077928230059190697038f;
+        float q1 = 137.7723985569929670728035493f;
+        float q2 = 357.5333418323370790597777492f;
+        float q3 = 334.8890942892012593679882767f;
+        float q4 = 135.9227450335766811043244001f;
+        float q5 = 22.23061618444266557469256796f;
+
+        return (c1 * x + c2 * m.power(x, 3) + c3 * m.power(x, 5) + c4 * m.power(x, 7) + c5 * m.power(x, 9) + c6 * m.power(x, 11))/(q1 + q2 * m.power(x, 2) + q3 * m.power(x, 4) + q4 * m.power(x, 6) + q5 * m.power(x, 8));
+    }
+
+    float ChebychevSinus(float r ){
+
+        float a1 = -0.16666666666666666666421f;
+        float a2 = 0.008333333333333312907f;
+        float a3 = -0.0001984126983563939f;
+        float a4 = 0.00000275566861f;
+
+        return r + a1*m.power(r, 3) + a2*m.power(r, 5) + a3*m.power(r, 7)+ a4*m.power(r, 9);
+    }
+
+    float ChebychevCosinus(float r ){
+
+        float a1 = -0.49999999999999999999999995425696f;
+        float a2 = 0.0416666666666666666660027496f;
+        float a3 = -0.001388888888885759632f;
+        float a4 = 0.0000248015872951505636f;
+        float a5 = -0.000000275567182072f;
+
+        return 1 + a1*m.power(r, 2) + a2*m.power(r, 4) + a3*m.power(r, 6) + a4*m.power(r, 8) + a5*m.power(r, 10);
+    }
+
+}

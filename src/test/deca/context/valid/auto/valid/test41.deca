@@ -1,0 +1,16 @@
+{
+int x1 = (2110 % 5185) - (5 + 66) - (1 - 5);
+boolean z = (false || true);
+int c;
+int x4 = (x1 + 1);
+boolean d = (9629.951 >= x1);
+int x3;
+float x = (x1 + 816);
+boolean y = (x3 > 8) || (!d) || (0 != 5) && (46 >= 6226.122);
+boolean x5;
+int x2 = (72808 % 5);
+float b = (x2 + c) / (1 / 710.92) / (x / x4) + (-0) / (342.31 / 5185);
+boolean a = (y || d) || (true && true) && (15 > c);
+printx((c * 43.4) + (710.92 + 0) / (22492 + 66) * (43.4 - 66), "Bonjour", (9 % 48209) * (-x3) - (1 * 7), "groupe 53");
+print((x - 8) / (-x), "Kakachi");
+}

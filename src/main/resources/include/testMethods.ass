@@ -1,0 +1,4522 @@
+	TSTO #308
+	BOV pile_pleine
+	ADDSP #67
+; table des methodes
+; construction de la table des methodes de Object
+	LOAD #null, R0
+	STORE R0, 1(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 2(GB)
+; construction de la table des methodes de Methods
+	LEA 1(GB), R0
+	STORE R0, 3(GB)
+	LOAD code.Methods.racine, R0
+	STORE R0, 5(GB)
+	LOAD code.Methods.factoriel, R0
+	STORE R0, 6(GB)
+	LOAD code.Methods.abs, R0
+	STORE R0, 8(GB)
+	LOAD code.Methods.ulp, R0
+	STORE R0, 9(GB)
+	LOAD code.Methods.power, R0
+	STORE R0, 7(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 4(GB)
+; construction de la table des methodes de ChebychevValues
+	LEA 1(GB), R0
+	STORE R0, 10(GB)
+	LOAD code.ChebychevValues.ChebyValuesActan, R0
+	STORE R0, 14(GB)
+	LOAD code.ChebychevValues.ChebyValuesSin, R0
+	STORE R0, 13(GB)
+	LOAD code.ChebychevValues.ChebyValuesCos, R0
+	STORE R0, 12(GB)
+	LOAD code.ChebychevValues.otherActanVal, R0
+	STORE R0, 15(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 11(GB)
+; construction de la table des methodes de Couple
+	LEA 1(GB), R0
+	STORE R0, 16(GB)
+	LOAD code.Couple.getX, R0
+	STORE R0, 18(GB)
+	LOAD code.Couple.setY, R0
+	STORE R0, 21(GB)
+	LOAD code.Couple.getY, R0
+	STORE R0, 19(GB)
+	LOAD code.Couple.setX, R0
+	STORE R0, 20(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 17(GB)
+; construction de la table des methodes de RangeReduction
+	LEA 1(GB), R0
+	STORE R0, 22(GB)
+	LOAD code.RangeReduction.FirstReductionCos, R0
+	STORE R0, 25(GB)
+	LOAD code.RangeReduction.FirstReductionSin, R0
+	STORE R0, 24(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 23(GB)
+; construction de la table des methodes de BreakPoints
+	LEA 1(GB), R0
+	STORE R0, 26(GB)
+	LOAD code.BreakPoints.BPOptVal, R0
+	STORE R0, 29(GB)
+	LOAD code.BreakPoints.breakPoint, R0
+	STORE R0, 28(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 27(GB)
+; construction de la table des methodes de Taylor
+	LEA 1(GB), R0
+	STORE R0, 30(GB)
+	LOAD code.Taylor.taylorCosinus, R0
+	STORE R0, 35(GB)
+	LOAD code.Taylor.coefTaylorSinus, R0
+	STORE R0, 32(GB)
+	LOAD code.Taylor.taylorArctan, R0
+	STORE R0, 37(GB)
+	LOAD code.Taylor.coefTaylorArcsin, R0
+	STORE R0, 38(GB)
+	LOAD code.Taylor.taylorSinus, R0
+	STORE R0, 33(GB)
+	LOAD code.Taylor.taylorArcsin, R0
+	STORE R0, 39(GB)
+	LOAD code.Taylor.coefTaylorCosinus, R0
+	STORE R0, 34(GB)
+	LOAD code.Taylor.coefTaylorArctan, R0
+	STORE R0, 36(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 31(GB)
+; construction de la table des methodes de ChebyApproxi32
+	LEA 1(GB), R0
+	STORE R0, 40(GB)
+	LOAD code.ChebyApproxi32.ChebychevActan, R0
+	STORE R0, 42(GB)
+	LOAD code.ChebyApproxi32.ChebychevSinus, R0
+	STORE R0, 43(GB)
+	LOAD code.ChebyApproxi32.ChebychevCosinus, R0
+	STORE R0, 44(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 41(GB)
+; construction de la table des methodes de Chebychev
+	LEA 1(GB), R0
+	STORE R0, 45(GB)
+	LOAD code.Chebychev.arcsinCheb, R0
+	STORE R0, 51(GB)
+	LOAD code.Chebychev.getIndexActan, R0
+	STORE R0, 49(GB)
+	LOAD code.Chebychev.arctanCheb, R0
+	STORE R0, 50(GB)
+	LOAD code.Chebychev.sinCheb, R0
+	STORE R0, 47(GB)
+	LOAD code.Chebychev.cosCheb, R0
+	STORE R0, 48(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 46(GB)
+; construction de la table des methodes de Math
+	LEA 1(GB), R0
+	STORE R0, 52(GB)
+	LOAD code.Math.arctan, R0
+	STORE R0, 56(GB)
+	LOAD code.Math.cos, R0
+	STORE R0, 55(GB)
+	LOAD code.Math.ulp, R0
+	STORE R0, 58(GB)
+	LOAD code.Math.sin, R0
+	STORE R0, 54(GB)
+	LOAD code.Math.arcsin, R0
+	STORE R0, 57(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 53(GB)
+; Main program
+; Beginning of main instructions:
+; instruction new
+	NEW #5, R2
+	LEA 52(GB), R0
+	STORE R0, 0(R2)
+	PUSH R2
+	BSR init.Math
+	POP R2
+	STORE R2, 59(GB)
+	LOAD #0x1.921fb4p1, R2
+	STORE R2, 60(GB)
+	LOAD #1, R2
+	OPP R2, R2
+	LOAD #32, R3
+	QUO R3, R2
+	BOV divisionErr
+	FLOAT R2, R2
+	STORE R2, 61(GB)
+	LOAD 60(GB), R2
+	LOAD #6, R3
+	FLOAT R3, R3
+	DIV R3, R2
+	BOV divisionErr
+	STORE R2, 62(GB)
+	LOAD 60(GB), R2
+	LOAD #2, R3
+	FLOAT R3, R3
+	DIV R3, R2
+	BOV divisionErr
+	STORE R2, 63(GB)
+	LOAD 60(GB), R2
+	LOAD #4, R3
+	FLOAT R3, R3
+	DIV R3, R2
+	BOV divisionErr
+	STORE R2, 64(GB)
+; appel de methode4
+	ADDSP #2
+	LOAD 59(GB), R2
+	STORE R2, 0(SP)
+	LOAD #0x0.0p0, R3
+	STORE R3, -1(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ pile_pleine
+	LOAD 0(R2), R2
+	BSR 4(R2)
+	SUBSP #2
+	LOAD R0, R3
+	STORE R3, 65(GB)
+; appel de methode5
+	ADDSP #2
+	LOAD 59(GB), R3
+	STORE R3, 0(SP)
+	LOAD #0x0.0p0, R2
+	STORE R2, -1(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 5(R3)
+	SUBSP #2
+	LOAD R0, R2
+	STORE R2, 66(GB)
+; appel de methode6
+	ADDSP #2
+	LOAD 59(GB), R2
+	STORE R2, 0(SP)
+	LOAD #0x0.0p0, R3
+	STORE R3, -1(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ pile_pleine
+	LOAD 0(R2), R2
+	BSR 6(R2)
+	SUBSP #2
+	LOAD R0, R3
+	STORE R3, 67(GB)
+	LOAD 65(GB), R1
+	WFLOAT
+	WNL
+	LOAD 66(GB), R1
+	WFLOAT
+	WNL
+	LOAD 67(GB), R1
+	WFLOAT
+	WNL
+	HALT
+init.Methods:
+	RTS
+code.Methods.racine:
+	PUSH R6
+	PUSH R5
+	PUSH R4
+	PUSH R3
+	PUSH R2
+	LOAD -3(LB), R3
+	STORE R3, 1(LB)
+	LOAD #0, R3
+	STORE R3, 2(LB)
+	LOAD -3(LB), R2
+	LOAD #0, R4
+	FLOAT R4, R4
+	SUB R4, R2
+	LOAD R2, R1
+	BEQ OpCmp_if_in_a712
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a712
+OpCmp_if_in_a712:
+	LOAD #0, R1
+OpCmp_fin_in_a712:
+	LOAD R1, R3
+	LOAD R3, R1
+	BNE IfThenElse_else_a712
+	LOAD #0x0.0p0, R4
+	LOAD R4, R0
+	BRA IfThenElse_fin_a712
+IfThenElse_else_a712:
+While_cond_a1219:
+	LOAD 2(LB), R2
+	LOAD #100, R5
+	SUB R5, R2
+	LOAD R2, R1
+	BLT OpCmp_if_in_a1219
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a1219
+OpCmp_if_in_a1219:
+	LOAD #0, R1
+OpCmp_fin_in_a1219:
+	LOAD R1, R4
+	LOAD R4, R1
+	BNE While_fin_a1219
+	LOAD 1(LB), R5
+	LOAD -3(LB), R2
+	LOAD 1(LB), R6
+	DIV R6, R2
+	BOV divisionErr
+	ADD R2, R5
+	BOV over_flow
+	LOAD #2, R2
+	FLOAT R2, R2
+	DIV R2, R5
+	BOV divisionErr
+	STORE R5, 1(LB)
+	LOAD 2(LB), R5
+	LOAD #1, R2
+	ADD R2, R5
+	STORE R5, 2(LB)
+	BRA While_cond_a1219
+While_fin_a1219:
+	LOAD 1(LB), R4
+	LOAD R4, R0
+IfThenElse_fin_a712:
+	POP R2
+	POP R3
+	POP R4
+	POP R5
+	POP R6
+	RTS
+code.Methods.factoriel:
+	PUSH R6
+	PUSH R5
+	PUSH R4
+	PUSH R3
+	PUSH R2
+	LOAD -3(LB), R4
+	LOAD #0, R5
+	SUB R5, R4
+	LOAD R4, R1
+	BEQ OpCmp_if_in_a2212
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a2212
+OpCmp_if_in_a2212:
+	LOAD #0, R1
+OpCmp_fin_in_a2212:
+	LOAD R1, R3
+	LOAD R3, R1
+	BNE IfThenElse_else_a2212
+	LOAD #1, R5
+	LOAD R5, R0
+	BRA IfThenElse_fin_a2212
+IfThenElse_else_a2212:
+	LOAD -3(LB), R5
+; appel de methode3
+	ADDSP #2
+	LOAD -2(LB), R4
+	STORE R4, 0(SP)
+	LOAD -3(LB), R2
+	LOAD #1, R6
+	SUB R6, R2
+	STORE R2, -1(SP)
+	LOAD 0(SP), R4
+	CMP #null, R4
+	BEQ pile_pleine
+	LOAD 0(R4), R4
+	BSR 3(R4)
+	SUBSP #2
+	LOAD R0, R2
+	MUL R2, R5
+	LOAD R5, R0
+IfThenElse_fin_a2212:
+	POP R2
+	POP R3
+	POP R4
+	POP R5
+	POP R6
+	RTS
+code.Methods.power:
+	PUSH R7
+	PUSH R6
+	PUSH R5
+	PUSH R4
+	PUSH R3
+	PUSH R2
+	LOAD -4(LB), R5
+	LOAD #0, R2
+	SUB R2, R5
+	LOAD R5, R1
+	BGE OpCmp_if_in_a3111
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a3111
+OpCmp_if_in_a3111:
+	LOAD #0, R1
+OpCmp_fin_in_a3111:
+	LOAD R1, R3
+	LOAD R3, R1
+	BNE IfThenElse_else_a3111
+	LOAD -4(LB), R5
+	LOAD #0, R4
+	SUB R4, R5
+	LOAD R5, R1
+	BEQ OpCmp_if_in_a3215
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a3215
+OpCmp_if_in_a3215:
+	LOAD #0, R1
+OpCmp_fin_in_a3215:
+	LOAD R1, R2
+	LOAD R2, R1
+	BNE IfThenElse_else_a3215
+	LOAD #0x1.0p0, R4
+	LOAD R4, R0
+	BRA IfThenElse_fin_a3215
+IfThenElse_else_a3215:
+	LOAD -3(LB), R4
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R5
+	STORE R5, 0(SP)
+	LOAD -3(LB), R6
+	STORE R6, -1(SP)
+	LOAD -4(LB), R6
+	LOAD #1, R7
+	SUB R7, R6
+	STORE R6, -2(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 4(R5)
+	SUBSP #3
+	LOAD R0, R6
+	MUL R6, R4
+	BOV over_flow
+	LOAD R4, R0
+IfThenElse_fin_a3215:
+	BRA IfThenElse_fin_a3111
+IfThenElse_else_a3111:
+	LOAD #0x1.0p0, R2
+	LOAD -3(LB), R4
+	FLOAT R4, R4
+	DIV R4, R2
+	BOV divisionErr
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R4
+	STORE R4, 0(SP)
+	LOAD -3(LB), R6
+	STORE R6, -1(SP)
+	LOAD -4(LB), R6
+	LOAD #1, R5
+	ADD R5, R6
+	STORE R6, -2(SP)
+	LOAD 0(SP), R4
+	CMP #null, R4
+	BEQ pile_pleine
+	LOAD 0(R4), R4
+	BSR 4(R4)
+	SUBSP #3
+	LOAD R0, R6
+	MUL R6, R2
+	BOV over_flow
+	LOAD R2, R0
+IfThenElse_fin_a3111:
+	POP R2
+	POP R3
+	POP R4
+	POP R5
+	POP R6
+	POP R7
+	RTS
+code.Methods.abs:
+	PUSH R6
+	PUSH R3
+	PUSH R2
+	LOAD -3(LB), R2
+	LOAD #0x0.0p0, R6
+	SUB R6, R2
+	LOAD R2, R1
+	BGT OpCmp_if_in_a4612
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a4612
+OpCmp_if_in_a4612:
+	LOAD #0, R1
+OpCmp_fin_in_a4612:
+	LOAD R1, R3
+	LOAD R3, R1
+	BNE IfThenElse_else_a4612
+	LOAD -3(LB), R6
+	LOAD R6, R0
+	BRA IfThenElse_fin_a4612
+IfThenElse_else_a4612:
+	LOAD -3(LB), R6
+	OPP R6, R6
+	LOAD R6, R0
+IfThenElse_fin_a4612:
+	POP R2
+	POP R3
+	POP R6
+	RTS
+code.Methods.ulp:
+	PUSH R7
+	PUSH R6
+	PUSH R5
+	PUSH R4
+	PUSH R3
+	PUSH R2
+	LOAD #126, R3
+	OPP R3, R3
+	STORE R3, 3(LB)
+	LOAD #127, R3
+	STORE R3, 4(LB)
+	LOAD #0, R3
+	STORE R3, 5(LB)
+	LOAD #0x0.0p0, R3
+	STORE R3, 6(LB)
+; appel de methode5
+	ADDSP #2
+	LOAD -2(LB), R6
+	STORE R6, 0(SP)
+	LOAD -3(LB), R2
+	STORE R2, -1(SP)
+	LOAD 0(SP), R6
+	CMP #null, R6
+	BEQ pile_pleine
+	LOAD 0(R6), R6
+	BSR 5(R6)
+	SUBSP #2
+	LOAD R0, R2
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R6
+	STORE R6, 0(SP)
+	LOAD #0x1.0p1, R4
+	STORE R4, -1(SP)
+	LOAD 4(LB), R4
+	OPP R4, R4
+	STORE R4, -2(SP)
+	LOAD 0(SP), R6
+	CMP #null, R6
+	BEQ pile_pleine
+	LOAD 0(R6), R6
+	BSR 4(R6)
+	SUBSP #3
+	LOAD R0, R4
+	SUB R4, R2
+	LOAD R2, R1
+	BLE OpCmp_if_in_a5912
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a5912
+OpCmp_if_in_a5912:
+	LOAD #0, R1
+OpCmp_fin_in_a5912:
+	LOAD R1, R3
+	LOAD R3, R1
+	BNE IfThenElse_else_a5912
+	LOAD #0x0.000002p-126, R4
+	LOAD R4, R0
+	BRA IfThenElse_fin_a5912
+IfThenElse_else_a5912:
+; appel de methode5
+	ADDSP #2
+	LOAD -2(LB), R2
+	STORE R2, 0(SP)
+	LOAD -3(LB), R6
+	STORE R6, -1(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ pile_pleine
+	LOAD 0(R2), R2
+	BSR 5(R2)
+	SUBSP #2
+	LOAD R0, R6
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R2
+	STORE R2, 0(SP)
+	LOAD #0x1.0p1, R5
+	STORE R5, -1(SP)
+	LOAD 4(LB), R5
+	STORE R5, -2(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ pile_pleine
+	LOAD 0(R2), R2
+	BSR 4(R2)
+	SUBSP #3
+	LOAD R0, R5
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R2
+	STORE R2, 0(SP)
+	LOAD #0x1.0p1, R7
+	STORE R7, -1(SP)
+	LOAD #104, R7
+	STORE R7, -2(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ pile_pleine
+	LOAD 0(R2), R2
+	BSR 4(R2)
+	SUBSP #3
+	LOAD R0, R7
+	SUB R7, R5
+	BOV over_flow
+	SUB R5, R6
+	LOAD R6, R1
+	BGT OpCmp_if_in_a6317
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a6317
+OpCmp_if_in_a6317:
+	LOAD #0, R1
+OpCmp_fin_in_a6317:
+	LOAD R1, R4
+	LOAD R4, R1
+	BNE IfThenElse_else_a6317
+; appel de methode5
+	ADDSP #2
+	LOAD -2(LB), R5
+	STORE R5, 0(SP)
+	LOAD -3(LB), R6
+	STORE R6, -1(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 5(R5)
+	SUBSP #2
+	LOAD R0, R6
+	LOAD R6, R0
+	BRA IfThenElse_fin_a6317
+IfThenElse_else_a6317:
+While_cond_a6818:
+	LOAD 4(LB), R5
+	LOAD 3(LB), R7
+	SUB R7, R5
+	LOAD #1, R7
+	SUB R7, R5
+	LOAD R5, R1
+	BGT OpCmp_if_in_a6818
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a6818
+OpCmp_if_in_a6818:
+	LOAD #0, R1
+OpCmp_fin_in_a6818:
+	LOAD R1, R6
+	LOAD R6, R1
+	BNE While_fin_a6818
+	LOAD 4(LB), R7
+	LOAD 3(LB), R5
+	ADD R5, R7
+	LOAD #2, R5
+	QUO R5, R7
+	BOV divisionErr
+	STORE R7, 5(LB)
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R7
+	STORE R7, 0(SP)
+	LOAD #0x1.0p1, R5
+	STORE R5, -1(SP)
+	LOAD 5(LB), R5
+	STORE R5, -2(SP)
+	LOAD 0(SP), R7
+	CMP #null, R7
+	BEQ pile_pleine
+	LOAD 0(R7), R7
+	BSR 4(R7)
+	SUBSP #3
+	LOAD R0, R5
+	STORE R5, 6(LB)
+; appel de methode5
+	ADDSP #2
+	LOAD -2(LB), R7
+	STORE R7, 0(SP)
+	LOAD -3(LB), R2
+	STORE R2, -1(SP)
+	LOAD 0(SP), R7
+	CMP #null, R7
+	BEQ pile_pleine
+	LOAD 0(R7), R7
+	BSR 5(R7)
+	SUBSP #2
+	LOAD R0, R2
+	LOAD 6(LB), R7
+	SUB R7, R2
+	LOAD R2, R1
+	BGT OpCmp_if_in_a7120
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a7120
+OpCmp_if_in_a7120:
+	LOAD #0, R1
+OpCmp_fin_in_a7120:
+	LOAD R1, R5
+	LOAD R5, R1
+	BNE IfThenElse_else_a7120
+	LOAD 5(LB), R7
+	STORE R7, 3(LB)
+	BRA IfThenElse_fin_a7120
+IfThenElse_else_a7120:
+	LOAD 5(LB), R7
+	STORE R7, 4(LB)
+IfThenElse_fin_a7120:
+	BRA While_cond_a6818
+While_fin_a6818:
+; appel de methode5
+	ADDSP #2
+	LOAD -2(LB), R5
+	STORE R5, 0(SP)
+	LOAD -3(LB), R7
+	STORE R7, -1(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 5(R5)
+	SUBSP #2
+	LOAD R0, R7
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R5
+	STORE R5, 0(SP)
+	LOAD #0x1.0p1, R2
+	STORE R2, -1(SP)
+	LOAD 4(LB), R2
+	STORE R2, -2(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 4(R5)
+	SUBSP #3
+	LOAD R0, R2
+	SUB R2, R7
+	LOAD R7, R1
+	BEQ OpCmp_if_in_a7916
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a7916
+OpCmp_if_in_a7916:
+	LOAD #0, R1
+OpCmp_fin_in_a7916:
+	LOAD R1, R6
+	LOAD R6, R1
+	BNE IfThenElse_else_a7916
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R2
+	STORE R2, 0(SP)
+	LOAD #0x1.0p1, R7
+	STORE R7, -1(SP)
+	LOAD 4(LB), R7
+	LOAD #23, R5
+	SUB R5, R7
+	STORE R7, -2(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ pile_pleine
+	LOAD 0(R2), R2
+	BSR 4(R2)
+	SUBSP #3
+	LOAD R0, R7
+	LOAD R7, R0
+	BRA IfThenElse_fin_a7916
+IfThenElse_else_a7916:
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R7
+	STORE R7, 0(SP)
+	LOAD #0x1.0p1, R2
+	STORE R2, -1(SP)
+	LOAD 4(LB), R2
+	LOAD #24, R5
+	SUB R5, R2
+	STORE R2, -2(SP)
+	LOAD 0(SP), R7
+	CMP #null, R7
+	BEQ pile_pleine
+	LOAD 0(R7), R7
+	BSR 4(R7)
+	SUBSP #3
+	LOAD R0, R2
+	LOAD R2, R0
+IfThenElse_fin_a7916:
+IfThenElse_fin_a6317:
+IfThenElse_fin_a5912:
+	POP R2
+	POP R3
+	POP R4
+	POP R5
+	POP R6
+	POP R7
+	RTS
+init.ChebychevValues:
+	RTS
+code.ChebychevValues.ChebyValuesCos:
+	PUSH R7
+	PUSH R6
+	PUSH R4
+	PUSH R3
+	PUSH R2
+	LOAD -3(LB), R4
+	LOAD #1, R6
+	SUB R6, R4
+	LOAD R4, R1
+	BEQ OpCmp_if_in_a312
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a312
+OpCmp_if_in_a312:
+	LOAD #0, R1
+OpCmp_fin_in_a312:
+	LOAD R1, R3
+	LOAD R3, R1
+	BNE IfThenElse_else_a312
+	LOAD #0x1.c1528p-1, R6
+	LOAD R6, R0
+	BRA IfThenElse_fin_a312
+IfThenElse_else_a312:
+	LOAD -3(LB), R4
+	LOAD #2, R2
+	SUB R2, R4
+	LOAD R4, R1
+	BEQ OpCmp_if_in_a617
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a617
+OpCmp_if_in_a617:
+	LOAD #0, R1
+OpCmp_fin_in_a617:
+	LOAD R1, R6
+	LOAD R6, R1
+	BNE IfThenElse_else_a617
+	LOAD #0x1.f0154ap-1, R2
+	LOAD R2, R0
+	BRA IfThenElse_fin_a617
+IfThenElse_else_a617:
+	LOAD -3(LB), R4
+	LOAD #3, R7
+	SUB R7, R4
+	LOAD R4, R1
+	BEQ OpCmp_if_in_a917
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a917
+OpCmp_if_in_a917:
+	LOAD #0, R1
+OpCmp_fin_in_a917:
+	LOAD R1, R2
+	LOAD R2, R1
+	BNE IfThenElse_else_a917
+	LOAD #0x1.fc0156p-1, R7
+	LOAD R7, R0
+	BRA IfThenElse_fin_a917
+IfThenElse_else_a917:
+	LOAD #0x1.ff0016p-1, R7
+	LOAD R7, R0
+IfThenElse_fin_a917:
+IfThenElse_fin_a617:
+IfThenElse_fin_a312:
+	POP R2
+	POP R3
+	POP R4
+	POP R6
+	POP R7
+	RTS
+code.ChebychevValues.ChebyValuesSin:
+	PUSH R7
+	PUSH R6
+	PUSH R4
+	PUSH R3
+	PUSH R2
+	LOAD -3(LB), R6
+	LOAD #1, R2
+	SUB R2, R6
+	LOAD R6, R1
+	BEQ OpCmp_if_in_a1812
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a1812
+OpCmp_if_in_a1812:
+	LOAD #0, R1
+OpCmp_fin_in_a1812:
+	LOAD R1, R3
+	LOAD R3, R1
+	BNE IfThenElse_else_a1812
+	LOAD #0x1.eaee88p-2, R2
+	LOAD R2, R0
+	BRA IfThenElse_fin_a1812
+IfThenElse_else_a1812:
+	LOAD -3(LB), R6
+	LOAD #2, R7
+	SUB R7, R6
+	LOAD R6, R1
+	BEQ OpCmp_if_in_a2117
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a2117
+OpCmp_if_in_a2117:
+	LOAD #0, R1
+OpCmp_fin_in_a2117:
+	LOAD R1, R2
+	LOAD R2, R1
+	BNE IfThenElse_else_a2117
+	LOAD #0x1.faaeeep-3, R7
+	LOAD R7, R0
+	BRA IfThenElse_fin_a2117
+IfThenElse_else_a2117:
+	LOAD -3(LB), R6
+	LOAD #3, R4
+	SUB R4, R6
+	LOAD R6, R1
+	BEQ OpCmp_if_in_a2417
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a2417
+OpCmp_if_in_a2417:
+	LOAD #0, R1
+OpCmp_fin_in_a2417:
+	LOAD R1, R7
+	LOAD R7, R1
+	BNE IfThenElse_else_a2417
+	LOAD #0x1.feaaeep-4, R4
+	LOAD R4, R0
+	BRA IfThenElse_fin_a2417
+IfThenElse_else_a2417:
+	LOAD #0x1.ffaaaep-5, R4
+	LOAD R4, R0
+IfThenElse_fin_a2417:
+IfThenElse_fin_a2117:
+IfThenElse_fin_a1812:
+	POP R2
+	POP R3
+	POP R4
+	POP R6
+	POP R7
+	RTS
+code.ChebychevValues.ChebyValuesActan:
+	PUSH R12
+	PUSH R11
+	PUSH R10
+	PUSH R9
+	PUSH R8
+	PUSH R7
+	PUSH R6
+	PUSH R5
+	PUSH R4
+	PUSH R3
+	PUSH R2
+	LOAD -3(LB), R2
+	LOAD #0, R7
+	SUB R7, R2
+	LOAD R2, R1
+	BEQ OpCmp_if_in_a3312
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a3312
+OpCmp_if_in_a3312:
+	LOAD #0, R1
+OpCmp_fin_in_a3312:
+	LOAD R1, R3
+	LOAD R3, R1
+	BNE IfThenElse_else_a3312
+	LOAD #0x1.936bb8p-4, R7
+	OPP R7, R7
+	LOAD R7, R0
+	BRA IfThenElse_fin_a3312
+IfThenElse_else_a3312:
+	LOAD -3(LB), R2
+	LOAD #1, R4
+	SUB R4, R2
+	LOAD R2, R1
+	BEQ OpCmp_if_in_a3617
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a3617
+OpCmp_if_in_a3617:
+	LOAD #0, R1
+OpCmp_fin_in_a3617:
+	LOAD R1, R7
+	LOAD R7, R1
+	BNE IfThenElse_else_a3617
+	LOAD #0x1.7471fp1, R4
+	OPP R4, R4
+	LOAD R4, R0
+	BRA IfThenElse_fin_a3617
+IfThenElse_else_a3617:
+	LOAD -3(LB), R2
+	LOAD #2, R6
+	SUB R6, R2
+	LOAD R2, R1
+	BEQ OpCmp_if_in_a3917
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a3917
+OpCmp_if_in_a3917:
+	LOAD #0, R1
+OpCmp_fin_in_a3917:
+	LOAD R1, R4
+	LOAD R4, R1
+	BNE IfThenElse_else_a3917
+	LOAD #0x1.e6db9ap-1, R6
+	LOAD R6, R0
+	BRA IfThenElse_fin_a3917
+IfThenElse_else_a3917:
+	LOAD -3(LB), R2
+	LOAD #3, R5
+	SUB R5, R2
+	LOAD R2, R1
+	BEQ OpCmp_if_in_a4217
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a4217
+OpCmp_if_in_a4217:
+	LOAD #0, R1
+OpCmp_fin_in_a4217:
+	LOAD R1, R6
+	LOAD R6, R1
+	BNE IfThenElse_else_a4217
+	LOAD #0x1.9a9d3ap-2, R5
+	OPP R5, R5
+	LOAD R5, R0
+	BRA IfThenElse_fin_a4217
+IfThenElse_else_a4217:
+	LOAD -3(LB), R2
+	LOAD #4, R8
+	SUB R8, R2
+	LOAD R2, R1
+	BEQ OpCmp_if_in_a4517
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a4517
+OpCmp_if_in_a4517:
+	LOAD #0, R1
+OpCmp_fin_in_a4517:
+	LOAD R1, R5
+	LOAD R5, R1
+	BNE IfThenElse_else_a4517
+	LOAD #0x1.4e2a9cp4, R8
+	OPP R8, R8
+	LOAD R8, R0
+	BRA IfThenElse_fin_a4517
+IfThenElse_else_a4517:
+	LOAD -3(LB), R2
+	LOAD #5, R9
+	SUB R9, R2
+	LOAD R2, R1
+	BEQ OpCmp_if_in_a4817
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a4817
+OpCmp_if_in_a4817:
+	LOAD #0, R1
+OpCmp_fin_in_a4817:
+	LOAD R1, R8
+	LOAD R8, R1
+	BNE IfThenElse_else_a4817
+	LOAD #0x1.08a24cp-1, R9
+	LOAD R9, R0
+	BRA IfThenElse_fin_a4817
+IfThenElse_else_a4817:
+	LOAD -3(LB), R2
+	LOAD #6, R10
+	SUB R10, R2
+	LOAD R2, R1
+	BEQ OpCmp_if_in_a5117
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a5117
+OpCmp_if_in_a5117:
+	LOAD #0, R1
+OpCmp_fin_in_a5117:
+	LOAD R1, R9
+	LOAD R9, R1
+	BNE IfThenElse_else_a5117
+	LOAD #0x1.911bb2p-1, R10
+	OPP R10, R10
+	LOAD R10, R0
+	BRA IfThenElse_fin_a5117
+IfThenElse_else_a5117:
+	LOAD -3(LB), R2
+	LOAD #7, R11
+	SUB R11, R2
+	LOAD R2, R1
+	BEQ OpCmp_if_in_a5417
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a5417
+OpCmp_if_in_a5417:
+	LOAD #0, R1
+OpCmp_fin_in_a5417:
+	LOAD R1, R10
+	LOAD R10, R1
+	BNE IfThenElse_else_a5417
+	LOAD #0x1.0ae7c8p2, R11
+	LOAD R11, R0
+	BRA IfThenElse_fin_a5417
+IfThenElse_else_a5417:
+	LOAD -3(LB), R2
+	LOAD #8, R12
+	SUB R12, R2
+	LOAD R2, R1
+	BEQ OpCmp_if_in_a5717
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a5717
+OpCmp_if_in_a5717:
+	LOAD #0, R1
+OpCmp_fin_in_a5717:
+	LOAD R1, R11
+	LOAD R11, R1
+	BNE IfThenElse_else_a5717
+	LOAD #0x1.921412p-3, R12
+	LOAD R12, R0
+	BRA IfThenElse_fin_a5717
+IfThenElse_else_a5717:
+	LOAD #0x0.0p0, R12
+	LOAD R12, R0
+IfThenElse_fin_a5717:
+IfThenElse_fin_a5417:
+IfThenElse_fin_a5117:
+IfThenElse_fin_a4817:
+IfThenElse_fin_a4517:
+IfThenElse_fin_a4217:
+IfThenElse_fin_a3917:
+IfThenElse_fin_a3617:
+IfThenElse_fin_a3312:
+	POP R2
+	POP R3
+	POP R4
+	POP R5
+	POP R6
+	POP R7
+	POP R8
+	POP R9
+	POP R10
+	POP R11
+	POP R12
+	RTS
+code.ChebychevValues.otherActanVal:
+	PUSH R12
+	PUSH R11
+	PUSH R10
+	PUSH R9
+	PUSH R8
+	PUSH R7
+	PUSH R6
+	PUSH R5
+	PUSH R4
+	PUSH R3
+	PUSH R2
+	LOAD -3(LB), R7
+	LOAD #0, R4
+	SUB R4, R7
+	LOAD R7, R1
+	BEQ OpCmp_if_in_a6612
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a6612
+OpCmp_if_in_a6612:
+	LOAD #0, R1
+OpCmp_fin_in_a6612:
+	LOAD R1, R3
+	LOAD R3, R1
+	BNE IfThenElse_else_a6612
+	LOAD #0x0.0p0, R4
+	LOAD R4, R0
+	BRA IfThenElse_fin_a6612
+IfThenElse_else_a6612:
+	LOAD -3(LB), R7
+	LOAD #1, R6
+	SUB R6, R7
+	LOAD R7, R1
+	BEQ OpCmp_if_in_a6917
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a6917
+OpCmp_if_in_a6917:
+	LOAD #0, R1
+OpCmp_fin_in_a6917:
+	LOAD R1, R4
+	LOAD R4, R1
+	BNE IfThenElse_else_a6917
+	LOAD #0x1.975f5ep-3, R6
+	LOAD R6, R0
+	BRA IfThenElse_fin_a6917
+IfThenElse_else_a6917:
+	LOAD -3(LB), R7
+	LOAD #2, R5
+	SUB R5, R7
+	LOAD R7, R1
+	BEQ OpCmp_if_in_a7217
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a7217
+OpCmp_if_in_a7217:
+	LOAD #0, R1
+OpCmp_fin_in_a7217:
+	LOAD R1, R6
+	LOAD R6, R1
+	BNE IfThenElse_else_a7217
+	LOAD #0x1.a8279ap-2, R5
+	LOAD R5, R0
+	BRA IfThenElse_fin_a7217
+IfThenElse_else_a7217:
+	LOAD -3(LB), R7
+	LOAD #3, R8
+	SUB R8, R7
+	LOAD R7, R1
+	BEQ OpCmp_if_in_a7517
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a7517
+OpCmp_if_in_a7517:
+	LOAD #0, R1
+OpCmp_fin_in_a7517:
+	LOAD R1, R5
+	LOAD R5, R1
+	BNE IfThenElse_else_a7517
+	LOAD #0x1.561b82p-1, R8
+	LOAD R8, R0
+	BRA IfThenElse_fin_a7517
+IfThenElse_else_a7517:
+	LOAD -3(LB), R7
+	LOAD #4, R9
+	SUB R9, R7
+	LOAD R7, R1
+	BEQ OpCmp_if_in_a7817
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a7817
+OpCmp_if_in_a7817:
+	LOAD #0, R1
+OpCmp_fin_in_a7817:
+	LOAD R1, R8
+	LOAD R8, R1
+	BNE IfThenElse_else_a7817
+	LOAD #0x1.0p0, R9
+	LOAD R9, R0
+	BRA IfThenElse_fin_a7817
+IfThenElse_else_a7817:
+	LOAD -3(LB), R7
+	LOAD #5, R10
+	SUB R10, R7
+	LOAD R7, R1
+	BEQ OpCmp_if_in_a8117
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a8117
+OpCmp_if_in_a8117:
+	LOAD #0, R1
+OpCmp_fin_in_a8117:
+	LOAD R1, R9
+	LOAD R9, R1
+	BNE IfThenElse_else_a8117
+	LOAD #0x1.7f218ep0, R10
+	LOAD R10, R0
+	BRA IfThenElse_fin_a8117
+IfThenElse_else_a8117:
+	LOAD -3(LB), R7
+	LOAD #6, R11
+	SUB R11, R7
+	LOAD R7, R1
+	BEQ OpCmp_if_in_a8417
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a8417
+OpCmp_if_in_a8417:
+	LOAD #0, R1
+OpCmp_fin_in_a8417:
+	LOAD R1, R10
+	LOAD R10, R1
+	BNE IfThenElse_else_a8417
+	LOAD #0x1.3504f4p1, R11
+	LOAD R11, R0
+	BRA IfThenElse_fin_a8417
+IfThenElse_else_a8417:
+	LOAD -3(LB), R7
+	LOAD #7, R12
+	SUB R12, R7
+	LOAD R7, R1
+	BEQ OpCmp_if_in_a8717
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a8717
+OpCmp_if_in_a8717:
+	LOAD #0, R1
+OpCmp_fin_in_a8717:
+	LOAD R1, R11
+	LOAD R11, R1
+	BNE IfThenElse_else_a8717
+	LOAD #0x1.41bfeep2, R12
+	LOAD R12, R0
+	BRA IfThenElse_fin_a8717
+IfThenElse_else_a8717:
+	LOAD -3(LB), R7
+	LOAD #8, R2
+	SUB R2, R7
+	LOAD R7, R1
+	BEQ OpCmp_if_in_a9017
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a9017
+OpCmp_if_in_a9017:
+	LOAD #0, R1
+OpCmp_fin_in_a9017:
+	LOAD R1, R12
+	LOAD R12, R1
+	BNE IfThenElse_else_a9017
+	LOAD #0x1.d02968p53, R2
+	LOAD R2, R0
+	BRA IfThenElse_fin_a9017
+IfThenElse_else_a9017:
+	LOAD #0x0.0p0, R2
+	LOAD R2, R0
+IfThenElse_fin_a9017:
+IfThenElse_fin_a8717:
+IfThenElse_fin_a8417:
+IfThenElse_fin_a8117:
+IfThenElse_fin_a7817:
+IfThenElse_fin_a7517:
+IfThenElse_fin_a7217:
+IfThenElse_fin_a6917:
+IfThenElse_fin_a6612:
+	POP R2
+	POP R3
+	POP R4
+	POP R5
+	POP R6
+	POP R7
+	POP R8
+	POP R9
+	POP R10
+	POP R11
+	POP R12
+	RTS
+init.Couple:
+	LOAD #0, R0
+	LOAD -2(LB), R1
+	STORE R0, 1(R1)
+	LOAD #0, R0
+	LOAD -2(LB), R1
+	STORE R0, 2(R1)
+	RTS
+code.Couple.getX:
+	PUSH R3
+	LOAD -2(LB), R3
+	LOAD 1(R3), R3
+	LOAD R3, R0
+	POP R3
+	RTS
+code.Couple.getY:
+	PUSH R3
+	LOAD -2(LB), R3
+	LOAD 2(R3), R3
+	LOAD R3, R0
+	POP R3
+	RTS
+code.Couple.setX:
+	PUSH R3
+	LOAD -3(LB), R3
+	LOAD -2(LB), R1
+	STORE R3, 1(R1)
+	POP R3
+	RTS
+code.Couple.setY:
+	PUSH R3
+	LOAD -3(LB), R3
+	LOAD -2(LB), R1
+	STORE R3, 2(R1)
+	POP R3
+	RTS
+init.RangeReduction:
+	LOAD #0x1.921fb4p1, R3
+	LOAD R3, R0
+	LOAD -2(LB), R1
+	STORE R0, 1(R1)
+	RTS
+code.RangeReduction.FirstReductionSin:
+	PUSH R6
+	PUSH R4
+	PUSH R3
+	LOAD #0x1.92p1, R3
+	STORE R3, 7(LB)
+	LOAD #0x1.fb5444p-11, R3
+	STORE R3, 8(LB)
+	LOAD -3(LB), R3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R4
+	DIV R4, R3
+	BOV divisionErr
+	INT R3, R3
+	STORE R3, 9(LB)
+	LOAD -3(LB), R3
+	LOAD 9(LB), R4
+	FLOAT R4, R4
+	LOAD 7(LB), R6
+	MUL R6, R4
+	BOV over_flow
+	SUB R4, R3
+	BOV over_flow
+	STORE R3, 10(LB)
+	LOAD 10(LB), R3
+	LOAD 9(LB), R4
+	FLOAT R4, R4
+	LOAD 8(LB), R6
+	MUL R6, R4
+	BOV over_flow
+	SUB R4, R3
+	BOV over_flow
+	STORE R3, 10(LB)
+	LOAD 9(LB), R4
+	LOAD #2, R6
+	REM R6, R4
+	BOV divisionErr
+	LOAD #0, R6
+	SUB R6, R4
+	LOAD R4, R1
+	BEQ OpCmp_if_in_a1212
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a1212
+OpCmp_if_in_a1212:
+	LOAD #0, R1
+OpCmp_fin_in_a1212:
+	LOAD R1, R3
+	LOAD R3, R1
+	BNE IfThenElse_else_a1212
+	LOAD 10(LB), R6
+	LOAD R6, R0
+	BRA IfThenElse_fin_a1212
+IfThenElse_else_a1212:
+	LOAD 10(LB), R6
+	OPP R6, R6
+	LOAD R6, R0
+IfThenElse_fin_a1212:
+	POP R3
+	POP R4
+	POP R6
+	RTS
+code.RangeReduction.FirstReductionCos:
+	PUSH R6
+	PUSH R4
+	PUSH R3
+	LOAD #0x1.92p1, R3
+	STORE R3, 11(LB)
+	LOAD #0x1.fb5444p-11, R3
+	STORE R3, 12(LB)
+	LOAD -3(LB), R3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R6
+	DIV R6, R3
+	BOV divisionErr
+	INT R3, R3
+	STORE R3, 13(LB)
+	LOAD -3(LB), R3
+	LOAD 13(LB), R6
+	FLOAT R6, R6
+	LOAD 11(LB), R4
+	MUL R4, R6
+	BOV over_flow
+	SUB R6, R3
+	BOV over_flow
+	STORE R3, 14(LB)
+	LOAD 14(LB), R3
+	LOAD 13(LB), R6
+	FLOAT R6, R6
+	LOAD 12(LB), R4
+	MUL R4, R6
+	BOV over_flow
+	SUB R6, R3
+	BOV over_flow
+	STORE R3, 14(LB)
+	LOAD 14(LB), R3
+	LOAD R3, R0
+	POP R3
+	POP R4
+	POP R6
+	RTS
+init.BreakPoints:
+; instruction new
+	NEW #1, R3
+	LEA 3(GB), R0
+	STORE R0, 0(R3)
+	PUSH R3
+	BSR init.Methods
+	POP R3
+	LOAD R3, R0
+	LOAD -2(LB), R1
+	STORE R0, 1(R1)
+	RTS
+code.BreakPoints.breakPoint:
+	PUSH R6
+	PUSH R5
+	PUSH R4
+	PUSH R3
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R3
+	STORE R3, 0(SP)
+	LOAD #0x1.0p1, R6
+	STORE R6, -1(SP)
+	LOAD -3(LB), R6
+	OPP R6, R6
+	STORE R6, -2(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 4(R3)
+	SUBSP #3
+	LOAD R0, R6
+	LOAD #1, R3
+	LOAD -4(LB), R4
+	LOAD #8, R5
+	QUO R5, R4
+	BOV divisionErr
+	ADD R4, R3
+	FLOAT R3, R3
+	MUL R3, R6
+	BOV over_flow
+	LOAD R6, R0
+	POP R3
+	POP R4
+	POP R5
+	POP R6
+	RTS
+code.BreakPoints.BPOptVal:
+	PUSH R10
+	PUSH R9
+	PUSH R8
+	PUSH R6
+	PUSH R5
+	PUSH R4
+	PUSH R3
+; instruction new
+	NEW #3, R6
+	LEA 16(GB), R0
+	STORE R0, 0(R6)
+	PUSH R6
+	BSR init.Couple
+	POP R6
+	STORE R6, 15(LB)
+; appel de methode2
+	ADDSP #3
+	LOAD -2(LB), R6
+	STORE R6, 0(SP)
+	LOAD #1, R3
+	STORE R3, -1(SP)
+	LOAD #0, R3
+	STORE R3, -2(SP)
+	LOAD 0(SP), R6
+	CMP #null, R6
+	BEQ pile_pleine
+	LOAD 0(R6), R6
+	BSR 2(R6)
+	SUBSP #3
+	LOAD R0, R3
+	STORE R3, 16(LB)
+	LOAD #0, R3
+	STORE R3, 17(LB)
+	LOAD #1, R3
+	STORE R3, 18(LB)
+	LOAD #0, R3
+	STORE R3, 19(LB)
+While_cond_a1415:
+	LOAD 18(LB), R6
+	LOAD #5, R4
+	SUB R4, R6
+	LOAD R6, R1
+	BLT OpCmp_if_in_a1415
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a1415
+OpCmp_if_in_a1415:
+	LOAD #0, R1
+OpCmp_fin_in_a1415:
+	LOAD R1, R3
+	LOAD R3, R1
+	BNE While_fin_a1415
+While_cond_a1519:
+	LOAD 19(LB), R6
+	LOAD #8, R5
+	SUB R5, R6
+	LOAD R6, R1
+	BLT OpCmp_if_in_a1519
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a1519
+OpCmp_if_in_a1519:
+	LOAD #0, R1
+OpCmp_fin_in_a1519:
+	LOAD R1, R4
+	LOAD R4, R1
+	BNE While_fin_a1519
+; appel de methode5
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 1(R0), R6
+	STORE R6, 0(SP)
+	LOAD 16(LB), R8
+	LOAD -3(LB), R9
+	SUB R9, R8
+	BOV over_flow
+	STORE R8, -1(SP)
+	LOAD 0(SP), R6
+	CMP #null, R6
+	BEQ pile_pleine
+	LOAD 0(R6), R6
+	BSR 5(R6)
+	SUBSP #2
+	LOAD R0, R8
+; appel de methode5
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 1(R0), R6
+	STORE R6, 0(SP)
+; appel de methode2
+	ADDSP #3
+	LOAD -2(LB), R9
+	STORE R9, 0(SP)
+	LOAD 18(LB), R10
+	STORE R10, -1(SP)
+	LOAD 19(LB), R10
+	STORE R10, -2(SP)
+	LOAD 0(SP), R9
+	CMP #null, R9
+	BEQ pile_pleine
+	LOAD 0(R9), R9
+	BSR 2(R9)
+	SUBSP #3
+	LOAD R0, R10
+	LOAD -3(LB), R9
+	SUB R9, R10
+	BOV over_flow
+	STORE R10, -1(SP)
+	LOAD 0(SP), R6
+	CMP #null, R6
+	BEQ pile_pleine
+	LOAD 0(R6), R6
+	BSR 5(R6)
+	SUBSP #2
+	LOAD R0, R10
+	SUB R10, R8
+	LOAD R8, R1
+	BGT OpCmp_if_in_a1619
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a1619
+OpCmp_if_in_a1619:
+	LOAD #0, R1
+OpCmp_fin_in_a1619:
+	LOAD R1, R5
+	LOAD R5, R1
+	BNE IfThenElse_else_a1619
+	LOAD #1, R10
+	STORE R10, 17(LB)
+; appel de methode2
+	ADDSP #3
+	LOAD -2(LB), R10
+	STORE R10, 0(SP)
+	LOAD 18(LB), R8
+	STORE R8, -1(SP)
+	LOAD 19(LB), R8
+	STORE R8, -2(SP)
+	LOAD 0(SP), R10
+	CMP #null, R10
+	BEQ pile_pleine
+	LOAD 0(R10), R10
+	BSR 2(R10)
+	SUBSP #3
+	LOAD R0, R8
+	STORE R8, 16(LB)
+; appel de methode4
+	ADDSP #2
+	LOAD 15(LB), R8
+	STORE R8, 0(SP)
+	LOAD 18(LB), R10
+	STORE R10, -1(SP)
+	LOAD 0(SP), R8
+	CMP #null, R8
+	BEQ pile_pleine
+	LOAD 0(R8), R8
+	BSR 4(R8)
+	SUBSP #2
+	LOAD R0, R10
+; appel de methode5
+	ADDSP #2
+	LOAD 15(LB), R8
+	STORE R8, 0(SP)
+	LOAD 19(LB), R6
+	STORE R6, -1(SP)
+	LOAD 0(SP), R8
+	CMP #null, R8
+	BEQ pile_pleine
+	LOAD 0(R8), R8
+	BSR 5(R8)
+	SUBSP #2
+	LOAD R0, R6
+	BRA IfThenElse_fin_a1619
+IfThenElse_else_a1619:
+IfThenElse_fin_a1619:
+	LOAD 19(LB), R5
+	LOAD #1, R8
+	ADD R8, R5
+	STORE R5, 19(LB)
+	BRA While_cond_a1519
+While_fin_a1519:
+	LOAD #0, R4
+	STORE R4, 19(LB)
+	LOAD 18(LB), R4
+	LOAD #1, R5
+	ADD R5, R4
+	STORE R4, 18(LB)
+	BRA While_cond_a1415
+While_fin_a1415:
+	LOAD 17(LB), R4
+	LOAD #0, R5
+	SUB R5, R4
+	LOAD R4, R1
+	BEQ OpCmp_if_in_a2712
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a2712
+OpCmp_if_in_a2712:
+	LOAD #0, R1
+OpCmp_fin_in_a2712:
+	LOAD R1, R3
+	LOAD R3, R1
+	BNE IfThenElse_else_a2712
+	LOAD #1, R5
+	LOAD 15(LB), R4
+	STORE R5, 1(R4)
+	LOAD #0, R5
+	LOAD 15(LB), R8
+	STORE R5, 2(R8)
+	BRA IfThenElse_fin_a2712
+IfThenElse_else_a2712:
+IfThenElse_fin_a2712:
+	LOAD 15(LB), R3
+	LOAD R3, R0
+	POP R3
+	POP R4
+	POP R5
+	POP R6
+	POP R8
+	POP R9
+	POP R10
+	RTS
+init.Taylor:
+; instruction new
+	NEW #1, R3
+	LEA 3(GB), R0
+	STORE R0, 0(R3)
+	PUSH R3
+	BSR init.Methods
+	POP R3
+	LOAD R3, R0
+	LOAD -2(LB), R1
+	STORE R0, 1(R1)
+	RTS
+code.Taylor.coefTaylorSinus:
+	PUSH R11
+	PUSH R9
+	PUSH R5
+	PUSH R3
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R3
+	STORE R3, 0(SP)
+	LOAD #0x1.0p0, R5
+	OPP R5, R5
+	STORE R5, -1(SP)
+	LOAD -3(LB), R5
+	STORE R5, -2(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 4(R3)
+	SUBSP #3
+	LOAD R0, R5
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R3
+	STORE R3, 0(SP)
+	LOAD -4(LB), R9
+	STORE R9, -1(SP)
+	LOAD #2, R9
+	LOAD -3(LB), R11
+	MUL R11, R9
+	LOAD #1, R11
+	ADD R11, R9
+	STORE R9, -2(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 4(R3)
+	SUBSP #3
+	LOAD R0, R9
+	MUL R9, R5
+	BOV over_flow
+; appel de methode3
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 1(R0), R9
+	STORE R9, 0(SP)
+	LOAD #2, R3
+	LOAD -3(LB), R11
+	MUL R11, R3
+	LOAD #1, R11
+	ADD R11, R3
+	STORE R3, -1(SP)
+	LOAD 0(SP), R9
+	CMP #null, R9
+	BEQ pile_pleine
+	LOAD 0(R9), R9
+	BSR 3(R9)
+	SUBSP #2
+	LOAD R0, R3
+	FLOAT R3, R3
+	DIV R3, R5
+	BOV divisionErr
+	LOAD R5, R0
+	POP R3
+	POP R5
+	POP R9
+	POP R11
+	RTS
+code.Taylor.taylorSinus:
+	PUSH R11
+	PUSH R9
+	PUSH R5
+	PUSH R3
+	LOAD #0, R5
+	FLOAT R5, R5
+	STORE R5, 20(LB)
+	LOAD #0, R5
+	STORE R5, 21(LB)
+While_cond_a2015:
+	LOAD 21(LB), R3
+	LOAD -4(LB), R9
+	SUB R9, R3
+	LOAD R3, R1
+	BLT OpCmp_if_in_a2015
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a2015
+OpCmp_if_in_a2015:
+	LOAD #0, R1
+OpCmp_fin_in_a2015:
+	LOAD R1, R5
+	LOAD R5, R1
+	BNE While_fin_a2015
+	LOAD 20(LB), R9
+; appel de methode2
+	ADDSP #3
+	LOAD -2(LB), R3
+	STORE R3, 0(SP)
+	LOAD 21(LB), R11
+	STORE R11, -1(SP)
+	LOAD -3(LB), R11
+	STORE R11, -2(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 2(R3)
+	SUBSP #3
+	LOAD R0, R11
+	ADD R11, R9
+	BOV over_flow
+	STORE R9, 20(LB)
+	LOAD 21(LB), R9
+	LOAD #1, R11
+	ADD R11, R9
+	STORE R9, 21(LB)
+	BRA While_cond_a2015
+While_fin_a2015:
+	LOAD 20(LB), R5
+	LOAD R5, R0
+	POP R3
+	POP R5
+	POP R9
+	POP R11
+	RTS
+code.Taylor.coefTaylorCosinus:
+	PUSH R11
+	PUSH R9
+	PUSH R5
+	PUSH R3
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R5
+	STORE R5, 0(SP)
+	LOAD #0x1.0p0, R9
+	OPP R9, R9
+	STORE R9, -1(SP)
+	LOAD -3(LB), R9
+	STORE R9, -2(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 4(R5)
+	SUBSP #3
+	LOAD R0, R9
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R5
+	STORE R5, 0(SP)
+	LOAD -4(LB), R11
+	STORE R11, -1(SP)
+	LOAD #2, R11
+	LOAD -3(LB), R3
+	MUL R3, R11
+	STORE R11, -2(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 4(R5)
+	SUBSP #3
+	LOAD R0, R11
+	MUL R11, R9
+	BOV over_flow
+; appel de methode3
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 1(R0), R11
+	STORE R11, 0(SP)
+	LOAD #2, R5
+	LOAD -3(LB), R3
+	MUL R3, R5
+	STORE R5, -1(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 3(R11)
+	SUBSP #2
+	LOAD R0, R5
+	FLOAT R5, R5
+	DIV R5, R9
+	BOV divisionErr
+	LOAD R9, R0
+	POP R3
+	POP R5
+	POP R9
+	POP R11
+	RTS
+code.Taylor.taylorCosinus:
+	PUSH R11
+	PUSH R9
+	PUSH R5
+	PUSH R3
+	LOAD #0, R9
+	FLOAT R9, R9
+	STORE R9, 22(LB)
+	LOAD #0, R9
+	STORE R9, 23(LB)
+While_cond_a3415:
+	LOAD 23(LB), R5
+	LOAD -4(LB), R11
+	SUB R11, R5
+	LOAD R5, R1
+	BLT OpCmp_if_in_a3415
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a3415
+OpCmp_if_in_a3415:
+	LOAD #0, R1
+OpCmp_fin_in_a3415:
+	LOAD R1, R9
+	LOAD R9, R1
+	BNE While_fin_a3415
+	LOAD 22(LB), R11
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R5
+	STORE R5, 0(SP)
+	LOAD 23(LB), R3
+	STORE R3, -1(SP)
+	LOAD -3(LB), R3
+	STORE R3, -2(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 4(R5)
+	SUBSP #3
+	LOAD R0, R3
+	ADD R3, R11
+	BOV over_flow
+	STORE R11, 22(LB)
+	LOAD 23(LB), R11
+	LOAD #1, R3
+	ADD R3, R11
+	STORE R11, 23(LB)
+	BRA While_cond_a3415
+While_fin_a3415:
+	LOAD 22(LB), R9
+	LOAD R9, R0
+	POP R3
+	POP R5
+	POP R9
+	POP R11
+	RTS
+code.Taylor.coefTaylorArctan:
+	PUSH R11
+	PUSH R9
+	PUSH R5
+	PUSH R3
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R9
+	STORE R9, 0(SP)
+	LOAD #0x1.0p0, R11
+	OPP R11, R11
+	STORE R11, -1(SP)
+	LOAD -3(LB), R11
+	STORE R11, -2(SP)
+	LOAD 0(SP), R9
+	CMP #null, R9
+	BEQ pile_pleine
+	LOAD 0(R9), R9
+	BSR 4(R9)
+	SUBSP #3
+	LOAD R0, R11
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R9
+	STORE R9, 0(SP)
+	LOAD -4(LB), R3
+	STORE R3, -1(SP)
+	LOAD #2, R3
+	LOAD -3(LB), R5
+	MUL R5, R3
+	LOAD #1, R5
+	ADD R5, R3
+	STORE R3, -2(SP)
+	LOAD 0(SP), R9
+	CMP #null, R9
+	BEQ pile_pleine
+	LOAD 0(R9), R9
+	BSR 4(R9)
+	SUBSP #3
+	LOAD R0, R3
+	MUL R3, R11
+	BOV over_flow
+	LOAD #2, R3
+	LOAD -3(LB), R9
+	MUL R9, R3
+	LOAD #1, R9
+	ADD R9, R3
+	FLOAT R3, R3
+	DIV R3, R11
+	BOV divisionErr
+	LOAD R11, R0
+	POP R3
+	POP R5
+	POP R9
+	POP R11
+	RTS
+code.Taylor.taylorArctan:
+	PUSH R11
+	PUSH R9
+	PUSH R5
+	PUSH R3
+	LOAD #0, R11
+	FLOAT R11, R11
+	STORE R11, 24(LB)
+	LOAD #0, R11
+	STORE R11, 25(LB)
+While_cond_a4815:
+	LOAD 25(LB), R3
+	LOAD -4(LB), R9
+	SUB R9, R3
+	LOAD R3, R1
+	BLT OpCmp_if_in_a4815
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a4815
+OpCmp_if_in_a4815:
+	LOAD #0, R1
+OpCmp_fin_in_a4815:
+	LOAD R1, R11
+	LOAD R11, R1
+	BNE While_fin_a4815
+	LOAD 24(LB), R9
+; appel de methode6
+	ADDSP #3
+	LOAD -2(LB), R3
+	STORE R3, 0(SP)
+	LOAD 25(LB), R5
+	STORE R5, -1(SP)
+	LOAD -3(LB), R5
+	STORE R5, -2(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 6(R3)
+	SUBSP #3
+	LOAD R0, R5
+	ADD R5, R9
+	BOV over_flow
+	STORE R9, 24(LB)
+	LOAD 25(LB), R9
+	LOAD #1, R5
+	ADD R5, R9
+	STORE R9, 25(LB)
+	BRA While_cond_a4815
+While_fin_a4815:
+	LOAD 24(LB), R11
+	LOAD R11, R0
+	POP R3
+	POP R5
+	POP R9
+	POP R11
+	RTS
+code.Taylor.coefTaylorArcsin:
+	PUSH R12
+	PUSH R11
+	PUSH R9
+	PUSH R5
+	PUSH R3
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R11
+	STORE R11, 0(SP)
+	LOAD #0x1.0p0, R9
+	OPP R9, R9
+	STORE R9, -1(SP)
+	LOAD -3(LB), R9
+	STORE R9, -2(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 4(R11)
+	SUBSP #3
+	LOAD R0, R9
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R11
+	STORE R11, 0(SP)
+	LOAD -4(LB), R5
+	STORE R5, -1(SP)
+	LOAD #2, R5
+	LOAD -3(LB), R3
+	MUL R3, R5
+	LOAD #1, R3
+	ADD R3, R5
+	STORE R5, -2(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 4(R11)
+	SUBSP #3
+	LOAD R0, R5
+	MUL R5, R9
+	BOV over_flow
+; appel de methode3
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 1(R0), R5
+	STORE R5, 0(SP)
+	LOAD #2, R11
+	LOAD -3(LB), R3
+	MUL R3, R11
+	STORE R11, -1(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 3(R5)
+	SUBSP #2
+	LOAD R0, R11
+	FLOAT R11, R11
+	MUL R11, R9
+	BOV over_flow
+	LOAD #2, R11
+	LOAD -3(LB), R5
+	MUL R5, R11
+	LOAD #1, R5
+	ADD R5, R11
+	FLOAT R11, R11
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R5
+	STORE R5, 0(SP)
+	LOAD #0x1.0p1, R3
+	STORE R3, -1(SP)
+	LOAD #2, R3
+	LOAD -3(LB), R12
+	MUL R12, R3
+	STORE R3, -2(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 4(R5)
+	SUBSP #3
+	LOAD R0, R3
+	MUL R3, R11
+	BOV over_flow
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R3
+	STORE R3, 0(SP)
+; appel de methode3
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 1(R0), R5
+	STORE R5, 0(SP)
+	LOAD -3(LB), R12
+	STORE R12, -1(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 3(R5)
+	SUBSP #2
+	LOAD R0, R12
+	FLOAT R12, R12
+	STORE R12, -1(SP)
+	LOAD #2, R12
+	STORE R12, -2(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 4(R3)
+	SUBSP #3
+	LOAD R0, R12
+	MUL R12, R11
+	BOV over_flow
+	DIV R11, R9
+	BOV divisionErr
+	LOAD R9, R0
+	POP R3
+	POP R5
+	POP R9
+	POP R11
+	POP R12
+	RTS
+code.Taylor.taylorArcsin:
+	PUSH R12
+	PUSH R11
+	PUSH R9
+	PUSH R3
+	LOAD #0, R9
+	FLOAT R9, R9
+	STORE R9, 26(LB)
+	LOAD #0, R9
+	STORE R9, 27(LB)
+While_cond_a6315:
+	LOAD 27(LB), R11
+	LOAD -4(LB), R12
+	SUB R12, R11
+	LOAD R11, R1
+	BLT OpCmp_if_in_a6315
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a6315
+OpCmp_if_in_a6315:
+	LOAD #0, R1
+OpCmp_fin_in_a6315:
+	LOAD R1, R9
+	LOAD R9, R1
+	BNE While_fin_a6315
+	LOAD 26(LB), R12
+; appel de methode8
+	ADDSP #3
+	LOAD -2(LB), R11
+	STORE R11, 0(SP)
+	LOAD 27(LB), R3
+	STORE R3, -1(SP)
+	LOAD -3(LB), R3
+	STORE R3, -2(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 8(R11)
+	SUBSP #3
+	LOAD R0, R3
+	ADD R3, R12
+	BOV over_flow
+	STORE R12, 26(LB)
+	LOAD 27(LB), R12
+	LOAD #1, R3
+	ADD R3, R12
+	STORE R12, 27(LB)
+	BRA While_cond_a6315
+While_fin_a6315:
+	LOAD 26(LB), R9
+	LOAD R9, R0
+	POP R3
+	POP R9
+	POP R11
+	POP R12
+	RTS
+init.ChebyApproxi32:
+; instruction new
+	NEW #1, R9
+	LEA 3(GB), R0
+	STORE R0, 0(R9)
+	PUSH R9
+	BSR init.Methods
+	POP R9
+	LOAD R9, R0
+	LOAD -2(LB), R1
+	STORE R0, 1(R1)
+	RTS
+code.ChebyApproxi32.ChebychevActan:
+	PUSH R12
+	PUSH R11
+	PUSH R9
+	PUSH R5
+	PUSH R3
+	LOAD #0x1.138b78p7, R9
+	STORE R9, 28(LB)
+	LOAD #0x1.379bf6p8, R9
+	STORE R9, 29(LB)
+	LOAD #0x1.e68816p7, R9
+	STORE R9, 30(LB)
+	LOAD #0x1.3078c6p6, R9
+	STORE R9, 31(LB)
+	LOAD #0x1.043f2p3, R9
+	STORE R9, 32(LB)
+	LOAD #0x1.12db8ap-3, R9
+	STORE R9, 33(LB)
+	LOAD #0x1.138b78p7, R9
+	STORE R9, 34(LB)
+	LOAD #0x1.65888ap8, R9
+	STORE R9, 35(LB)
+	LOAD #0x1.4ee39cp8, R9
+	STORE R9, 36(LB)
+	LOAD #0x1.0fd872p7, R9
+	STORE R9, 37(LB)
+	LOAD #0x1.63b09ap4, R9
+	STORE R9, 38(LB)
+	LOAD 28(LB), R9
+	LOAD -3(LB), R12
+	MUL R12, R9
+	BOV over_flow
+	LOAD 29(LB), R12
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R3
+	STORE R3, 0(SP)
+	LOAD -3(LB), R11
+	STORE R11, -1(SP)
+	LOAD #3, R11
+	STORE R11, -2(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 4(R3)
+	SUBSP #3
+	LOAD R0, R11
+	MUL R11, R12
+	BOV over_flow
+	ADD R12, R9
+	BOV over_flow
+	LOAD 30(LB), R12
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R11
+	STORE R11, 0(SP)
+	LOAD -3(LB), R3
+	STORE R3, -1(SP)
+	LOAD #5, R3
+	STORE R3, -2(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 4(R11)
+	SUBSP #3
+	LOAD R0, R3
+	MUL R3, R12
+	BOV over_flow
+	ADD R12, R9
+	BOV over_flow
+	LOAD 31(LB), R12
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R3
+	STORE R3, 0(SP)
+	LOAD -3(LB), R11
+	STORE R11, -1(SP)
+	LOAD #7, R11
+	STORE R11, -2(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 4(R3)
+	SUBSP #3
+	LOAD R0, R11
+	MUL R11, R12
+	BOV over_flow
+	ADD R12, R9
+	BOV over_flow
+	LOAD 32(LB), R12
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R11
+	STORE R11, 0(SP)
+	LOAD -3(LB), R3
+	STORE R3, -1(SP)
+	LOAD #9, R3
+	STORE R3, -2(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 4(R11)
+	SUBSP #3
+	LOAD R0, R3
+	MUL R3, R12
+	BOV over_flow
+	ADD R12, R9
+	BOV over_flow
+	LOAD 33(LB), R12
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R3
+	STORE R3, 0(SP)
+	LOAD -3(LB), R11
+	STORE R11, -1(SP)
+	LOAD #11, R11
+	STORE R11, -2(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 4(R3)
+	SUBSP #3
+	LOAD R0, R11
+	MUL R11, R12
+	BOV over_flow
+	ADD R12, R9
+	BOV over_flow
+	LOAD 34(LB), R12
+	LOAD 35(LB), R11
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R3
+	STORE R3, 0(SP)
+	LOAD -3(LB), R5
+	STORE R5, -1(SP)
+	LOAD #2, R5
+	STORE R5, -2(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 4(R3)
+	SUBSP #3
+	LOAD R0, R5
+	MUL R5, R11
+	BOV over_flow
+	ADD R11, R12
+	BOV over_flow
+	LOAD 36(LB), R11
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R5
+	STORE R5, 0(SP)
+	LOAD -3(LB), R3
+	STORE R3, -1(SP)
+	LOAD #4, R3
+	STORE R3, -2(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 4(R5)
+	SUBSP #3
+	LOAD R0, R3
+	MUL R3, R11
+	BOV over_flow
+	ADD R11, R12
+	BOV over_flow
+	LOAD 37(LB), R11
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R3
+	STORE R3, 0(SP)
+	LOAD -3(LB), R5
+	STORE R5, -1(SP)
+	LOAD #6, R5
+	STORE R5, -2(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 4(R3)
+	SUBSP #3
+	LOAD R0, R5
+	MUL R5, R11
+	BOV over_flow
+	ADD R11, R12
+	BOV over_flow
+	LOAD 38(LB), R11
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R5
+	STORE R5, 0(SP)
+	LOAD -3(LB), R3
+	STORE R3, -1(SP)
+	LOAD #8, R3
+	STORE R3, -2(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 4(R5)
+	SUBSP #3
+	LOAD R0, R3
+	MUL R3, R11
+	BOV over_flow
+	ADD R11, R12
+	BOV over_flow
+	DIV R12, R9
+	BOV divisionErr
+	LOAD R9, R0
+	POP R3
+	POP R5
+	POP R9
+	POP R11
+	POP R12
+	RTS
+code.ChebyApproxi32.ChebychevSinus:
+	PUSH R12
+	PUSH R11
+	PUSH R9
+	PUSH R3
+	LOAD #0x1.555556p-3, R9
+	OPP R9, R9
+	STORE R9, 39(LB)
+	LOAD #0x1.111112p-7, R9
+	STORE R9, 40(LB)
+	LOAD #0x1.a01a02p-13, R9
+	OPP R9, R9
+	STORE R9, 41(LB)
+	LOAD #0x1.71dc0ep-19, R9
+	STORE R9, 42(LB)
+	LOAD -3(LB), R9
+	LOAD 39(LB), R12
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R11
+	STORE R11, 0(SP)
+	LOAD -3(LB), R3
+	STORE R3, -1(SP)
+	LOAD #3, R3
+	STORE R3, -2(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 4(R11)
+	SUBSP #3
+	LOAD R0, R3
+	MUL R3, R12
+	BOV over_flow
+	ADD R12, R9
+	BOV over_flow
+	LOAD 40(LB), R12
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R3
+	STORE R3, 0(SP)
+	LOAD -3(LB), R11
+	STORE R11, -1(SP)
+	LOAD #5, R11
+	STORE R11, -2(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 4(R3)
+	SUBSP #3
+	LOAD R0, R11
+	MUL R11, R12
+	BOV over_flow
+	ADD R12, R9
+	BOV over_flow
+	LOAD 41(LB), R12
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R11
+	STORE R11, 0(SP)
+	LOAD -3(LB), R3
+	STORE R3, -1(SP)
+	LOAD #7, R3
+	STORE R3, -2(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 4(R11)
+	SUBSP #3
+	LOAD R0, R3
+	MUL R3, R12
+	BOV over_flow
+	ADD R12, R9
+	BOV over_flow
+	LOAD 42(LB), R12
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R3
+	STORE R3, 0(SP)
+	LOAD -3(LB), R11
+	STORE R11, -1(SP)
+	LOAD #9, R11
+	STORE R11, -2(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 4(R3)
+	SUBSP #3
+	LOAD R0, R11
+	MUL R11, R12
+	BOV over_flow
+	ADD R12, R9
+	BOV over_flow
+	LOAD R9, R0
+	POP R3
+	POP R9
+	POP R11
+	POP R12
+	RTS
+code.ChebyApproxi32.ChebychevCosinus:
+	PUSH R12
+	PUSH R11
+	PUSH R9
+	PUSH R3
+	LOAD #0x0.0p0, R9
+	STORE R9, 43(LB)
+	LOAD #0x1.0p-1, R9
+	OPP R9, R9
+	STORE R9, 44(LB)
+	LOAD #0x1.555556p-5, R9
+	STORE R9, 45(LB)
+	LOAD #0x1.6c16c2p-10, R9
+	OPP R9, R9
+	STORE R9, 46(LB)
+	LOAD #0x1.a01a02p-16, R9
+	STORE R9, 47(LB)
+	LOAD #0x1.27e354p-22, R9
+	OPP R9, R9
+	STORE R9, 48(LB)
+	LOAD #0x1.0p0, R9
+	LOAD 44(LB), R12
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R11
+	STORE R11, 0(SP)
+	LOAD -3(LB), R3
+	STORE R3, -1(SP)
+	LOAD #2, R3
+	STORE R3, -2(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 4(R11)
+	SUBSP #3
+	LOAD R0, R3
+	MUL R3, R12
+	BOV over_flow
+	ADD R12, R9
+	BOV over_flow
+	LOAD 45(LB), R12
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R3
+	STORE R3, 0(SP)
+	LOAD -3(LB), R11
+	STORE R11, -1(SP)
+	LOAD #4, R11
+	STORE R11, -2(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 4(R3)
+	SUBSP #3
+	LOAD R0, R11
+	MUL R11, R12
+	BOV over_flow
+	ADD R12, R9
+	BOV over_flow
+	LOAD 46(LB), R12
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R11
+	STORE R11, 0(SP)
+	LOAD -3(LB), R3
+	STORE R3, -1(SP)
+	LOAD #6, R3
+	STORE R3, -2(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 4(R11)
+	SUBSP #3
+	LOAD R0, R3
+	MUL R3, R12
+	BOV over_flow
+	ADD R12, R9
+	BOV over_flow
+	LOAD 47(LB), R12
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R3
+	STORE R3, 0(SP)
+	LOAD -3(LB), R11
+	STORE R11, -1(SP)
+	LOAD #8, R11
+	STORE R11, -2(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 4(R3)
+	SUBSP #3
+	LOAD R0, R11
+	MUL R11, R12
+	BOV over_flow
+	ADD R12, R9
+	BOV over_flow
+	LOAD 48(LB), R12
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R11
+	STORE R11, 0(SP)
+	LOAD -3(LB), R3
+	STORE R3, -1(SP)
+	LOAD #10, R3
+	STORE R3, -2(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 4(R11)
+	SUBSP #3
+	LOAD R0, R3
+	MUL R3, R12
+	BOV over_flow
+	ADD R12, R9
+	BOV over_flow
+	STORE R9, 43(LB)
+	LOAD 43(LB), R9
+	LOAD R9, R0
+	POP R3
+	POP R9
+	POP R11
+	POP R12
+	RTS
+init.Chebychev:
+	LOAD #0x1.921fb4p1, R9
+	LOAD R9, R0
+	LOAD -2(LB), R1
+	STORE R0, 1(R1)
+; instruction new
+	NEW #1, R9
+	LEA 10(GB), R0
+	STORE R0, 0(R9)
+	PUSH R9
+	BSR init.ChebychevValues
+	POP R9
+	LOAD R9, R0
+	LOAD -2(LB), R1
+	STORE R0, 2(R1)
+; instruction new
+	NEW #3, R9
+	LEA 16(GB), R0
+	STORE R0, 0(R9)
+	PUSH R9
+	BSR init.Couple
+	POP R9
+	LOAD R9, R0
+	LOAD -2(LB), R1
+	STORE R0, 3(R1)
+; instruction new
+	NEW #1, R9
+	LEA 3(GB), R0
+	STORE R0, 0(R9)
+	PUSH R9
+	BSR init.Methods
+	POP R9
+	LOAD R9, R0
+	LOAD -2(LB), R1
+	STORE R0, 4(R1)
+; instruction new
+	NEW #2, R9
+	LEA 22(GB), R0
+	STORE R0, 0(R9)
+	PUSH R9
+	BSR init.RangeReduction
+	POP R9
+	LOAD R9, R0
+	LOAD -2(LB), R1
+	STORE R0, 5(R1)
+; instruction new
+	NEW #2, R9
+	LEA 40(GB), R0
+	STORE R0, 0(R9)
+	PUSH R9
+	BSR init.ChebyApproxi32
+	POP R9
+	LOAD R9, R0
+	LOAD -2(LB), R1
+	STORE R0, 6(R1)
+; instruction new
+	NEW #2, R9
+	LEA 26(GB), R0
+	STORE R0, 0(R9)
+	PUSH R9
+	BSR init.BreakPoints
+	POP R9
+	LOAD R9, R0
+	LOAD -2(LB), R1
+	STORE R0, 7(R1)
+	RTS
+code.Chebychev.sinCheb:
+	PUSH R13
+	PUSH R12
+	PUSH R11
+	PUSH R9
+	PUSH R7
+	PUSH R5
+	PUSH R3
+	PUSH R2
+; instruction new
+	NEW #3, R9
+	LEA 16(GB), R0
+	STORE R0, 0(R9)
+	PUSH R9
+	BSR init.Couple
+	POP R9
+	STORE R9, 49(LB)
+	LOAD #0x0.0p0, R9
+	STORE R9, 50(LB)
+	LOAD #0x0.0p0, R9
+	STORE R9, 51(LB)
+	LOAD #0x0.0p0, R9
+	STORE R9, 52(LB)
+	LOAD -3(LB), R3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R11
+	LOAD #4, R5
+	FLOAT R5, R5
+	DIV R5, R11
+	BOV divisionErr
+	SUB R11, R3
+	LOAD R3, R1
+	BLE OpCmp_if_in_a13212
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a13212
+OpCmp_if_in_a13212:
+	LOAD #0, R1
+OpCmp_fin_in_a13212:
+	LOAD R1, R12
+	LOAD R12, R1
+	BNE And_else_in_a13212
+	LOAD -3(LB), R11
+	LOAD #0, R3
+	FLOAT R3, R3
+	SUB R3, R11
+	LOAD R11, R1
+	BGE OpCmp_if_in_a13229
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a13229
+OpCmp_if_in_a13229:
+	LOAD #0, R1
+OpCmp_fin_in_a13229:
+	LOAD R1, R12
+	LOAD R12, R1
+	BNE And_else_in_a13212
+	LOAD #0, R1
+	BRA And_fin_in_a13212
+And_else_in_a13212:
+	LOAD #1, R1
+And_fin_in_a13212:
+	LOAD R1, R9
+	LOAD R9, R1
+	BNE IfThenElse_else_a13212
+; appel de methode5
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 4(R0), R3
+	STORE R3, 0(SP)
+	LOAD -3(LB), R11
+	STORE R11, -1(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 5(R3)
+	SUBSP #2
+	LOAD R0, R11
+	LOAD #0x1.0p-5, R3
+	SUB R3, R11
+	LOAD R11, R1
+	BLE OpCmp_if_in_a13315
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a13315
+OpCmp_if_in_a13315:
+	LOAD #0, R1
+OpCmp_fin_in_a13315:
+	LOAD R1, R12
+	LOAD R12, R1
+	BNE IfThenElse_else_a13315
+; appel de methode3
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 6(R0), R3
+	STORE R3, 0(SP)
+	LOAD -3(LB), R11
+	STORE R11, -1(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 3(R3)
+	SUBSP #2
+	LOAD R0, R11
+	LOAD R11, R0
+	BRA IfThenElse_fin_a13315
+IfThenElse_else_a13315:
+; appel de methode3
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 7(R0), R11
+	STORE R11, 0(SP)
+	LOAD -3(LB), R3
+	STORE R3, -1(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 3(R11)
+	SUBSP #2
+	LOAD R0, R3
+	STORE R3, 49(LB)
+; appel de methode2
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 7(R0), R3
+	STORE R3, 0(SP)
+; appel de methode2
+	ADDSP #1
+	LOAD 49(LB), R11
+	STORE R11, 0(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 2(R11)
+	SUBSP #1
+	LOAD R0, R5
+	STORE R5, -1(SP)
+; appel de methode3
+	ADDSP #1
+	LOAD 49(LB), R5
+	STORE R5, 0(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 3(R5)
+	SUBSP #1
+	LOAD R0, R11
+	STORE R11, -2(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 2(R3)
+	SUBSP #3
+	LOAD R0, R11
+	STORE R11, 50(LB)
+	LOAD -3(LB), R11
+	LOAD 50(LB), R3
+	SUB R3, R11
+	BOV over_flow
+	STORE R11, 51(LB)
+; appel de methode3
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 2(R0), R11
+	STORE R11, 0(SP)
+; appel de methode2
+	ADDSP #1
+	LOAD 49(LB), R3
+	STORE R3, 0(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 2(R3)
+	SUBSP #1
+	LOAD R0, R5
+	STORE R5, -1(SP)
+; appel de methode3
+	ADDSP #1
+	LOAD 49(LB), R5
+	STORE R5, 0(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 3(R5)
+	SUBSP #1
+	LOAD R0, R3
+	STORE R3, -2(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 3(R11)
+	SUBSP #3
+	LOAD R0, R3
+; appel de methode4
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 6(R0), R11
+	STORE R11, 0(SP)
+	LOAD 51(LB), R5
+	STORE R5, -1(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 4(R11)
+	SUBSP #2
+	LOAD R0, R5
+	MUL R5, R3
+	BOV over_flow
+; appel de methode2
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 2(R0), R5
+	STORE R5, 0(SP)
+; appel de methode2
+	ADDSP #1
+	LOAD 49(LB), R11
+	STORE R11, 0(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 2(R11)
+	SUBSP #1
+	LOAD R0, R2
+	STORE R2, -1(SP)
+; appel de methode3
+	ADDSP #1
+	LOAD 49(LB), R2
+	STORE R2, 0(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ pile_pleine
+	LOAD 0(R2), R2
+	BSR 3(R2)
+	SUBSP #1
+	LOAD R0, R11
+	STORE R11, -2(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 2(R5)
+	SUBSP #3
+	LOAD R0, R11
+; appel de methode3
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 6(R0), R5
+	STORE R5, 0(SP)
+	LOAD 51(LB), R2
+	STORE R2, -1(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 3(R5)
+	SUBSP #2
+	LOAD R0, R2
+	MUL R2, R11
+	BOV over_flow
+	ADD R11, R3
+	BOV over_flow
+	LOAD R3, R0
+IfThenElse_fin_a13315:
+	BRA IfThenElse_fin_a13212
+IfThenElse_else_a13212:
+	LOAD -3(LB), R3
+	LOAD #0, R11
+	FLOAT R11, R11
+	SUB R11, R3
+	LOAD R3, R1
+	BLT OpCmp_if_in_a14417
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a14417
+OpCmp_if_in_a14417:
+	LOAD #0, R1
+OpCmp_fin_in_a14417:
+	LOAD R1, R12
+	LOAD R12, R1
+	BNE IfThenElse_else_a14417
+; appel de methode2
+	ADDSP #2
+	LOAD -2(LB), R11
+	STORE R11, 0(SP)
+	LOAD -3(LB), R3
+	OPP R3, R3
+	STORE R3, -1(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 2(R11)
+	SUBSP #2
+	LOAD R0, R3
+	OPP R3, R3
+	LOAD R3, R0
+	BRA IfThenElse_fin_a14417
+IfThenElse_else_a14417:
+	LOAD -3(LB), R11
+	LOAD -2(LB), R0
+	LOAD 1(R0), R2
+	SUB R2, R11
+	LOAD R11, R1
+	BGT OpCmp_if_in_a14916
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a14916
+OpCmp_if_in_a14916:
+	LOAD #0, R1
+OpCmp_fin_in_a14916:
+	LOAD R1, R3
+	LOAD R3, R1
+	BNE IfThenElse_else_a14916
+; appel de methode2
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 5(R0), R2
+	STORE R2, 0(SP)
+	LOAD -3(LB), R11
+	STORE R11, -1(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ pile_pleine
+	LOAD 0(R2), R2
+	BSR 2(R2)
+	SUBSP #2
+	LOAD R0, R11
+	STORE R11, 52(LB)
+; appel de methode2
+	ADDSP #2
+	LOAD -2(LB), R11
+	STORE R11, 0(SP)
+	LOAD 52(LB), R2
+	STORE R2, -1(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 2(R11)
+	SUBSP #2
+	LOAD R0, R2
+	LOAD R2, R0
+	BRA IfThenElse_fin_a14916
+IfThenElse_else_a14916:
+	LOAD -3(LB), R11
+	LOAD -2(LB), R0
+	LOAD 1(R0), R5
+	LOAD #2, R7
+	FLOAT R7, R7
+	DIV R7, R5
+	BOV divisionErr
+	SUB R5, R11
+	LOAD R11, R1
+	BGT OpCmp_if_in_a15421
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a15421
+OpCmp_if_in_a15421:
+	LOAD #0, R1
+OpCmp_fin_in_a15421:
+	LOAD R1, R2
+	LOAD R2, R1
+	BNE IfThenElse_else_a15421
+; appel de methode3
+	ADDSP #2
+	LOAD -2(LB), R5
+	STORE R5, 0(SP)
+	LOAD -2(LB), R0
+	LOAD 1(R0), R11
+	LOAD #2, R7
+	FLOAT R7, R7
+	DIV R7, R11
+	BOV divisionErr
+	LOAD -3(LB), R7
+	SUB R7, R11
+	BOV over_flow
+	STORE R11, -1(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 3(R5)
+	SUBSP #2
+	LOAD R0, R11
+	LOAD R11, R0
+	BRA IfThenElse_fin_a15421
+IfThenElse_else_a15421:
+	LOAD #2, R11
+	FLOAT R11, R11
+; appel de methode2
+	ADDSP #2
+	LOAD -2(LB), R5
+	STORE R5, 0(SP)
+	LOAD -3(LB), R7
+	LOAD #2, R13
+	FLOAT R13, R13
+	DIV R13, R7
+	BOV divisionErr
+	STORE R7, -1(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 2(R5)
+	SUBSP #2
+	LOAD R0, R7
+	MUL R7, R11
+	BOV over_flow
+; appel de methode3
+	ADDSP #2
+	LOAD -2(LB), R7
+	STORE R7, 0(SP)
+	LOAD -3(LB), R5
+	LOAD #2, R13
+	FLOAT R13, R13
+	DIV R13, R5
+	BOV divisionErr
+	STORE R5, -1(SP)
+	LOAD 0(SP), R7
+	CMP #null, R7
+	BEQ pile_pleine
+	LOAD 0(R7), R7
+	BSR 3(R7)
+	SUBSP #2
+	LOAD R0, R5
+	MUL R5, R11
+	BOV over_flow
+	LOAD R11, R0
+IfThenElse_fin_a15421:
+IfThenElse_fin_a14916:
+IfThenElse_fin_a14417:
+IfThenElse_fin_a13212:
+	POP R2
+	POP R3
+	POP R5
+	POP R7
+	POP R9
+	POP R11
+	POP R12
+	POP R13
+	RTS
+code.Chebychev.cosCheb:
+	PUSH R15
+	PUSH R13
+	PUSH R12
+	PUSH R11
+	PUSH R10
+	PUSH R9
+	PUSH R7
+	PUSH R5
+	PUSH R3
+	PUSH R2
+; instruction new
+	NEW #3, R9
+	LEA 16(GB), R0
+	STORE R0, 0(R9)
+	PUSH R9
+	BSR init.Couple
+	POP R9
+	STORE R9, 53(LB)
+	LOAD #0x0.0p0, R9
+	STORE R9, 54(LB)
+	LOAD #0x0.0p0, R9
+	STORE R9, 55(LB)
+	LOAD #0x0.0p0, R9
+	STORE R9, 56(LB)
+	LOAD -3(LB), R3
+	LOAD -2(LB), R0
+	LOAD 1(R0), R2
+	LOAD #4, R11
+	FLOAT R11, R11
+	DIV R11, R2
+	BOV divisionErr
+	SUB R2, R3
+	LOAD R3, R1
+	BLE OpCmp_if_in_a17112
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a17112
+OpCmp_if_in_a17112:
+	LOAD #0, R1
+OpCmp_fin_in_a17112:
+	LOAD R1, R12
+	LOAD R12, R1
+	BNE And_else_in_a17112
+	LOAD -3(LB), R2
+	LOAD #0, R3
+	FLOAT R3, R3
+	SUB R3, R2
+	LOAD R2, R1
+	BGE OpCmp_if_in_a17129
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a17129
+OpCmp_if_in_a17129:
+	LOAD #0, R1
+OpCmp_fin_in_a17129:
+	LOAD R1, R12
+	LOAD R12, R1
+	BNE And_else_in_a17112
+	LOAD #0, R1
+	BRA And_fin_in_a17112
+And_else_in_a17112:
+	LOAD #1, R1
+And_fin_in_a17112:
+	LOAD R1, R9
+	LOAD R9, R1
+	BNE IfThenElse_else_a17112
+; appel de methode5
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 4(R0), R3
+	STORE R3, 0(SP)
+	LOAD -3(LB), R2
+	STORE R2, -1(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 5(R3)
+	SUBSP #2
+	LOAD R0, R2
+	LOAD #0x1.0p-5, R3
+	SUB R3, R2
+	LOAD R2, R1
+	BLE OpCmp_if_in_a17215
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a17215
+OpCmp_if_in_a17215:
+	LOAD #0, R1
+OpCmp_fin_in_a17215:
+	LOAD R1, R12
+	LOAD R12, R1
+	BNE IfThenElse_else_a17215
+; appel de methode4
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 6(R0), R3
+	STORE R3, 0(SP)
+	LOAD -3(LB), R2
+	STORE R2, -1(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 4(R3)
+	SUBSP #2
+	LOAD R0, R2
+	LOAD R2, R0
+	BRA IfThenElse_fin_a17215
+IfThenElse_else_a17215:
+; appel de methode3
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 7(R0), R2
+	STORE R2, 0(SP)
+	LOAD -3(LB), R3
+	STORE R3, -1(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ pile_pleine
+	LOAD 0(R2), R2
+	BSR 3(R2)
+	SUBSP #2
+	LOAD R0, R3
+	STORE R3, 53(LB)
+; appel de methode2
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 7(R0), R3
+	STORE R3, 0(SP)
+; appel de methode2
+	ADDSP #1
+	LOAD 53(LB), R2
+	STORE R2, 0(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ pile_pleine
+	LOAD 0(R2), R2
+	BSR 2(R2)
+	SUBSP #1
+	LOAD R0, R11
+	STORE R11, -1(SP)
+; appel de methode3
+	ADDSP #1
+	LOAD 53(LB), R11
+	STORE R11, 0(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 3(R11)
+	SUBSP #1
+	LOAD R0, R2
+	STORE R2, -2(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 2(R3)
+	SUBSP #3
+	LOAD R0, R2
+	STORE R2, 54(LB)
+	LOAD -3(LB), R2
+	LOAD 54(LB), R3
+	SUB R3, R2
+	BOV over_flow
+	STORE R2, 55(LB)
+; appel de methode2
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 2(R0), R2
+	STORE R2, 0(SP)
+; appel de methode2
+	ADDSP #1
+	LOAD 53(LB), R3
+	STORE R3, 0(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 2(R3)
+	SUBSP #1
+	LOAD R0, R11
+	STORE R11, -1(SP)
+; appel de methode3
+	ADDSP #1
+	LOAD 53(LB), R11
+	STORE R11, 0(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 3(R11)
+	SUBSP #1
+	LOAD R0, R3
+	STORE R3, -2(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ pile_pleine
+	LOAD 0(R2), R2
+	BSR 2(R2)
+	SUBSP #3
+	LOAD R0, R3
+; appel de methode4
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 6(R0), R2
+	STORE R2, 0(SP)
+	LOAD 55(LB), R11
+	STORE R11, -1(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ pile_pleine
+	LOAD 0(R2), R2
+	BSR 4(R2)
+	SUBSP #2
+	LOAD R0, R11
+	MUL R11, R3
+	BOV over_flow
+; appel de methode3
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 2(R0), R11
+	STORE R11, 0(SP)
+; appel de methode2
+	ADDSP #1
+	LOAD 53(LB), R2
+	STORE R2, 0(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ pile_pleine
+	LOAD 0(R2), R2
+	BSR 2(R2)
+	SUBSP #1
+	LOAD R0, R5
+	STORE R5, -1(SP)
+; appel de methode3
+	ADDSP #1
+	LOAD 53(LB), R5
+	STORE R5, 0(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 3(R5)
+	SUBSP #1
+	LOAD R0, R2
+	STORE R2, -2(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 3(R11)
+	SUBSP #3
+	LOAD R0, R2
+; appel de methode3
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 6(R0), R11
+	STORE R11, 0(SP)
+	LOAD 55(LB), R5
+	STORE R5, -1(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 3(R11)
+	SUBSP #2
+	LOAD R0, R5
+	MUL R5, R2
+	BOV over_flow
+	SUB R2, R3
+	BOV over_flow
+	LOAD R3, R0
+IfThenElse_fin_a17215:
+	BRA IfThenElse_fin_a17112
+IfThenElse_else_a17112:
+	LOAD -3(LB), R3
+	LOAD #0, R2
+	FLOAT R2, R2
+	SUB R2, R3
+	LOAD R3, R1
+	BLT OpCmp_if_in_a18317
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a18317
+OpCmp_if_in_a18317:
+	LOAD #0, R1
+OpCmp_fin_in_a18317:
+	LOAD R1, R12
+	LOAD R12, R1
+	BNE IfThenElse_else_a18317
+; appel de methode3
+	ADDSP #2
+	LOAD -2(LB), R2
+	STORE R2, 0(SP)
+	LOAD -3(LB), R3
+	OPP R3, R3
+	STORE R3, -1(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ pile_pleine
+	LOAD 0(R2), R2
+	BSR 3(R2)
+	SUBSP #2
+	LOAD R0, R3
+	LOAD R3, R0
+	BRA IfThenElse_fin_a18317
+IfThenElse_else_a18317:
+	LOAD -3(LB), R2
+	LOAD #2, R5
+	FLOAT R5, R5
+	LOAD -2(LB), R0
+	LOAD 1(R0), R11
+	MUL R11, R5
+	BOV over_flow
+	SUB R5, R2
+	LOAD R2, R1
+	BGT OpCmp_if_in_a18816
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a18816
+OpCmp_if_in_a18816:
+	LOAD #0, R1
+OpCmp_fin_in_a18816:
+	LOAD R1, R3
+	LOAD R3, R1
+	BNE IfThenElse_else_a18816
+; appel de methode3
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 5(R0), R5
+	STORE R5, 0(SP)
+	LOAD -3(LB), R2
+	STORE R2, -1(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 3(R5)
+	SUBSP #2
+	LOAD R0, R2
+	STORE R2, 56(LB)
+; appel de methode3
+	ADDSP #2
+	LOAD -2(LB), R2
+	STORE R2, 0(SP)
+	LOAD 56(LB), R5
+	STORE R5, -1(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ pile_pleine
+	LOAD 0(R2), R2
+	BSR 3(R2)
+	SUBSP #2
+	LOAD R0, R5
+	LOAD R5, R0
+	BRA IfThenElse_fin_a18816
+IfThenElse_else_a18816:
+	LOAD -3(LB), R11
+	LOAD -2(LB), R0
+	LOAD 1(R0), R7
+	SUB R7, R11
+	LOAD R11, R1
+	BGT OpCmp_if_in_a19221
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a19221
+OpCmp_if_in_a19221:
+	LOAD #0, R1
+OpCmp_fin_in_a19221:
+	LOAD R1, R2
+	LOAD R2, R1
+	BNE And_else_in_a19221
+	LOAD -3(LB), R7
+	LOAD #2, R11
+	FLOAT R11, R11
+	LOAD -2(LB), R0
+	LOAD 1(R0), R13
+	MUL R13, R11
+	BOV over_flow
+	SUB R11, R7
+	LOAD R7, R1
+	BLT OpCmp_if_in_a19235
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a19235
+OpCmp_if_in_a19235:
+	LOAD #0, R1
+OpCmp_fin_in_a19235:
+	LOAD R1, R2
+	LOAD R2, R1
+	BNE And_else_in_a19221
+	LOAD #0, R1
+	BRA And_fin_in_a19221
+And_else_in_a19221:
+	LOAD #1, R1
+And_fin_in_a19221:
+	LOAD R1, R5
+	LOAD R5, R1
+	BNE IfThenElse_else_a19221
+; appel de methode3
+	ADDSP #2
+	LOAD -2(LB), R2
+	STORE R2, 0(SP)
+	LOAD -3(LB), R11
+	LOAD -2(LB), R0
+	LOAD 1(R0), R7
+	SUB R7, R11
+	BOV over_flow
+	STORE R11, -1(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ pile_pleine
+	LOAD 0(R2), R2
+	BSR 3(R2)
+	SUBSP #2
+	LOAD R0, R11
+	OPP R11, R11
+	LOAD R11, R0
+	BRA IfThenElse_fin_a19221
+IfThenElse_else_a19221:
+	LOAD -3(LB), R2
+	LOAD -2(LB), R0
+	LOAD 1(R0), R7
+	LOAD #2, R13
+	FLOAT R13, R13
+	DIV R13, R7
+	BOV divisionErr
+	SUB R7, R2
+	LOAD R2, R1
+	BGT OpCmp_if_in_a19621
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a19621
+OpCmp_if_in_a19621:
+	LOAD #0, R1
+OpCmp_fin_in_a19621:
+	LOAD R1, R11
+	LOAD R11, R1
+	BNE IfThenElse_else_a19621
+; appel de methode2
+	ADDSP #2
+	LOAD -2(LB), R7
+	STORE R7, 0(SP)
+	LOAD -2(LB), R0
+	LOAD 1(R0), R2
+	LOAD #2, R13
+	FLOAT R13, R13
+	DIV R13, R2
+	BOV divisionErr
+	LOAD -3(LB), R13
+	SUB R13, R2
+	BOV over_flow
+	STORE R2, -1(SP)
+	LOAD 0(SP), R7
+	CMP #null, R7
+	BEQ pile_pleine
+	LOAD 0(R7), R7
+	BSR 2(R7)
+	SUBSP #2
+	LOAD R0, R2
+	LOAD R2, R0
+	BRA IfThenElse_fin_a19621
+IfThenElse_else_a19621:
+	LOAD #1, R2
+	FLOAT R2, R2
+	LOAD #2, R7
+	FLOAT R7, R7
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 4(R0), R13
+	STORE R13, 0(SP)
+; appel de methode2
+	ADDSP #2
+	LOAD -2(LB), R14
+	STORE R14, 0(SP)
+	LOAD -3(LB), R15
+	BOV pile_pleine
+	PUSH R10
+	LOAD #2, R10
+	FLOAT R10, R10
+	DIV R10, R15
+	BOV divisionErr
+	POP R10
+	STORE R15, -1(SP)
+	LOAD 0(SP), R14
+	CMP #null, R14
+	BEQ pile_pleine
+	LOAD 0(R14), R14
+	BSR 2(R14)
+	SUBSP #2
+	LOAD R0, R15
+	STORE R15, -1(SP)
+	LOAD #2, R15
+	STORE R15, -2(SP)
+	LOAD 0(SP), R13
+	CMP #null, R13
+	BEQ pile_pleine
+	LOAD 0(R13), R13
+	BSR 4(R13)
+	SUBSP #3
+	LOAD R0, R15
+	MUL R15, R7
+	BOV over_flow
+	SUB R7, R2
+	BOV over_flow
+	LOAD R2, R0
+IfThenElse_fin_a19621:
+IfThenElse_fin_a19221:
+IfThenElse_fin_a18816:
+IfThenElse_fin_a18317:
+IfThenElse_fin_a17112:
+	POP R2
+	POP R3
+	POP R5
+	POP R7
+	POP R9
+	POP R10
+	POP R11
+	POP R12
+	POP R13
+	POP R15
+	RTS
+code.Chebychev.getIndexActan:
+	PUSH R12
+	PUSH R11
+	PUSH R9
+	PUSH R5
+	PUSH R3
+	PUSH R2
+	LOAD #1, R9
+	STORE R9, 57(LB)
+While_cond_a20815:
+	LOAD 57(LB), R12
+	LOAD #9, R3
+	SUB R3, R12
+	LOAD R12, R1
+	BLT OpCmp_if_in_a20815
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a20815
+OpCmp_if_in_a20815:
+	LOAD #0, R1
+OpCmp_fin_in_a20815:
+	LOAD R1, R9
+	LOAD R9, R1
+	BNE While_fin_a20815
+	LOAD -3(LB), R5
+; appel de methode4
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 2(R0), R11
+	STORE R11, 0(SP)
+	LOAD 57(LB), R2
+	STORE R2, -1(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 4(R11)
+	SUBSP #2
+	LOAD R0, R2
+	SUB R2, R5
+	LOAD R5, R1
+	BLT OpCmp_if_in_a20916
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a20916
+OpCmp_if_in_a20916:
+	LOAD #0, R1
+OpCmp_fin_in_a20916:
+	LOAD R1, R12
+	LOAD R12, R1
+	BNE And_else_in_a20916
+; appel de methode4
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 2(R0), R2
+	STORE R2, 0(SP)
+	LOAD 57(LB), R5
+	LOAD #1, R11
+	SUB R11, R5
+	STORE R5, -1(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ pile_pleine
+	LOAD 0(R2), R2
+	BSR 4(R2)
+	SUBSP #2
+	LOAD R0, R5
+	LOAD -3(LB), R2
+	SUB R2, R5
+	LOAD R5, R1
+	BLT OpCmp_if_in_a20954
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a20954
+OpCmp_if_in_a20954:
+	LOAD #0, R1
+OpCmp_fin_in_a20954:
+	LOAD R1, R12
+	LOAD R12, R1
+	BNE And_else_in_a20916
+	LOAD #0, R1
+	BRA And_fin_in_a20916
+And_else_in_a20916:
+	LOAD #1, R1
+And_fin_in_a20916:
+	LOAD R1, R3
+	LOAD R3, R1
+	BNE IfThenElse_else_a20916
+	LOAD 57(LB), R12
+	LOAD R12, R0
+	BRA IfThenElse_fin_a20916
+IfThenElse_else_a20916:
+IfThenElse_fin_a20916:
+	LOAD 57(LB), R3
+	LOAD #1, R12
+	ADD R12, R3
+	STORE R3, 57(LB)
+	BRA While_cond_a20815
+While_fin_a20815:
+	LOAD 57(LB), R3
+	LOAD #9, R12
+	SUB R12, R3
+	LOAD R3, R1
+	BEQ OpCmp_if_in_a21412
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a21412
+OpCmp_if_in_a21412:
+	LOAD #0, R1
+OpCmp_fin_in_a21412:
+	LOAD R1, R9
+	LOAD R9, R1
+	BNE IfThenElse_else_a21412
+	LOAD 57(LB), R12
+	LOAD R12, R0
+	BRA IfThenElse_fin_a21412
+IfThenElse_else_a21412:
+IfThenElse_fin_a21412:
+	POP R2
+	POP R3
+	POP R5
+	POP R9
+	POP R11
+	POP R12
+	RTS
+code.Chebychev.arctanCheb:
+	PUSH R12
+	PUSH R11
+	PUSH R9
+	PUSH R5
+	PUSH R3
+	PUSH R2
+	LOAD #0x1.936bb8p-4, R9
+	STORE R9, 58(LB)
+	LOAD #0x1.921fb6p-4, R9
+	STORE R9, 59(LB)
+	LOAD #0, R9
+	STORE R9, 60(LB)
+	LOAD #0x0.0p0, R9
+	STORE R9, 61(LB)
+	LOAD #0x0.0p0, R9
+	STORE R9, 62(LB)
+	LOAD -3(LB), R12
+	LOAD #0, R3
+	FLOAT R3, R3
+	SUB R3, R12
+	LOAD R12, R1
+	BLT OpCmp_if_in_a22611
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a22611
+OpCmp_if_in_a22611:
+	LOAD #0, R1
+OpCmp_fin_in_a22611:
+	LOAD R1, R9
+	LOAD R9, R1
+	BNE IfThenElse_else_a22611
+; appel de methode5
+	ADDSP #2
+	LOAD -2(LB), R3
+	STORE R3, 0(SP)
+	LOAD -3(LB), R12
+	OPP R12, R12
+	STORE R12, -1(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 5(R3)
+	SUBSP #2
+	LOAD R0, R12
+	OPP R12, R12
+	LOAD R12, R0
+	BRA IfThenElse_fin_a22611
+IfThenElse_else_a22611:
+	LOAD -3(LB), R2
+	LOAD #0, R5
+	FLOAT R5, R5
+	SUB R5, R2
+	LOAD R2, R1
+	BGE OpCmp_if_in_a23017
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a23017
+OpCmp_if_in_a23017:
+	LOAD #0, R1
+OpCmp_fin_in_a23017:
+	LOAD R1, R3
+	LOAD R3, R1
+	BNE And_else_in_a23017
+	LOAD -3(LB), R5
+	LOAD 58(LB), R2
+	SUB R2, R5
+	LOAD R5, R1
+	BLE OpCmp_if_in_a23031
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a23031
+OpCmp_if_in_a23031:
+	LOAD #0, R1
+OpCmp_fin_in_a23031:
+	LOAD R1, R3
+	LOAD R3, R1
+	BNE And_else_in_a23017
+	LOAD #0, R1
+	BRA And_fin_in_a23017
+And_else_in_a23017:
+	LOAD #1, R1
+And_fin_in_a23017:
+	LOAD R1, R12
+	LOAD R12, R1
+	BNE IfThenElse_else_a23017
+; appel de methode2
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 6(R0), R3
+	STORE R3, 0(SP)
+	LOAD -3(LB), R2
+	STORE R2, -1(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 2(R3)
+	SUBSP #2
+	LOAD R0, R2
+	LOAD R2, R0
+	BRA IfThenElse_fin_a23017
+IfThenElse_else_a23017:
+; appel de methode4
+	ADDSP #2
+	LOAD -2(LB), R2
+	STORE R2, 0(SP)
+	LOAD -3(LB), R3
+	STORE R3, -1(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ pile_pleine
+	LOAD 0(R2), R2
+	BSR 4(R2)
+	SUBSP #2
+	LOAD R0, R3
+	STORE R3, 60(LB)
+; appel de methode5
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 2(R0), R3
+	STORE R3, 0(SP)
+	LOAD 60(LB), R2
+	LOAD #1, R5
+	SUB R5, R2
+	STORE R2, -1(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 5(R3)
+	SUBSP #2
+	LOAD R0, R2
+	STORE R2, 61(LB)
+	LOAD #1, R2
+	FLOAT R2, R2
+	LOAD 61(LB), R3
+	DIV R3, R2
+	BOV divisionErr
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 4(R0), R3
+	STORE R3, 0(SP)
+	LOAD 61(LB), R5
+	STORE R5, -1(SP)
+	LOAD #2, R5
+	OPP R5, R5
+	STORE R5, -2(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 4(R3)
+	SUBSP #3
+	LOAD R0, R5
+	LOAD #1, R3
+	FLOAT R3, R3
+	ADD R3, R5
+	BOV over_flow
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 4(R0), R3
+	STORE R3, 0(SP)
+	LOAD 61(LB), R11
+	STORE R11, -1(SP)
+	LOAD #1, R11
+	OPP R11, R11
+	STORE R11, -2(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ pile_pleine
+	LOAD 0(R3), R3
+	BSR 4(R3)
+	SUBSP #3
+	LOAD R0, R11
+	LOAD -3(LB), R3
+	ADD R3, R11
+	BOV over_flow
+	DIV R11, R5
+	BOV divisionErr
+	SUB R5, R2
+	BOV over_flow
+	STORE R2, 62(LB)
+	LOAD #2, R2
+	LOAD 60(LB), R5
+	MUL R5, R2
+	LOAD #2, R5
+	SUB R5, R2
+	FLOAT R2, R2
+	LOAD 59(LB), R5
+	MUL R5, R2
+	BOV over_flow
+; appel de methode5
+	ADDSP #2
+	LOAD -2(LB), R5
+	STORE R5, 0(SP)
+	LOAD 62(LB), R11
+	STORE R11, -1(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ pile_pleine
+	LOAD 0(R5), R5
+	BSR 5(R5)
+	SUBSP #2
+	LOAD R0, R11
+	ADD R11, R2
+	BOV over_flow
+	LOAD R2, R0
+IfThenElse_fin_a23017:
+IfThenElse_fin_a22611:
+	POP R2
+	POP R3
+	POP R5
+	POP R9
+	POP R11
+	POP R12
+	RTS
+code.Chebychev.arcsinCheb:
+	PUSH R9
+	PUSH R5
+	PUSH R2
+	LOAD -3(LB), R9
+; appel de methode2
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 4(R0), R12
+	STORE R12, 0(SP)
+	LOAD #0x1.0p0, R2
+; appel de methode4
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 4(R0), R11
+	STORE R11, 0(SP)
+	LOAD -3(LB), R5
+	STORE R5, -1(SP)
+	LOAD #2, R5
+	STORE R5, -2(SP)
+	LOAD 0(SP), R11
+	CMP #null, R11
+	BEQ pile_pleine
+	LOAD 0(R11), R11
+	BSR 4(R11)
+	SUBSP #3
+	LOAD R0, R5
+	SUB R5, R2
+	BOV over_flow
+	STORE R2, -1(SP)
+	LOAD 0(SP), R12
+	CMP #null, R12
+	BEQ pile_pleine
+	LOAD 0(R12), R12
+	BSR 2(R12)
+	SUBSP #2
+	LOAD R0, R2
+	DIV R2, R9
+	BOV divisionErr
+	STORE R9, 63(LB)
+; appel de methode5
+	ADDSP #2
+	LOAD -2(LB), R9
+	STORE R9, 0(SP)
+	LOAD 63(LB), R2
+	STORE R2, -1(SP)
+	LOAD 0(SP), R9
+	CMP #null, R9
+	BEQ pile_pleine
+	LOAD 0(R9), R9
+	BSR 5(R9)
+	SUBSP #2
+	LOAD R0, R2
+	STORE R2, 64(LB)
+	LOAD 64(LB), R2
+	LOAD R2, R0
+	POP R2
+	POP R5
+	POP R9
+	RTS
+init.Math:
+	LOAD #0x1.921fb4p1, R2
+	LOAD R2, R0
+	LOAD -2(LB), R1
+	STORE R0, 1(R1)
+; instruction new
+	NEW #8, R2
+	LEA 45(GB), R0
+	STORE R0, 0(R2)
+	PUSH R2
+	BSR init.Chebychev
+	POP R2
+	LOAD R2, R0
+	LOAD -2(LB), R1
+	STORE R0, 2(R1)
+; instruction new
+	NEW #2, R2
+	LEA 30(GB), R0
+	STORE R0, 0(R2)
+	PUSH R2
+	BSR init.Taylor
+	POP R2
+	LOAD R2, R0
+	LOAD -2(LB), R1
+	STORE R0, 3(R1)
+; instruction new
+	NEW #1, R2
+	LEA 3(GB), R0
+	STORE R0, 0(R2)
+	PUSH R2
+	BSR init.Methods
+	POP R2
+	LOAD R2, R0
+	LOAD -2(LB), R1
+	STORE R0, 4(R1)
+	RTS
+code.Math.sin:
+	PUSH R12
+	PUSH R9
+	PUSH R5
+	PUSH R2
+	LOAD -2(LB), R0
+	LOAD 1(R0), R2
+	LOAD #64, R9
+	FLOAT R9, R9
+	DIV R9, R2
+	BOV divisionErr
+	STORE R2, 65(LB)
+	LOAD -3(LB), R12
+	LOAD 65(LB), R5
+	SUB R5, R12
+	LOAD R12, R1
+	BLT OpCmp_if_in_a1412
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a1412
+OpCmp_if_in_a1412:
+	LOAD #0, R1
+OpCmp_fin_in_a1412:
+	LOAD R1, R9
+	LOAD R9, R1
+	BNE And_else_in_a1412
+	LOAD -3(LB), R5
+	LOAD 65(LB), R12
+	OPP R12, R12
+	SUB R12, R5
+	LOAD R5, R1
+	BGT OpCmp_if_in_a1429
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a1429
+OpCmp_if_in_a1429:
+	LOAD #0, R1
+OpCmp_fin_in_a1429:
+	LOAD R1, R9
+	LOAD R9, R1
+	BNE And_else_in_a1412
+	LOAD #0, R1
+	BRA And_fin_in_a1412
+And_else_in_a1412:
+	LOAD #1, R1
+And_fin_in_a1412:
+	LOAD R1, R2
+	LOAD R2, R1
+	BNE IfThenElse_else_a1412
+; appel de methode3
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 3(R0), R9
+	STORE R9, 0(SP)
+	LOAD -3(LB), R12
+	STORE R12, -1(SP)
+	LOAD #7, R12
+	STORE R12, -2(SP)
+	LOAD 0(SP), R9
+	CMP #null, R9
+	BEQ pile_pleine
+	LOAD 0(R9), R9
+	BSR 3(R9)
+	SUBSP #3
+	LOAD R0, R12
+	LOAD R12, R0
+	BRA IfThenElse_fin_a1412
+IfThenElse_else_a1412:
+; appel de methode2
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 2(R0), R12
+	STORE R12, 0(SP)
+	LOAD -3(LB), R9
+	STORE R9, -1(SP)
+	LOAD 0(SP), R12
+	CMP #null, R12
+	BEQ pile_pleine
+	LOAD 0(R12), R12
+	BSR 2(R12)
+	SUBSP #2
+	LOAD R0, R9
+	LOAD R9, R0
+IfThenElse_fin_a1412:
+	POP R2
+	POP R5
+	POP R9
+	POP R12
+	RTS
+code.Math.cos:
+	PUSH R12
+	PUSH R9
+	PUSH R5
+	PUSH R2
+	LOAD #0x1.99999ap-4, R2
+	LOAD -2(LB), R0
+	LOAD 1(R0), R9
+	LOAD #2, R12
+	FLOAT R12, R12
+	DIV R12, R9
+	BOV divisionErr
+	ADD R9, R2
+	BOV over_flow
+	STORE R2, 66(LB)
+	LOAD #0x1.99999ap-4, R2
+	OPP R2, R2
+	LOAD -2(LB), R0
+	LOAD 1(R0), R9
+	LOAD #2, R12
+	FLOAT R12, R12
+	DIV R12, R9
+	BOV divisionErr
+	ADD R9, R2
+	BOV over_flow
+	STORE R2, 67(LB)
+	LOAD -3(LB), R12
+	LOAD 66(LB), R5
+	SUB R5, R12
+	LOAD R12, R1
+	BLT OpCmp_if_in_a2612
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a2612
+OpCmp_if_in_a2612:
+	LOAD #0, R1
+OpCmp_fin_in_a2612:
+	LOAD R1, R9
+	LOAD R9, R1
+	BNE And_else_in_a2612
+	LOAD -3(LB), R5
+	LOAD 67(LB), R12
+	SUB R12, R5
+	LOAD R5, R1
+	BGT OpCmp_if_in_a2631
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a2631
+OpCmp_if_in_a2631:
+	LOAD #0, R1
+OpCmp_fin_in_a2631:
+	LOAD R1, R9
+	LOAD R9, R1
+	BNE And_else_in_a2612
+	LOAD #0, R1
+	BRA And_fin_in_a2612
+And_else_in_a2612:
+	LOAD #1, R1
+And_fin_in_a2612:
+	LOAD R1, R2
+	LOAD R2, R1
+	BNE IfThenElse_else_a2612
+; appel de methode5
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 3(R0), R9
+	STORE R9, 0(SP)
+	LOAD -3(LB), R12
+	STORE R12, -1(SP)
+	LOAD #7, R12
+	STORE R12, -2(SP)
+	LOAD 0(SP), R9
+	CMP #null, R9
+	BEQ pile_pleine
+	LOAD 0(R9), R9
+	BSR 5(R9)
+	SUBSP #3
+	LOAD R0, R12
+	LOAD R12, R0
+	BRA IfThenElse_fin_a2612
+IfThenElse_else_a2612:
+; appel de methode3
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 2(R0), R12
+	STORE R12, 0(SP)
+	LOAD -3(LB), R9
+	STORE R9, -1(SP)
+	LOAD 0(SP), R12
+	CMP #null, R12
+	BEQ pile_pleine
+	LOAD 0(R12), R12
+	BSR 3(R12)
+	SUBSP #2
+	LOAD R0, R9
+	LOAD R9, R0
+IfThenElse_fin_a2612:
+	POP R2
+	POP R5
+	POP R9
+	POP R12
+	RTS
+code.Math.arctan:
+	PUSH R12
+	PUSH R9
+	PUSH R5
+	PUSH R2
+	LOAD -3(LB), R12
+	LOAD #0x1.99999ap-2, R5
+	SUB R5, R12
+	LOAD R12, R1
+	BLT OpCmp_if_in_a3612
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a3612
+OpCmp_if_in_a3612:
+	LOAD #0, R1
+OpCmp_fin_in_a3612:
+	LOAD R1, R9
+	LOAD R9, R1
+	BNE And_else_in_a3612
+	LOAD -3(LB), R5
+	LOAD #0x1.99999ap-2, R12
+	OPP R12, R12
+	SUB R12, R5
+	LOAD R5, R1
+	BGT OpCmp_if_in_a3628
+	LOAD #1, R1
+	BRA OpCmp_fin_in_a3628
+OpCmp_if_in_a3628:
+	LOAD #0, R1
+OpCmp_fin_in_a3628:
+	LOAD R1, R9
+	LOAD R9, R1
+	BNE And_else_in_a3612
+	LOAD #0, R1
+	BRA And_fin_in_a3612
+And_else_in_a3612:
+	LOAD #1, R1
+And_fin_in_a3612:
+	LOAD R1, R2
+	LOAD R2, R1
+	BNE IfThenElse_else_a3612
+; appel de methode7
+	ADDSP #3
+	LOAD -2(LB), R0
+	LOAD 3(R0), R9
+	STORE R9, 0(SP)
+	LOAD -3(LB), R12
+	STORE R12, -1(SP)
+	LOAD #7, R12
+	STORE R12, -2(SP)
+	LOAD 0(SP), R9
+	CMP #null, R9
+	BEQ pile_pleine
+	LOAD 0(R9), R9
+	BSR 7(R9)
+	SUBSP #3
+	LOAD R0, R12
+	LOAD R12, R0
+	BRA IfThenElse_fin_a3612
+IfThenElse_else_a3612:
+; appel de methode5
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 2(R0), R12
+	STORE R12, 0(SP)
+	LOAD -3(LB), R9
+	STORE R9, -1(SP)
+	LOAD 0(SP), R12
+	CMP #null, R12
+	BEQ pile_pleine
+	LOAD 0(R12), R12
+	BSR 5(R12)
+	SUBSP #2
+	LOAD R0, R9
+	LOAD R9, R0
+IfThenElse_fin_a3612:
+	POP R2
+	POP R5
+	POP R9
+	POP R12
+	RTS
+code.Math.arcsin:
+	PUSH R9
+; appel de methode6
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 2(R0), R2
+	STORE R2, 0(SP)
+	LOAD -3(LB), R9
+	STORE R9, -1(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ pile_pleine
+	LOAD 0(R2), R2
+	BSR 6(R2)
+	SUBSP #2
+	LOAD R0, R9
+	LOAD R9, R0
+	POP R9
+	RTS
+code.Math.ulp:
+	PUSH R2
+; appel de methode6
+	ADDSP #2
+	LOAD -2(LB), R0
+	LOAD 4(R0), R9
+	STORE R9, 0(SP)
+	LOAD -3(LB), R2
+	STORE R2, -1(SP)
+	LOAD 0(SP), R9
+	CMP #null, R9
+	BEQ pile_pleine
+	LOAD 0(R9), R9
+	BSR 6(R9)
+	SUBSP #2
+	LOAD R0, R2
+	LOAD R2, R0
+	POP R2
+	RTS
+code.Object.equals:
+	PUSH R2
+	PUSH R9
+	LOAD -2(LB), R2
+	LOAD -3(LB), R9
+	CMP R2, R9
+	SNE R0
+	POP R9
+	POP R2
+	RTS
+pile_pleine:
+	WSTR "Error: Stack Overflow"
+	WNL
+	ERROR
+over_flow:
+	WSTR "Error: Overflow during arithmetic operation"
+	WNL
+	ERROR
+i0_error:
+	WSTR "Error: Input/Output error"
+	WNL
+	ERROR
+divisionErr:
+	WSTR "Error :Division par 0"
+	WNL
+	ERROR

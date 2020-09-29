@@ -1,0 +1,17 @@
+{
+int x = 13;
+if(x > 1){
+	if( (x >= 2) && ((x%2) == 0)){
+		println("x est sup à 2 et x est pair");
+	}
+	else{
+		println("x est impair");
+	}
+}
+else if(x == 1){
+	println( "x == 1");
+}
+else{
+	println("x est inf à 1"); 
+}
+}

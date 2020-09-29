@@ -1,0 +1,11 @@
+{
+float x2 = (-59.8) / (16061 + 42699) * (4 * 44.0) + (18.0 / 43);
+boolean b = (77 < 730) || (!false) || (3 > 4);
+float x4 = (7 / 83.5);
+int y = (85348 % 16061) * (-5);
+boolean c = (b || false);
+float x = (83.5 + 16061) / (7 + 176.24) * (-43) - (18.0 * y);
+print("Naruto", (323 + 8) - (-1), "One Piece", (85348 - 323));
+printlnx((6 * 43) + (344.97 - 85348) - (72.2 * 5) * (72.2 * x), "One Piece", "Bonjour");
+print("projetGL", "Bonjour", "Hinata", "نبيل بنصغير");
+}

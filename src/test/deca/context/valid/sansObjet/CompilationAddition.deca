@@ -1,0 +1,9 @@
+{
+    float x = 2020.0;
+    float y = 2020.0f;
+    int w = 2020;
+    int z = 2021;
+    x = y + x ;
+    w = z + 20;
+    x = y+w;
+}

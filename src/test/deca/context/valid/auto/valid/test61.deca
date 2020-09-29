@@ -1,0 +1,11 @@
+{
+float d;
+boolean x = (true && false);
+float b = (81 - 41774) / (99710.1711 / 17.6);
+int x5 = (-0) / (19 - 8) / (6 / 0) * (51 - 82596) / (-1);
+int x1 = (13327 * 1) / (82596 % 9) - (3 % 51) * (6025 / 8) + (-2172);
+println("One Piece", "Naruto");
+println((-1), "groupe 53");
+printlnx((19 / 81) / (-5) - (x5 % 492), "projetGL", "projetGL");
+println("Bonjour", "نبيل بنصغير", "Kakachi");
+}

@@ -1,0 +1,7 @@
+class OneVar{
+    int z;
+}
+{
+    OneVar var = new OneVar();
+    var.z= 1200;
+}

@@ -1,0 +1,19 @@
+class Y
+{
+  int y = 10;
+}
+class X extends Y
+{
+  protected int a;
+  boolean b = true;
+}
+
+
+class B extends X
+{
+  X x = new X();
+  float a = x.a;
+  }
+{
+  X x = new X();
+}

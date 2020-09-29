@@ -1,0 +1,7 @@
+{
+boolean c = (true || false) || (!true);
+boolean x3 = (!c) && (true && c) && (922 < 4) && (true && true);
+float x = (-8018);
+println((9305 * 0) * (-8), "رضوان");
+println("One Piece", "أيمن", "عمر", "أيمن");
+}

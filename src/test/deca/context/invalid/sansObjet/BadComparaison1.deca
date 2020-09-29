@@ -1,0 +1,6 @@
+{
+    String x;
+    if (x == "Hello"){
+        println("2020");
+    }
+}

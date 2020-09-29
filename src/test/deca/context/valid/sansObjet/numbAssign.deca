@@ -1,0 +1,18 @@
+/** @version 1.0
+    Title : use of : assign float int string
+*/
+{
+  int a;
+  float b;
+  boolean passed = true;
+  a = 100 / 2;
+  b = 19.75 - 3.5 + 1.25;
+  if (passed)
+  {
+    println("eee", a, b);
+  }
+  else
+  {
+    println("This is impossible");
+  }
+}

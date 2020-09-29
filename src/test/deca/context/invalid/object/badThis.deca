@@ -1,0 +1,20 @@
+class Y
+{
+
+}
+class X
+{
+  int a;
+  boolean b = true;
+}
+
+
+class B
+{
+  Y y = new Y();
+  float a;
+
+}
+{
+  Y e = this;
+}

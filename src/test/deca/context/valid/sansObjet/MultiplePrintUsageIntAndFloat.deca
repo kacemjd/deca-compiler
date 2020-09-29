@@ -1,0 +1,7 @@
+{
+    int x = 2020;
+    int y  = 2021;
+    float z = 2020.1f;
+    float w  = 2020.46f;
+    print("x = ",x,"y = ",y,"z = ",z,"w = ",w);
+}

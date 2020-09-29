@@ -1,0 +1,19 @@
+{
+int i = 7;
+int cpt = 0;
+int a = 0;
+int b = 1;
+int c = 0;
+while(cpt <= i){
+    if(cpt <2){
+        c = cpt;
+    }
+    else{
+        c = a+ b;
+        a= b;
+        b = c;
+    }
+    cpt = cpt + 1;
+}
+println(c);
+}

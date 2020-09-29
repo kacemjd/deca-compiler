@@ -1,0 +1,7 @@
+{
+    boolean a,b,c,d;
+    a = false;
+    b= true;
+    c = false;
+    a = c && b;
+}

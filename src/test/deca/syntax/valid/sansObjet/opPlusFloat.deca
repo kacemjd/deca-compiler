@@ -1,0 +1,5 @@
+{
+    float x = 1.235654;
+    float y = 1.2588;
+    float z = x + y;
+}

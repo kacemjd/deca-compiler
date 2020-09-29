@@ -1,0 +1,6 @@
+{
+    //float a = 0.1f;
+    //println("a",a);
+    float a =  3.4028235E38;
+
+}

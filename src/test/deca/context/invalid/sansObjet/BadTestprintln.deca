@@ -1,0 +1,9 @@
+{
+  int a = 0;
+  float b = 7;
+  println(a + b);
+  println(a % a);
+  println(b % b);
+  println(a - "ss");
+
+}

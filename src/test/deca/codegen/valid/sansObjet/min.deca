@@ -1,0 +1,10 @@
+{
+int y = 45;
+float z = 45.8;
+if(y > z){
+	println(z);
+}
+else{
+	println(y);
+}
+}

@@ -1,0 +1,14 @@
+{
+    int a;
+    int b;
+    if (a!=b){
+        print("Pas bon");
+    }else {
+        if (a==b){
+            print("Pas bon, aussi");
+        }
+        else{
+            print("La, OK :D");
+        }
+    }
+}

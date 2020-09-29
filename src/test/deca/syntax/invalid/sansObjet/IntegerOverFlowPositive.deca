@@ -1,0 +1,5 @@
+{
+    //  "Start test IntegerOverFlow avec INT_MAX = 2147483647"
+    int x_lim = 2147483647
+    int x = 2147483648;
+}

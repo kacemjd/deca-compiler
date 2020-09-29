@@ -1,0 +1,15 @@
+class X
+{
+  int a;
+}
+class A
+{
+  void a(int a){
+    return a;
+  }
+}
+
+class B extends A
+{
+  B c = new B();
+}

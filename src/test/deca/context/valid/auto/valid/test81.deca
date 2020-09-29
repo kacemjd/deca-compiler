@@ -1,0 +1,13 @@
+{
+int z = (-874) + (9962 % 6) * (230 % 8) / (3 - 3929);
+boolean x4 = (!false) || (true && false) || (true || true);
+int y;
+boolean x5 = (x4 && false) || (x4 && x4);
+boolean a;
+boolean c = (!true) && (a && true) || (19.4 <= 62028.4029) || (7 != z);
+int x3;
+float x2 = (4 * 91233.3055) - (6 - x3) + (z + 866.18) + (-y);
+boolean b;
+b = (!true) && (!a) || (b && x5) && (874 == x3) || (!x5);
+println((607 / 5) - (31375 + 3929) + (841 / 6) - (y / 5) / (-98218), "عمر", "test auto");
+}

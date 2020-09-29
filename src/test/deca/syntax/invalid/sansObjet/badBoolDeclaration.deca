@@ -1,0 +1,5 @@
+{
+    boolean x = false;
+    boolean y = true;
+    bolean z = x!!y;
+}

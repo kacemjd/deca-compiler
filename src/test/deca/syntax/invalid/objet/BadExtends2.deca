@@ -1,0 +1,9 @@
+class A extends A extends A{
+    int x;
+    int y;
+}
+{
+    A a = new A();
+    a.x;
+    a.y;
+}

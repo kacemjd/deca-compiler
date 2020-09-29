@@ -1,0 +1,16 @@
+//12
+class ratio{
+    int pgcd(int a, int b){
+        int c = 0;
+        while(a%b != 0){
+            c = a%b;
+            a =b;
+            b = c;
+        }
+        return b;
+    }
+}
+{
+ratio r = new ratio();
+println(r.pgcd(120, 36));
+}

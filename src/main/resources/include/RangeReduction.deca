@@ -1,0 +1,29 @@
+class RangeReduction {
+
+    float Pi = 3.1415926f;
+
+    float FirstReductionSin(float x){
+        float C1 = 3.140625f;
+        float C2 = 0.000967653589793f;
+        int k = (int) (x /Pi);
+        float result = x - k * C1;
+        result = result - k * C2;
+
+        if (k % 2 == 0){
+            return result;
+        }
+        else{
+            return -result;
+        }
+    }
+
+    float FirstReductionCos(float x){
+        float C1 = 3.140625f;
+        float C2 = 0.000967653589793f;
+        int k = (int) (x /Pi);
+        float result = x - k * C1;
+        result = result - k * C2;
+        return result;
+    }
+
+}

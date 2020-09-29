@@ -1,0 +1,11 @@
+class A{
+    int x;
+    int y;
+    int z;
+}
+{
+    A a = new A();
+    a.x= 20;
+    a.y = 20;
+    a.z= 2020;
+}

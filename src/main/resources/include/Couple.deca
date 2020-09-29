@@ -1,0 +1,18 @@
+class Couple {
+    int x;
+    int y;
+
+    int getX(){
+        return this.x;
+    }	
+    int getY(){
+        return this.y;
+    }
+
+    void setX(int xx){
+       this.x = xx; 
+    }
+    void setY(int yy){
+        this.y = yy;
+    }
+}

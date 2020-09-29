@@ -1,0 +1,13 @@
+//pingpongpingpongpingpongpingpong
+{
+int i = 0;
+while(i < 8){
+    if(i%2 == 0){
+        print("ping");
+    }
+    else{
+        print("pong");
+    }
+    i = i + 1;
+}
+}

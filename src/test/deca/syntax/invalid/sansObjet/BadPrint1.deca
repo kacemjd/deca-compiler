@@ -1,0 +1,6 @@
+{
+    boolean a = true;
+    int x = 2020;
+    float y = 2020.5f;
+    print(a b y);
+}

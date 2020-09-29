@@ -1,0 +1,31 @@
+/** @version 1.0
+    Title : Opérations de comparaisons
+*/
+{
+  // Declaration des variables
+  int a = 1;
+  float b = 15;
+  int z;
+  float y;
+  if (z < y)
+  {
+    println("Wa kari mashta");
+  }
+  if (a >= b)
+  {
+    println("naniiiiiiii");
+  }
+  if (b == 15)
+  {
+    println("yosh");
+  }
+  if (b != 15)
+  {
+    println("Baaaaaka");
+  }
+  if (z > 15)
+  {
+    println("yosh");
+  }
+
+}

@@ -1,0 +1,16 @@
+//5.20000e+00 2.00000e+00
+class A{
+	
+    float abs(float x){
+        if (x > 0.0F){
+            return x;
+        }
+	else{
+       	   return -x;
+	}
+    }
+}
+{
+A a= new A();
+println(a.abs(-5.2), a.abs(2));
+}

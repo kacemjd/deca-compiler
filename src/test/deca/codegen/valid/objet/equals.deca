@@ -1,0 +1,10 @@
+class A {
+}
+{
+A a = new A();
+A b;
+b = a;
+if(b.equals(a)){
+    println("ok");
+}
+}

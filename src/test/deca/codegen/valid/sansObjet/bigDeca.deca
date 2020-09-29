@@ -1,0 +1,8466 @@
+{
+int bb = 100;
+int bc = 100;
+int bd = 100;
+int bf = 100;
+int bg = 100;
+int bh = 100;
+int bj = 100;
+int bk = 100;
+int bl = 100;
+int bm = 100;
+int bn = 100;
+int bo = 100;
+int bp = 100;
+int bq = 100;
+int br = 100;
+int bs = 100;
+int bt = 100;
+int bu = 100;
+int bv = 100;
+int bw = 100;
+int bx = 100;
+int by = 100;
+int bz = 100;
+int cb = 100;
+int cc = 100;
+int cd = 100;
+int cf = 100;
+int cg = 100;
+int ch = 100;
+int cj = 100;
+int ck = 100;
+int cl = 100;
+int cm = 100;
+int cn = 100;
+int co = 100;
+int cp = 100;
+int cq = 100;
+int cr = 100;
+int cs = 100;
+int ct = 100;
+int cu = 100;
+int cv = 100;
+int cw = 100;
+int cx = 100;
+int cy = 100;
+int cz = 100;
+int db = 100;
+int dc = 100;
+int dd = 100;
+int df = 100;
+int dg = 100;
+int dh = 100;
+int dj = 100;
+int dk = 100;
+int dl = 100;
+int dm = 100;
+int dn = 100;
+int do = 100;
+int dp = 100;
+int dq = 100;
+int dr = 100;
+int ds = 100;
+int dt = 100;
+int du = 100;
+int dv = 100;
+int dw = 100;
+int dx = 100;
+int dy = 100;
+int dz = 100;
+int fb = 100;
+int fc = 100;
+int fd = 100;
+int ff = 100;
+int fg = 100;
+int fh = 100;
+int fj = 100;
+int fk = 100;
+int fl = 100;
+int fm = 100;
+int fn = 100;
+int fo = 100;
+int fp = 100;
+int fq = 100;
+int fr = 100;
+int fs = 100;
+int ft = 100;
+int fu = 100;
+int fv = 100;
+int fw = 100;
+int fx = 100;
+int fy = 100;
+int fz = 100;
+int gb = 100;
+int gc = 100;
+int gd = 100;
+int gf = 100;
+int gg = 100;
+int gh = 100;
+int gj = 100;
+int gk = 100;
+int gl = 100;
+int gm = 100;
+int gn = 100;
+int go = 100;
+int gp = 100;
+int gq = 100;
+int gr = 100;
+int gs = 100;
+int gt = 100;
+int gu = 100;
+int gv = 100;
+int gw = 100;
+int gx = 100;
+int gy = 100;
+int gz = 100;
+int hb = 100;
+int hc = 100;
+int hd = 100;
+int hf = 100;
+int hg = 100;
+int hh = 100;
+int hj = 100;
+int hk = 100;
+int hl = 100;
+int hm = 100;
+int hn = 100;
+int ho = 100;
+int hp = 100;
+int hq = 100;
+int hr = 100;
+int hs = 100;
+int ht = 100;
+int hu = 100;
+int hv = 100;
+int hw = 100;
+int hx = 100;
+int hy = 100;
+int hz = 100;
+int jb = 100;
+int jc = 100;
+int jd = 100;
+int jf = 100;
+int jg = 100;
+int jh = 100;
+int jj = 100;
+int jk = 100;
+int jl = 100;
+int jm = 100;
+int jn = 100;
+int jo = 100;
+int jp = 100;
+int jq = 100;
+int jr = 100;
+int js = 100;
+int jt = 100;
+int ju = 100;
+int jv = 100;
+int jw = 100;
+int jx = 100;
+int jy = 100;
+int jz = 100;
+int kb = 100;
+int kc = 100;
+int kd = 100;
+int kf = 100;
+int kg = 100;
+int kh = 100;
+int kj = 100;
+int kk = 100;
+int kl = 100;
+int km = 100;
+int kn = 100;
+int ko = 100;
+int kp = 100;
+int kq = 100;
+int kr = 100;
+int ks = 100;
+int kt = 100;
+int ku = 100;
+int kv = 100;
+int kw = 100;
+int kx = 100;
+int ky = 100;
+int kz = 100;
+int lb = 100;
+int lc = 100;
+int ld = 100;
+int lf = 100;
+int lg = 100;
+int lh = 100;
+int lj = 100;
+int lk = 100;
+int ll = 100;
+int lm = 100;
+int ln = 100;
+int lo = 100;
+int lp = 100;
+int lq = 100;
+int lr = 100;
+int ls = 100;
+int lt = 100;
+int lu = 100;
+int lv = 100;
+int lw = 100;
+int lx = 100;
+int ly = 100;
+int lz = 100;
+int mb = 100;
+int mc = 100;
+int md = 100;
+int mf = 100;
+int mg = 100;
+int mh = 100;
+int mj = 100;
+int mk = 100;
+int ml = 100;
+int mm = 100;
+int mn = 100;
+int mo = 100;
+int mp = 100;
+int mq = 100;
+int mr = 100;
+int ms = 100;
+int mt = 100;
+int mu = 100;
+int mv = 100;
+int mw = 100;
+int mx = 100;
+int my = 100;
+int mz = 100;
+int nb = 100;
+int nc = 100;
+int nd = 100;
+int nf = 100;
+int ng = 100;
+int nh = 100;
+int nj = 100;
+int nk = 100;
+int nl = 100;
+int nm = 100;
+int nn = 100;
+int no = 100;
+int np = 100;
+int nq = 100;
+int nr = 100;
+int ns = 100;
+int nt = 100;
+int nu = 100;
+int nv = 100;
+int nw = 100;
+int nx = 100;
+int ny = 100;
+int nz = 100;
+int ob = 100;
+int oc = 100;
+int od = 100;
+int of = 100;
+int og = 100;
+int oh = 100;
+int oj = 100;
+int ok = 100;
+int ol = 100;
+int om = 100;
+int on = 100;
+int oo = 100;
+int op = 100;
+int oq = 100;
+int or = 100;
+int os = 100;
+int ot = 100;
+int ou = 100;
+int ov = 100;
+int ow = 100;
+int ox = 100;
+int oy = 100;
+int oz = 100;
+int pb = 100;
+int pc = 100;
+int pd = 100;
+int pf = 100;
+int pg = 100;
+int ph = 100;
+int pj = 100;
+int pk = 100;
+int pl = 100;
+int pm = 100;
+int pn = 100;
+int po = 100;
+int pp = 100;
+int pq = 100;
+int pr = 100;
+int ps = 100;
+int pt = 100;
+int pu = 100;
+int pv = 100;
+int pw = 100;
+int px = 100;
+int py = 100;
+int pz = 100;
+int qb = 100;
+int qc = 100;
+int qd = 100;
+int qf = 100;
+int qg = 100;
+int qh = 100;
+int qj = 100;
+int qk = 100;
+int ql = 100;
+int qm = 100;
+int qn = 100;
+int qo = 100;
+int qp = 100;
+int qq = 100;
+int qr = 100;
+int qs = 100;
+int qt = 100;
+int qu = 100;
+int qv = 100;
+int qw = 100;
+int qx = 100;
+int qy = 100;
+int qz = 100;
+int rb = 100;
+int rc = 100;
+int rd = 100;
+int rf = 100;
+int rg = 100;
+int rh = 100;
+int rj = 100;
+int rk = 100;
+int rl = 100;
+int rm = 100;
+int rn = 100;
+int ro = 100;
+int rp = 100;
+int rq = 100;
+int rr = 100;
+int rs = 100;
+int rt = 100;
+int ru = 100;
+int rv = 100;
+int rw = 100;
+int rx = 100;
+int ry = 100;
+int rz = 100;
+int sb = 100;
+int sc = 100;
+int sd = 100;
+int sf = 100;
+int sg = 100;
+int sh = 100;
+int sj = 100;
+int sk = 100;
+int sl = 100;
+int sm = 100;
+int sn = 100;
+int so = 100;
+int sp = 100;
+int sq = 100;
+int sr = 100;
+int ss = 100;
+int st = 100;
+int su = 100;
+int sv = 100;
+int sw = 100;
+int sx = 100;
+int sy = 100;
+int sz = 100;
+int tb = 100;
+int tc = 100;
+int td = 100;
+int tf = 100;
+int tg = 100;
+int th = 100;
+int tj = 100;
+int tk = 100;
+int tl = 100;
+int tm = 100;
+int tn = 100;
+int to = 100;
+int tp = 100;
+int tq = 100;
+int tr = 100;
+int ts = 100;
+int tt = 100;
+int tu = 100;
+int tv = 100;
+int tw = 100;
+int tx = 100;
+int ty = 100;
+int tz = 100;
+int ub = 100;
+int uc = 100;
+int ud = 100;
+int uf = 100;
+int ug = 100;
+int uh = 100;
+int uj = 100;
+int uk = 100;
+int ul = 100;
+int um = 100;
+int un = 100;
+int uo = 100;
+int up = 100;
+int uq = 100;
+int ur = 100;
+int us = 100;
+int ut = 100;
+int uu = 100;
+int uv = 100;
+int uw = 100;
+int ux = 100;
+int uy = 100;
+int uz = 100;
+int vb = 100;
+int vc = 100;
+int vd = 100;
+int vf = 100;
+int vg = 100;
+int vh = 100;
+int vj = 100;
+int vk = 100;
+int vl = 100;
+int vm = 100;
+int vn = 100;
+int vo = 100;
+int vp = 100;
+int vq = 100;
+int vr = 100;
+int vs = 100;
+int vt = 100;
+int vu = 100;
+int vv = 100;
+int vw = 100;
+int vx = 100;
+int vy = 100;
+int vz = 100;
+int wb = 100;
+int wc = 100;
+int wd = 100;
+int wf = 100;
+int wg = 100;
+int wh = 100;
+int wj = 100;
+int wk = 100;
+int wl = 100;
+int wm = 100;
+int wn = 100;
+int wo = 100;
+int wp = 100;
+int wq = 100;
+int wr = 100;
+int ws = 100;
+int wt = 100;
+int wu = 100;
+int wv = 100;
+int ww = 100;
+int wx = 100;
+int wy = 100;
+int wz = 100;
+int xb = 100;
+int xc = 100;
+int xd = 100;
+int xf = 100;
+int xg = 100;
+int xh = 100;
+int xj = 100;
+int xk = 100;
+int xl = 100;
+int xm = 100;
+int xn = 100;
+int xo = 100;
+int xp = 100;
+int xq = 100;
+int xr = 100;
+int xs = 100;
+int xt = 100;
+int xu = 100;
+int xv = 100;
+int xw = 100;
+int xx = 100;
+int xy = 100;
+int xz = 100;
+int yb = 100;
+int yc = 100;
+int yd = 100;
+int yf = 100;
+int yg = 100;
+int yh = 100;
+int yj = 100;
+int yk = 100;
+int yl = 100;
+int ym = 100;
+int yn = 100;
+int yo = 100;
+int yp = 100;
+int yq = 100;
+int yr = 100;
+int ys = 100;
+int yt = 100;
+int yu = 100;
+int yv = 100;
+int yw = 100;
+int yx = 100;
+int yy = 100;
+int yz = 100;
+int zb = 100;
+int zc = 100;
+int zd = 100;
+int zf = 100;
+int zg = 100;
+int zh = 100;
+int zj = 100;
+int zk = 100;
+int zl = 100;
+int zm = 100;
+int zn = 100;
+int zo = 100;
+int zp = 100;
+int zq = 100;
+int zr = 100;
+int zs = 100;
+int zt = 100;
+int zu = 100;
+int zv = 100;
+int zw = 100;
+int zx = 100;
+int zy = 100;
+int zz = 100;
+
+        while (bb>1 && (bb>0 && bb>2)){
+            println(bb); bb = bb -1;
+            }
+        
+
+        while (bc>1 && (bc>0 && bc>2)){
+            println(bc); bc = bc -1;
+            }
+        
+
+        while (bd>1 && (bd>0 && bd>2)){
+            println(bd); bd = bd -1;
+            }
+        
+
+        while (bf>1 && (bf>0 && bf>2)){
+            println(bf); bf = bf -1;
+            }
+        
+
+        while (bg>1 && (bg>0 && bg>2)){
+            println(bg); bg = bg -1;
+            }
+        
+
+        while (bh>1 && (bh>0 && bh>2)){
+            println(bh); bh = bh -1;
+            }
+        
+
+        while (bj>1 && (bj>0 && bj>2)){
+            println(bj); bj = bj -1;
+            }
+        
+
+        while (bk>1 && (bk>0 && bk>2)){
+            println(bk); bk = bk -1;
+            }
+        
+
+        while (bl>1 && (bl>0 && bl>2)){
+            println(bl); bl = bl -1;
+            }
+        
+
+        while (bm>1 && (bm>0 && bm>2)){
+            println(bm); bm = bm -1;
+            }
+        
+
+        while (bn>1 && (bn>0 && bn>2)){
+            println(bn); bn = bn -1;
+            }
+        
+
+        while (bo>1 && (bo>0 && bo>2)){
+            println(bo); bo = bo -1;
+            }
+        
+
+        while (bp>1 && (bp>0 && bp>2)){
+            println(bp); bp = bp -1;
+            }
+        
+
+        while (bq>1 && (bq>0 && bq>2)){
+            println(bq); bq = bq -1;
+            }
+        
+
+        while (br>1 && (br>0 && br>2)){
+            println(br); br = br -1;
+            }
+        
+
+        while (bs>1 && (bs>0 && bs>2)){
+            println(bs); bs = bs -1;
+            }
+        
+
+        while (bt>1 && (bt>0 && bt>2)){
+            println(bt); bt = bt -1;
+            }
+        
+
+        while (bu>1 && (bu>0 && bu>2)){
+            println(bu); bu = bu -1;
+            }
+        
+
+        while (bv>1 && (bv>0 && bv>2)){
+            println(bv); bv = bv -1;
+            }
+        
+
+        while (bw>1 && (bw>0 && bw>2)){
+            println(bw); bw = bw -1;
+            }
+        
+
+        while (bx>1 && (bx>0 && bx>2)){
+            println(bx); bx = bx -1;
+            }
+        
+
+        while (by>1 && (by>0 && by>2)){
+            println(by); by = by -1;
+            }
+        
+
+        while (bz>1 && (bz>0 && bz>2)){
+            println(bz); bz = bz -1;
+            }
+        
+
+        while (cb>1 && (cb>0 && cb>2)){
+            println(cb); cb = cb -1;
+            }
+        
+
+        while (cc>1 && (cc>0 && cc>2)){
+            println(cc); cc = cc -1;
+            }
+        
+
+        while (cd>1 && (cd>0 && cd>2)){
+            println(cd); cd = cd -1;
+            }
+        
+
+        while (cf>1 && (cf>0 && cf>2)){
+            println(cf); cf = cf -1;
+            }
+        
+
+        while (cg>1 && (cg>0 && cg>2)){
+            println(cg); cg = cg -1;
+            }
+        
+
+        while (ch>1 && (ch>0 && ch>2)){
+            println(ch); ch = ch -1;
+            }
+        
+
+        while (cj>1 && (cj>0 && cj>2)){
+            println(cj); cj = cj -1;
+            }
+        
+
+        while (ck>1 && (ck>0 && ck>2)){
+            println(ck); ck = ck -1;
+            }
+        
+
+        while (cl>1 && (cl>0 && cl>2)){
+            println(cl); cl = cl -1;
+            }
+        
+
+        while (cm>1 && (cm>0 && cm>2)){
+            println(cm); cm = cm -1;
+            }
+        
+
+        while (cn>1 && (cn>0 && cn>2)){
+            println(cn); cn = cn -1;
+            }
+        
+
+        while (co>1 && (co>0 && co>2)){
+            println(co); co = co -1;
+            }
+        
+
+        while (cp>1 && (cp>0 && cp>2)){
+            println(cp); cp = cp -1;
+            }
+        
+
+        while (cq>1 && (cq>0 && cq>2)){
+            println(cq); cq = cq -1;
+            }
+        
+
+        while (cr>1 && (cr>0 && cr>2)){
+            println(cr); cr = cr -1;
+            }
+        
+
+        while (cs>1 && (cs>0 && cs>2)){
+            println(cs); cs = cs -1;
+            }
+        
+
+        while (ct>1 && (ct>0 && ct>2)){
+            println(ct); ct = ct -1;
+            }
+        
+
+        while (cu>1 && (cu>0 && cu>2)){
+            println(cu); cu = cu -1;
+            }
+        
+
+        while (cv>1 && (cv>0 && cv>2)){
+            println(cv); cv = cv -1;
+            }
+        
+
+        while (cw>1 && (cw>0 && cw>2)){
+            println(cw); cw = cw -1;
+            }
+        
+
+        while (cx>1 && (cx>0 && cx>2)){
+            println(cx); cx = cx -1;
+            }
+        
+
+        while (cy>1 && (cy>0 && cy>2)){
+            println(cy); cy = cy -1;
+            }
+        
+
+        while (cz>1 && (cz>0 && cz>2)){
+            println(cz); cz = cz -1;
+            }
+        
+
+        while (db>1 && (db>0 && db>2)){
+            println(db); db = db -1;
+            }
+        
+
+        while (dc>1 && (dc>0 && dc>2)){
+            println(dc); dc = dc -1;
+            }
+        
+
+        while (dd>1 && (dd>0 && dd>2)){
+            println(dd); dd = dd -1;
+            }
+        
+
+        while (df>1 && (df>0 && df>2)){
+            println(df); df = df -1;
+            }
+        
+
+        while (dg>1 && (dg>0 && dg>2)){
+            println(dg); dg = dg -1;
+            }
+        
+
+        while (dh>1 && (dh>0 && dh>2)){
+            println(dh); dh = dh -1;
+            }
+        
+
+        while (dj>1 && (dj>0 && dj>2)){
+            println(dj); dj = dj -1;
+            }
+        
+
+        while (dk>1 && (dk>0 && dk>2)){
+            println(dk); dk = dk -1;
+            }
+        
+
+        while (dl>1 && (dl>0 && dl>2)){
+            println(dl); dl = dl -1;
+            }
+        
+
+        while (dm>1 && (dm>0 && dm>2)){
+            println(dm); dm = dm -1;
+            }
+        
+
+        while (dn>1 && (dn>0 && dn>2)){
+            println(dn); dn = dn -1;
+            }
+        
+
+        while (do>1 && (do>0 && do>2)){
+            println(do); do = do -1;
+            }
+        
+
+        while (dp>1 && (dp>0 && dp>2)){
+            println(dp); dp = dp -1;
+            }
+        
+
+        while (dq>1 && (dq>0 && dq>2)){
+            println(dq); dq = dq -1;
+            }
+        
+
+        while (dr>1 && (dr>0 && dr>2)){
+            println(dr); dr = dr -1;
+            }
+        
+
+        while (ds>1 && (ds>0 && ds>2)){
+            println(ds); ds = ds -1;
+            }
+        
+
+        while (dt>1 && (dt>0 && dt>2)){
+            println(dt); dt = dt -1;
+            }
+        
+
+        while (du>1 && (du>0 && du>2)){
+            println(du); du = du -1;
+            }
+        
+
+        while (dv>1 && (dv>0 && dv>2)){
+            println(dv); dv = dv -1;
+            }
+        
+
+        while (dw>1 && (dw>0 && dw>2)){
+            println(dw); dw = dw -1;
+            }
+        
+
+        while (dx>1 && (dx>0 && dx>2)){
+            println(dx); dx = dx -1;
+            }
+        
+
+        while (dy>1 && (dy>0 && dy>2)){
+            println(dy); dy = dy -1;
+            }
+        
+
+        while (dz>1 && (dz>0 && dz>2)){
+            println(dz); dz = dz -1;
+            }
+        
+
+        while (fb>1 && (fb>0 && fb>2)){
+            println(fb); fb = fb -1;
+            }
+        
+
+        while (fc>1 && (fc>0 && fc>2)){
+            println(fc); fc = fc -1;
+            }
+        
+
+        while (fd>1 && (fd>0 && fd>2)){
+            println(fd); fd = fd -1;
+            }
+        
+
+        while (ff>1 && (ff>0 && ff>2)){
+            println(ff); ff = ff -1;
+            }
+        
+
+        while (fg>1 && (fg>0 && fg>2)){
+            println(fg); fg = fg -1;
+            }
+        
+
+        while (fh>1 && (fh>0 && fh>2)){
+            println(fh); fh = fh -1;
+            }
+        
+
+        while (fj>1 && (fj>0 && fj>2)){
+            println(fj); fj = fj -1;
+            }
+        
+
+        while (fk>1 && (fk>0 && fk>2)){
+            println(fk); fk = fk -1;
+            }
+        
+
+        while (fl>1 && (fl>0 && fl>2)){
+            println(fl); fl = fl -1;
+            }
+        
+
+        while (fm>1 && (fm>0 && fm>2)){
+            println(fm); fm = fm -1;
+            }
+        
+
+        while (fn>1 && (fn>0 && fn>2)){
+            println(fn); fn = fn -1;
+            }
+        
+
+        while (fo>1 && (fo>0 && fo>2)){
+            println(fo); fo = fo -1;
+            }
+        
+
+        while (fp>1 && (fp>0 && fp>2)){
+            println(fp); fp = fp -1;
+            }
+        
+
+        while (fq>1 && (fq>0 && fq>2)){
+            println(fq); fq = fq -1;
+            }
+        
+
+        while (fr>1 && (fr>0 && fr>2)){
+            println(fr); fr = fr -1;
+            }
+        
+
+        while (fs>1 && (fs>0 && fs>2)){
+            println(fs); fs = fs -1;
+            }
+        
+
+        while (ft>1 && (ft>0 && ft>2)){
+            println(ft); ft = ft -1;
+            }
+        
+
+        while (fu>1 && (fu>0 && fu>2)){
+            println(fu); fu = fu -1;
+            }
+        
+
+        while (fv>1 && (fv>0 && fv>2)){
+            println(fv); fv = fv -1;
+            }
+        
+
+        while (fw>1 && (fw>0 && fw>2)){
+            println(fw); fw = fw -1;
+            }
+        
+
+        while (fx>1 && (fx>0 && fx>2)){
+            println(fx); fx = fx -1;
+            }
+        
+
+        while (fy>1 && (fy>0 && fy>2)){
+            println(fy); fy = fy -1;
+            }
+        
+
+        while (fz>1 && (fz>0 && fz>2)){
+            println(fz); fz = fz -1;
+            }
+        
+
+        while (gb>1 && (gb>0 && gb>2)){
+            println(gb); gb = gb -1;
+            }
+        
+
+        while (gc>1 && (gc>0 && gc>2)){
+            println(gc); gc = gc -1;
+            }
+        
+
+        while (gd>1 && (gd>0 && gd>2)){
+            println(gd); gd = gd -1;
+            }
+        
+
+        while (gf>1 && (gf>0 && gf>2)){
+            println(gf); gf = gf -1;
+            }
+        
+
+        while (gg>1 && (gg>0 && gg>2)){
+            println(gg); gg = gg -1;
+            }
+        
+
+        while (gh>1 && (gh>0 && gh>2)){
+            println(gh); gh = gh -1;
+            }
+        
+
+        while (gj>1 && (gj>0 && gj>2)){
+            println(gj); gj = gj -1;
+            }
+        
+
+        while (gk>1 && (gk>0 && gk>2)){
+            println(gk); gk = gk -1;
+            }
+        
+
+        while (gl>1 && (gl>0 && gl>2)){
+            println(gl); gl = gl -1;
+            }
+        
+
+        while (gm>1 && (gm>0 && gm>2)){
+            println(gm); gm = gm -1;
+            }
+        
+
+        while (gn>1 && (gn>0 && gn>2)){
+            println(gn); gn = gn -1;
+            }
+        
+
+        while (go>1 && (go>0 && go>2)){
+            println(go); go = go -1;
+            }
+        
+
+        while (gp>1 && (gp>0 && gp>2)){
+            println(gp); gp = gp -1;
+            }
+        
+
+        while (gq>1 && (gq>0 && gq>2)){
+            println(gq); gq = gq -1;
+            }
+        
+
+        while (gr>1 && (gr>0 && gr>2)){
+            println(gr); gr = gr -1;
+            }
+        
+
+        while (gs>1 && (gs>0 && gs>2)){
+            println(gs); gs = gs -1;
+            }
+        
+
+        while (gt>1 && (gt>0 && gt>2)){
+            println(gt); gt = gt -1;
+            }
+        
+
+        while (gu>1 && (gu>0 && gu>2)){
+            println(gu); gu = gu -1;
+            }
+        
+
+        while (gv>1 && (gv>0 && gv>2)){
+            println(gv); gv = gv -1;
+            }
+        
+
+        while (gw>1 && (gw>0 && gw>2)){
+            println(gw); gw = gw -1;
+            }
+        
+
+        while (gx>1 && (gx>0 && gx>2)){
+            println(gx); gx = gx -1;
+            }
+        
+
+        while (gy>1 && (gy>0 && gy>2)){
+            println(gy); gy = gy -1;
+            }
+        
+
+        while (gz>1 && (gz>0 && gz>2)){
+            println(gz); gz = gz -1;
+            }
+        
+
+        while (hb>1 && (hb>0 && hb>2)){
+            println(hb); hb = hb -1;
+            }
+        
+
+        while (hc>1 && (hc>0 && hc>2)){
+            println(hc); hc = hc -1;
+            }
+        
+
+        while (hd>1 && (hd>0 && hd>2)){
+            println(hd); hd = hd -1;
+            }
+        
+
+        while (hf>1 && (hf>0 && hf>2)){
+            println(hf); hf = hf -1;
+            }
+        
+
+        while (hg>1 && (hg>0 && hg>2)){
+            println(hg); hg = hg -1;
+            }
+        
+
+        while (hh>1 && (hh>0 && hh>2)){
+            println(hh); hh = hh -1;
+            }
+        
+
+        while (hj>1 && (hj>0 && hj>2)){
+            println(hj); hj = hj -1;
+            }
+        
+
+        while (hk>1 && (hk>0 && hk>2)){
+            println(hk); hk = hk -1;
+            }
+        
+
+        while (hl>1 && (hl>0 && hl>2)){
+            println(hl); hl = hl -1;
+            }
+        
+
+        while (hm>1 && (hm>0 && hm>2)){
+            println(hm); hm = hm -1;
+            }
+        
+
+        while (hn>1 && (hn>0 && hn>2)){
+            println(hn); hn = hn -1;
+            }
+        
+
+        while (ho>1 && (ho>0 && ho>2)){
+            println(ho); ho = ho -1;
+            }
+        
+
+        while (hp>1 && (hp>0 && hp>2)){
+            println(hp); hp = hp -1;
+            }
+        
+
+        while (hq>1 && (hq>0 && hq>2)){
+            println(hq); hq = hq -1;
+            }
+        
+
+        while (hr>1 && (hr>0 && hr>2)){
+            println(hr); hr = hr -1;
+            }
+        
+
+        while (hs>1 && (hs>0 && hs>2)){
+            println(hs); hs = hs -1;
+            }
+        
+
+        while (ht>1 && (ht>0 && ht>2)){
+            println(ht); ht = ht -1;
+            }
+        
+
+        while (hu>1 && (hu>0 && hu>2)){
+            println(hu); hu = hu -1;
+            }
+        
+
+        while (hv>1 && (hv>0 && hv>2)){
+            println(hv); hv = hv -1;
+            }
+        
+
+        while (hw>1 && (hw>0 && hw>2)){
+            println(hw); hw = hw -1;
+            }
+        
+
+        while (hx>1 && (hx>0 && hx>2)){
+            println(hx); hx = hx -1;
+            }
+        
+
+        while (hy>1 && (hy>0 && hy>2)){
+            println(hy); hy = hy -1;
+            }
+        
+
+        while (hz>1 && (hz>0 && hz>2)){
+            println(hz); hz = hz -1;
+            }
+        
+
+        while (jb>1 && (jb>0 && jb>2)){
+            println(jb); jb = jb -1;
+            }
+        
+
+        while (jc>1 && (jc>0 && jc>2)){
+            println(jc); jc = jc -1;
+            }
+        
+
+        while (jd>1 && (jd>0 && jd>2)){
+            println(jd); jd = jd -1;
+            }
+        
+
+        while (jf>1 && (jf>0 && jf>2)){
+            println(jf); jf = jf -1;
+            }
+        
+
+        while (jg>1 && (jg>0 && jg>2)){
+            println(jg); jg = jg -1;
+            }
+        
+
+        while (jh>1 && (jh>0 && jh>2)){
+            println(jh); jh = jh -1;
+            }
+        
+
+        while (jj>1 && (jj>0 && jj>2)){
+            println(jj); jj = jj -1;
+            }
+        
+
+        while (jk>1 && (jk>0 && jk>2)){
+            println(jk); jk = jk -1;
+            }
+        
+
+        while (jl>1 && (jl>0 && jl>2)){
+            println(jl); jl = jl -1;
+            }
+        
+
+        while (jm>1 && (jm>0 && jm>2)){
+            println(jm); jm = jm -1;
+            }
+        
+
+        while (jn>1 && (jn>0 && jn>2)){
+            println(jn); jn = jn -1;
+            }
+        
+
+        while (jo>1 && (jo>0 && jo>2)){
+            println(jo); jo = jo -1;
+            }
+        
+
+        while (jp>1 && (jp>0 && jp>2)){
+            println(jp); jp = jp -1;
+            }
+        
+
+        while (jq>1 && (jq>0 && jq>2)){
+            println(jq); jq = jq -1;
+            }
+        
+
+        while (jr>1 && (jr>0 && jr>2)){
+            println(jr); jr = jr -1;
+            }
+        
+
+        while (js>1 && (js>0 && js>2)){
+            println(js); js = js -1;
+            }
+        
+
+        while (jt>1 && (jt>0 && jt>2)){
+            println(jt); jt = jt -1;
+            }
+        
+
+        while (ju>1 && (ju>0 && ju>2)){
+            println(ju); ju = ju -1;
+            }
+        
+
+        while (jv>1 && (jv>0 && jv>2)){
+            println(jv); jv = jv -1;
+            }
+        
+
+        while (jw>1 && (jw>0 && jw>2)){
+            println(jw); jw = jw -1;
+            }
+        
+
+        while (jx>1 && (jx>0 && jx>2)){
+            println(jx); jx = jx -1;
+            }
+        
+
+        while (jy>1 && (jy>0 && jy>2)){
+            println(jy); jy = jy -1;
+            }
+        
+
+        while (jz>1 && (jz>0 && jz>2)){
+            println(jz); jz = jz -1;
+            }
+        
+
+        while (kb>1 && (kb>0 && kb>2)){
+            println(kb); kb = kb -1;
+            }
+        
+
+        while (kc>1 && (kc>0 && kc>2)){
+            println(kc); kc = kc -1;
+            }
+        
+
+        while (kd>1 && (kd>0 && kd>2)){
+            println(kd); kd = kd -1;
+            }
+        
+
+        while (kf>1 && (kf>0 && kf>2)){
+            println(kf); kf = kf -1;
+            }
+        
+
+        while (kg>1 && (kg>0 && kg>2)){
+            println(kg); kg = kg -1;
+            }
+        
+
+        while (kh>1 && (kh>0 && kh>2)){
+            println(kh); kh = kh -1;
+            }
+        
+
+        while (kj>1 && (kj>0 && kj>2)){
+            println(kj); kj = kj -1;
+            }
+        
+
+        while (kk>1 && (kk>0 && kk>2)){
+            println(kk); kk = kk -1;
+            }
+        
+
+        while (kl>1 && (kl>0 && kl>2)){
+            println(kl); kl = kl -1;
+            }
+        
+
+        while (km>1 && (km>0 && km>2)){
+            println(km); km = km -1;
+            }
+        
+
+        while (kn>1 && (kn>0 && kn>2)){
+            println(kn); kn = kn -1;
+            }
+        
+
+        while (ko>1 && (ko>0 && ko>2)){
+            println(ko); ko = ko -1;
+            }
+        
+
+        while (kp>1 && (kp>0 && kp>2)){
+            println(kp); kp = kp -1;
+            }
+        
+
+        while (kq>1 && (kq>0 && kq>2)){
+            println(kq); kq = kq -1;
+            }
+        
+
+        while (kr>1 && (kr>0 && kr>2)){
+            println(kr); kr = kr -1;
+            }
+        
+
+        while (ks>1 && (ks>0 && ks>2)){
+            println(ks); ks = ks -1;
+            }
+        
+
+        while (kt>1 && (kt>0 && kt>2)){
+            println(kt); kt = kt -1;
+            }
+        
+
+        while (ku>1 && (ku>0 && ku>2)){
+            println(ku); ku = ku -1;
+            }
+        
+
+        while (kv>1 && (kv>0 && kv>2)){
+            println(kv); kv = kv -1;
+            }
+        
+
+        while (kw>1 && (kw>0 && kw>2)){
+            println(kw); kw = kw -1;
+            }
+        
+
+        while (kx>1 && (kx>0 && kx>2)){
+            println(kx); kx = kx -1;
+            }
+        
+
+        while (ky>1 && (ky>0 && ky>2)){
+            println(ky); ky = ky -1;
+            }
+        
+
+        while (kz>1 && (kz>0 && kz>2)){
+            println(kz); kz = kz -1;
+            }
+        
+
+        while (lb>1 && (lb>0 && lb>2)){
+            println(lb); lb = lb -1;
+            }
+        
+
+        while (lc>1 && (lc>0 && lc>2)){
+            println(lc); lc = lc -1;
+            }
+        
+
+        while (ld>1 && (ld>0 && ld>2)){
+            println(ld); ld = ld -1;
+            }
+        
+
+        while (lf>1 && (lf>0 && lf>2)){
+            println(lf); lf = lf -1;
+            }
+        
+
+        while (lg>1 && (lg>0 && lg>2)){
+            println(lg); lg = lg -1;
+            }
+        
+
+        while (lh>1 && (lh>0 && lh>2)){
+            println(lh); lh = lh -1;
+            }
+        
+
+        while (lj>1 && (lj>0 && lj>2)){
+            println(lj); lj = lj -1;
+            }
+        
+
+        while (lk>1 && (lk>0 && lk>2)){
+            println(lk); lk = lk -1;
+            }
+        
+
+        while (ll>1 && (ll>0 && ll>2)){
+            println(ll); ll = ll -1;
+            }
+        
+
+        while (lm>1 && (lm>0 && lm>2)){
+            println(lm); lm = lm -1;
+            }
+        
+
+        while (ln>1 && (ln>0 && ln>2)){
+            println(ln); ln = ln -1;
+            }
+        
+
+        while (lo>1 && (lo>0 && lo>2)){
+            println(lo); lo = lo -1;
+            }
+        
+
+        while (lp>1 && (lp>0 && lp>2)){
+            println(lp); lp = lp -1;
+            }
+        
+
+        while (lq>1 && (lq>0 && lq>2)){
+            println(lq); lq = lq -1;
+            }
+        
+
+        while (lr>1 && (lr>0 && lr>2)){
+            println(lr); lr = lr -1;
+            }
+        
+
+        while (ls>1 && (ls>0 && ls>2)){
+            println(ls); ls = ls -1;
+            }
+        
+
+        while (lt>1 && (lt>0 && lt>2)){
+            println(lt); lt = lt -1;
+            }
+        
+
+        while (lu>1 && (lu>0 && lu>2)){
+            println(lu); lu = lu -1;
+            }
+        
+
+        while (lv>1 && (lv>0 && lv>2)){
+            println(lv); lv = lv -1;
+            }
+        
+
+        while (lw>1 && (lw>0 && lw>2)){
+            println(lw); lw = lw -1;
+            }
+        
+
+        while (lx>1 && (lx>0 && lx>2)){
+            println(lx); lx = lx -1;
+            }
+        
+
+        while (ly>1 && (ly>0 && ly>2)){
+            println(ly); ly = ly -1;
+            }
+        
+
+        while (lz>1 && (lz>0 && lz>2)){
+            println(lz); lz = lz -1;
+            }
+        
+
+        while (mb>1 && (mb>0 && mb>2)){
+            println(mb); mb = mb -1;
+            }
+        
+
+        while (mc>1 && (mc>0 && mc>2)){
+            println(mc); mc = mc -1;
+            }
+        
+
+        while (md>1 && (md>0 && md>2)){
+            println(md); md = md -1;
+            }
+        
+
+        while (mf>1 && (mf>0 && mf>2)){
+            println(mf); mf = mf -1;
+            }
+        
+
+        while (mg>1 && (mg>0 && mg>2)){
+            println(mg); mg = mg -1;
+            }
+        
+
+        while (mh>1 && (mh>0 && mh>2)){
+            println(mh); mh = mh -1;
+            }
+        
+
+        while (mj>1 && (mj>0 && mj>2)){
+            println(mj); mj = mj -1;
+            }
+        
+
+        while (mk>1 && (mk>0 && mk>2)){
+            println(mk); mk = mk -1;
+            }
+        
+
+        while (ml>1 && (ml>0 && ml>2)){
+            println(ml); ml = ml -1;
+            }
+        
+
+        while (mm>1 && (mm>0 && mm>2)){
+            println(mm); mm = mm -1;
+            }
+        
+
+        while (mn>1 && (mn>0 && mn>2)){
+            println(mn); mn = mn -1;
+            }
+        
+
+        while (mo>1 && (mo>0 && mo>2)){
+            println(mo); mo = mo -1;
+            }
+        
+
+        while (mp>1 && (mp>0 && mp>2)){
+            println(mp); mp = mp -1;
+            }
+        
+
+        while (mq>1 && (mq>0 && mq>2)){
+            println(mq); mq = mq -1;
+            }
+        
+
+        while (mr>1 && (mr>0 && mr>2)){
+            println(mr); mr = mr -1;
+            }
+        
+
+        while (ms>1 && (ms>0 && ms>2)){
+            println(ms); ms = ms -1;
+            }
+        
+
+        while (mt>1 && (mt>0 && mt>2)){
+            println(mt); mt = mt -1;
+            }
+        
+
+        while (mu>1 && (mu>0 && mu>2)){
+            println(mu); mu = mu -1;
+            }
+        
+
+        while (mv>1 && (mv>0 && mv>2)){
+            println(mv); mv = mv -1;
+            }
+        
+
+        while (mw>1 && (mw>0 && mw>2)){
+            println(mw); mw = mw -1;
+            }
+        
+
+        while (mx>1 && (mx>0 && mx>2)){
+            println(mx); mx = mx -1;
+            }
+        
+
+        while (my>1 && (my>0 && my>2)){
+            println(my); my = my -1;
+            }
+        
+
+        while (mz>1 && (mz>0 && mz>2)){
+            println(mz); mz = mz -1;
+            }
+        
+
+        while (nb>1 && (nb>0 && nb>2)){
+            println(nb); nb = nb -1;
+            }
+        
+
+        while (nc>1 && (nc>0 && nc>2)){
+            println(nc); nc = nc -1;
+            }
+        
+
+        while (nd>1 && (nd>0 && nd>2)){
+            println(nd); nd = nd -1;
+            }
+        
+
+        while (nf>1 && (nf>0 && nf>2)){
+            println(nf); nf = nf -1;
+            }
+        
+
+        while (ng>1 && (ng>0 && ng>2)){
+            println(ng); ng = ng -1;
+            }
+        
+
+        while (nh>1 && (nh>0 && nh>2)){
+            println(nh); nh = nh -1;
+            }
+        
+
+        while (nj>1 && (nj>0 && nj>2)){
+            println(nj); nj = nj -1;
+            }
+        
+
+        while (nk>1 && (nk>0 && nk>2)){
+            println(nk); nk = nk -1;
+            }
+        
+
+        while (nl>1 && (nl>0 && nl>2)){
+            println(nl); nl = nl -1;
+            }
+        
+
+        while (nm>1 && (nm>0 && nm>2)){
+            println(nm); nm = nm -1;
+            }
+        
+
+        while (nn>1 && (nn>0 && nn>2)){
+            println(nn); nn = nn -1;
+            }
+        
+
+        while (no>1 && (no>0 && no>2)){
+            println(no); no = no -1;
+            }
+        
+
+        while (np>1 && (np>0 && np>2)){
+            println(np); np = np -1;
+            }
+        
+
+        while (nq>1 && (nq>0 && nq>2)){
+            println(nq); nq = nq -1;
+            }
+        
+
+        while (nr>1 && (nr>0 && nr>2)){
+            println(nr); nr = nr -1;
+            }
+        
+
+        while (ns>1 && (ns>0 && ns>2)){
+            println(ns); ns = ns -1;
+            }
+        
+
+        while (nt>1 && (nt>0 && nt>2)){
+            println(nt); nt = nt -1;
+            }
+        
+
+        while (nu>1 && (nu>0 && nu>2)){
+            println(nu); nu = nu -1;
+            }
+        
+
+        while (nv>1 && (nv>0 && nv>2)){
+            println(nv); nv = nv -1;
+            }
+        
+
+        while (nw>1 && (nw>0 && nw>2)){
+            println(nw); nw = nw -1;
+            }
+        
+
+        while (nx>1 && (nx>0 && nx>2)){
+            println(nx); nx = nx -1;
+            }
+        
+
+        while (ny>1 && (ny>0 && ny>2)){
+            println(ny); ny = ny -1;
+            }
+        
+
+        while (nz>1 && (nz>0 && nz>2)){
+            println(nz); nz = nz -1;
+            }
+        
+
+        while (ob>1 && (ob>0 && ob>2)){
+            println(ob); ob = ob -1;
+            }
+        
+
+        while (oc>1 && (oc>0 && oc>2)){
+            println(oc); oc = oc -1;
+            }
+        
+
+        while (od>1 && (od>0 && od>2)){
+            println(od); od = od -1;
+            }
+        
+
+        while (of>1 && (of>0 && of>2)){
+            println(of); of = of -1;
+            }
+        
+
+        while (og>1 && (og>0 && og>2)){
+            println(og); og = og -1;
+            }
+        
+
+        while (oh>1 && (oh>0 && oh>2)){
+            println(oh); oh = oh -1;
+            }
+        
+
+        while (oj>1 && (oj>0 && oj>2)){
+            println(oj); oj = oj -1;
+            }
+        
+
+        while (ok>1 && (ok>0 && ok>2)){
+            println(ok); ok = ok -1;
+            }
+        
+
+        while (ol>1 && (ol>0 && ol>2)){
+            println(ol); ol = ol -1;
+            }
+        
+
+        while (om>1 && (om>0 && om>2)){
+            println(om); om = om -1;
+            }
+        
+
+        while (on>1 && (on>0 && on>2)){
+            println(on); on = on -1;
+            }
+        
+
+        while (oo>1 && (oo>0 && oo>2)){
+            println(oo); oo = oo -1;
+            }
+        
+
+        while (op>1 && (op>0 && op>2)){
+            println(op); op = op -1;
+            }
+        
+
+        while (oq>1 && (oq>0 && oq>2)){
+            println(oq); oq = oq -1;
+            }
+        
+
+        while (or>1 && (or>0 && or>2)){
+            println(or); or = or -1;
+            }
+        
+
+        while (os>1 && (os>0 && os>2)){
+            println(os); os = os -1;
+            }
+        
+
+        while (ot>1 && (ot>0 && ot>2)){
+            println(ot); ot = ot -1;
+            }
+        
+
+        while (ou>1 && (ou>0 && ou>2)){
+            println(ou); ou = ou -1;
+            }
+        
+
+        while (ov>1 && (ov>0 && ov>2)){
+            println(ov); ov = ov -1;
+            }
+        
+
+        while (ow>1 && (ow>0 && ow>2)){
+            println(ow); ow = ow -1;
+            }
+        
+
+        while (ox>1 && (ox>0 && ox>2)){
+            println(ox); ox = ox -1;
+            }
+        
+
+        while (oy>1 && (oy>0 && oy>2)){
+            println(oy); oy = oy -1;
+            }
+        
+
+        while (oz>1 && (oz>0 && oz>2)){
+            println(oz); oz = oz -1;
+            }
+        
+
+        while (pb>1 && (pb>0 && pb>2)){
+            println(pb); pb = pb -1;
+            }
+        
+
+        while (pc>1 && (pc>0 && pc>2)){
+            println(pc); pc = pc -1;
+            }
+        
+
+        while (pd>1 && (pd>0 && pd>2)){
+            println(pd); pd = pd -1;
+            }
+        
+
+        while (pf>1 && (pf>0 && pf>2)){
+            println(pf); pf = pf -1;
+            }
+        
+
+        while (pg>1 && (pg>0 && pg>2)){
+            println(pg); pg = pg -1;
+            }
+        
+
+        while (ph>1 && (ph>0 && ph>2)){
+            println(ph); ph = ph -1;
+            }
+        
+
+        while (pj>1 && (pj>0 && pj>2)){
+            println(pj); pj = pj -1;
+            }
+        
+
+        while (pk>1 && (pk>0 && pk>2)){
+            println(pk); pk = pk -1;
+            }
+        
+
+        while (pl>1 && (pl>0 && pl>2)){
+            println(pl); pl = pl -1;
+            }
+        
+
+        while (pm>1 && (pm>0 && pm>2)){
+            println(pm); pm = pm -1;
+            }
+        
+
+        while (pn>1 && (pn>0 && pn>2)){
+            println(pn); pn = pn -1;
+            }
+        
+
+        while (po>1 && (po>0 && po>2)){
+            println(po); po = po -1;
+            }
+        
+
+        while (pp>1 && (pp>0 && pp>2)){
+            println(pp); pp = pp -1;
+            }
+        
+
+        while (pq>1 && (pq>0 && pq>2)){
+            println(pq); pq = pq -1;
+            }
+        
+
+        while (pr>1 && (pr>0 && pr>2)){
+            println(pr); pr = pr -1;
+            }
+        
+
+        while (ps>1 && (ps>0 && ps>2)){
+            println(ps); ps = ps -1;
+            }
+        
+
+        while (pt>1 && (pt>0 && pt>2)){
+            println(pt); pt = pt -1;
+            }
+        
+
+        while (pu>1 && (pu>0 && pu>2)){
+            println(pu); pu = pu -1;
+            }
+        
+
+        while (pv>1 && (pv>0 && pv>2)){
+            println(pv); pv = pv -1;
+            }
+        
+
+        while (pw>1 && (pw>0 && pw>2)){
+            println(pw); pw = pw -1;
+            }
+        
+
+        while (px>1 && (px>0 && px>2)){
+            println(px); px = px -1;
+            }
+        
+
+        while (py>1 && (py>0 && py>2)){
+            println(py); py = py -1;
+            }
+        
+
+        while (pz>1 && (pz>0 && pz>2)){
+            println(pz); pz = pz -1;
+            }
+        
+
+        while (qb>1 && (qb>0 && qb>2)){
+            println(qb); qb = qb -1;
+            }
+        
+
+        while (qc>1 && (qc>0 && qc>2)){
+            println(qc); qc = qc -1;
+            }
+        
+
+        while (qd>1 && (qd>0 && qd>2)){
+            println(qd); qd = qd -1;
+            }
+        
+
+        while (qf>1 && (qf>0 && qf>2)){
+            println(qf); qf = qf -1;
+            }
+        
+
+        while (qg>1 && (qg>0 && qg>2)){
+            println(qg); qg = qg -1;
+            }
+        
+
+        while (qh>1 && (qh>0 && qh>2)){
+            println(qh); qh = qh -1;
+            }
+        
+
+        while (qj>1 && (qj>0 && qj>2)){
+            println(qj); qj = qj -1;
+            }
+        
+
+        while (qk>1 && (qk>0 && qk>2)){
+            println(qk); qk = qk -1;
+            }
+        
+
+        while (ql>1 && (ql>0 && ql>2)){
+            println(ql); ql = ql -1;
+            }
+        
+
+        while (qm>1 && (qm>0 && qm>2)){
+            println(qm); qm = qm -1;
+            }
+        
+
+        while (qn>1 && (qn>0 && qn>2)){
+            println(qn); qn = qn -1;
+            }
+        
+
+        while (qo>1 && (qo>0 && qo>2)){
+            println(qo); qo = qo -1;
+            }
+        
+
+        while (qp>1 && (qp>0 && qp>2)){
+            println(qp); qp = qp -1;
+            }
+        
+
+        while (qq>1 && (qq>0 && qq>2)){
+            println(qq); qq = qq -1;
+            }
+        
+
+        while (qr>1 && (qr>0 && qr>2)){
+            println(qr); qr = qr -1;
+            }
+        
+
+        while (qs>1 && (qs>0 && qs>2)){
+            println(qs); qs = qs -1;
+            }
+        
+
+        while (qt>1 && (qt>0 && qt>2)){
+            println(qt); qt = qt -1;
+            }
+        
+
+        while (qu>1 && (qu>0 && qu>2)){
+            println(qu); qu = qu -1;
+            }
+        
+
+        while (qv>1 && (qv>0 && qv>2)){
+            println(qv); qv = qv -1;
+            }
+        
+
+        while (qw>1 && (qw>0 && qw>2)){
+            println(qw); qw = qw -1;
+            }
+        
+
+        while (qx>1 && (qx>0 && qx>2)){
+            println(qx); qx = qx -1;
+            }
+        
+
+        while (qy>1 && (qy>0 && qy>2)){
+            println(qy); qy = qy -1;
+            }
+        
+
+        while (qz>1 && (qz>0 && qz>2)){
+            println(qz); qz = qz -1;
+            }
+        
+
+        while (rb>1 && (rb>0 && rb>2)){
+            println(rb); rb = rb -1;
+            }
+        
+
+        while (rc>1 && (rc>0 && rc>2)){
+            println(rc); rc = rc -1;
+            }
+        
+
+        while (rd>1 && (rd>0 && rd>2)){
+            println(rd); rd = rd -1;
+            }
+        
+
+        while (rf>1 && (rf>0 && rf>2)){
+            println(rf); rf = rf -1;
+            }
+        
+
+        while (rg>1 && (rg>0 && rg>2)){
+            println(rg); rg = rg -1;
+            }
+        
+
+        while (rh>1 && (rh>0 && rh>2)){
+            println(rh); rh = rh -1;
+            }
+        
+
+        while (rj>1 && (rj>0 && rj>2)){
+            println(rj); rj = rj -1;
+            }
+        
+
+        while (rk>1 && (rk>0 && rk>2)){
+            println(rk); rk = rk -1;
+            }
+        
+
+        while (rl>1 && (rl>0 && rl>2)){
+            println(rl); rl = rl -1;
+            }
+        
+
+        while (rm>1 && (rm>0 && rm>2)){
+            println(rm); rm = rm -1;
+            }
+        
+
+        while (rn>1 && (rn>0 && rn>2)){
+            println(rn); rn = rn -1;
+            }
+        
+
+        while (ro>1 && (ro>0 && ro>2)){
+            println(ro); ro = ro -1;
+            }
+        
+
+        while (rp>1 && (rp>0 && rp>2)){
+            println(rp); rp = rp -1;
+            }
+        
+
+        while (rq>1 && (rq>0 && rq>2)){
+            println(rq); rq = rq -1;
+            }
+        
+
+        while (rr>1 && (rr>0 && rr>2)){
+            println(rr); rr = rr -1;
+            }
+        
+
+        while (rs>1 && (rs>0 && rs>2)){
+            println(rs); rs = rs -1;
+            }
+        
+
+        while (rt>1 && (rt>0 && rt>2)){
+            println(rt); rt = rt -1;
+            }
+        
+
+        while (ru>1 && (ru>0 && ru>2)){
+            println(ru); ru = ru -1;
+            }
+        
+
+        while (rv>1 && (rv>0 && rv>2)){
+            println(rv); rv = rv -1;
+            }
+        
+
+        while (rw>1 && (rw>0 && rw>2)){
+            println(rw); rw = rw -1;
+            }
+        
+
+        while (rx>1 && (rx>0 && rx>2)){
+            println(rx); rx = rx -1;
+            }
+        
+
+        while (ry>1 && (ry>0 && ry>2)){
+            println(ry); ry = ry -1;
+            }
+        
+
+        while (rz>1 && (rz>0 && rz>2)){
+            println(rz); rz = rz -1;
+            }
+        
+
+        while (sb>1 && (sb>0 && sb>2)){
+            println(sb); sb = sb -1;
+            }
+        
+
+        while (sc>1 && (sc>0 && sc>2)){
+            println(sc); sc = sc -1;
+            }
+        
+
+        while (sd>1 && (sd>0 && sd>2)){
+            println(sd); sd = sd -1;
+            }
+        
+
+        while (sf>1 && (sf>0 && sf>2)){
+            println(sf); sf = sf -1;
+            }
+        
+
+        while (sg>1 && (sg>0 && sg>2)){
+            println(sg); sg = sg -1;
+            }
+        
+
+        while (sh>1 && (sh>0 && sh>2)){
+            println(sh); sh = sh -1;
+            }
+        
+
+        while (sj>1 && (sj>0 && sj>2)){
+            println(sj); sj = sj -1;
+            }
+        
+
+        while (sk>1 && (sk>0 && sk>2)){
+            println(sk); sk = sk -1;
+            }
+        
+
+        while (sl>1 && (sl>0 && sl>2)){
+            println(sl); sl = sl -1;
+            }
+        
+
+        while (sm>1 && (sm>0 && sm>2)){
+            println(sm); sm = sm -1;
+            }
+        
+
+        while (sn>1 && (sn>0 && sn>2)){
+            println(sn); sn = sn -1;
+            }
+        
+
+        while (so>1 && (so>0 && so>2)){
+            println(so); so = so -1;
+            }
+        
+
+        while (sp>1 && (sp>0 && sp>2)){
+            println(sp); sp = sp -1;
+            }
+        
+
+        while (sq>1 && (sq>0 && sq>2)){
+            println(sq); sq = sq -1;
+            }
+        
+
+        while (sr>1 && (sr>0 && sr>2)){
+            println(sr); sr = sr -1;
+            }
+        
+
+        while (ss>1 && (ss>0 && ss>2)){
+            println(ss); ss = ss -1;
+            }
+        
+
+        while (st>1 && (st>0 && st>2)){
+            println(st); st = st -1;
+            }
+        
+
+        while (su>1 && (su>0 && su>2)){
+            println(su); su = su -1;
+            }
+        
+
+        while (sv>1 && (sv>0 && sv>2)){
+            println(sv); sv = sv -1;
+            }
+        
+
+        while (sw>1 && (sw>0 && sw>2)){
+            println(sw); sw = sw -1;
+            }
+        
+
+        while (sx>1 && (sx>0 && sx>2)){
+            println(sx); sx = sx -1;
+            }
+        
+
+        while (sy>1 && (sy>0 && sy>2)){
+            println(sy); sy = sy -1;
+            }
+        
+
+        while (sz>1 && (sz>0 && sz>2)){
+            println(sz); sz = sz -1;
+            }
+        
+
+        while (tb>1 && (tb>0 && tb>2)){
+            println(tb); tb = tb -1;
+            }
+        
+
+        while (tc>1 && (tc>0 && tc>2)){
+            println(tc); tc = tc -1;
+            }
+        
+
+        while (td>1 && (td>0 && td>2)){
+            println(td); td = td -1;
+            }
+        
+
+        while (tf>1 && (tf>0 && tf>2)){
+            println(tf); tf = tf -1;
+            }
+        
+
+        while (tg>1 && (tg>0 && tg>2)){
+            println(tg); tg = tg -1;
+            }
+        
+
+        while (th>1 && (th>0 && th>2)){
+            println(th); th = th -1;
+            }
+        
+
+        while (tj>1 && (tj>0 && tj>2)){
+            println(tj); tj = tj -1;
+            }
+        
+
+        while (tk>1 && (tk>0 && tk>2)){
+            println(tk); tk = tk -1;
+            }
+        
+
+        while (tl>1 && (tl>0 && tl>2)){
+            println(tl); tl = tl -1;
+            }
+        
+
+        while (tm>1 && (tm>0 && tm>2)){
+            println(tm); tm = tm -1;
+            }
+        
+
+        while (tn>1 && (tn>0 && tn>2)){
+            println(tn); tn = tn -1;
+            }
+        
+
+        while (to>1 && (to>0 && to>2)){
+            println(to); to = to -1;
+            }
+        
+
+        while (tp>1 && (tp>0 && tp>2)){
+            println(tp); tp = tp -1;
+            }
+        
+
+        while (tq>1 && (tq>0 && tq>2)){
+            println(tq); tq = tq -1;
+            }
+        
+
+        while (tr>1 && (tr>0 && tr>2)){
+            println(tr); tr = tr -1;
+            }
+        
+
+        while (ts>1 && (ts>0 && ts>2)){
+            println(ts); ts = ts -1;
+            }
+        
+
+        while (tt>1 && (tt>0 && tt>2)){
+            println(tt); tt = tt -1;
+            }
+        
+
+        while (tu>1 && (tu>0 && tu>2)){
+            println(tu); tu = tu -1;
+            }
+        
+
+        while (tv>1 && (tv>0 && tv>2)){
+            println(tv); tv = tv -1;
+            }
+        
+
+        while (tw>1 && (tw>0 && tw>2)){
+            println(tw); tw = tw -1;
+            }
+        
+
+        while (tx>1 && (tx>0 && tx>2)){
+            println(tx); tx = tx -1;
+            }
+        
+
+        while (ty>1 && (ty>0 && ty>2)){
+            println(ty); ty = ty -1;
+            }
+        
+
+        while (tz>1 && (tz>0 && tz>2)){
+            println(tz); tz = tz -1;
+            }
+        
+
+        while (ub>1 && (ub>0 && ub>2)){
+            println(ub); ub = ub -1;
+            }
+        
+
+        while (uc>1 && (uc>0 && uc>2)){
+            println(uc); uc = uc -1;
+            }
+        
+
+        while (ud>1 && (ud>0 && ud>2)){
+            println(ud); ud = ud -1;
+            }
+        
+
+        while (uf>1 && (uf>0 && uf>2)){
+            println(uf); uf = uf -1;
+            }
+        
+
+        while (ug>1 && (ug>0 && ug>2)){
+            println(ug); ug = ug -1;
+            }
+        
+
+        while (uh>1 && (uh>0 && uh>2)){
+            println(uh); uh = uh -1;
+            }
+        
+
+        while (uj>1 && (uj>0 && uj>2)){
+            println(uj); uj = uj -1;
+            }
+        
+
+        while (uk>1 && (uk>0 && uk>2)){
+            println(uk); uk = uk -1;
+            }
+        
+
+        while (ul>1 && (ul>0 && ul>2)){
+            println(ul); ul = ul -1;
+            }
+        
+
+        while (um>1 && (um>0 && um>2)){
+            println(um); um = um -1;
+            }
+        
+
+        while (un>1 && (un>0 && un>2)){
+            println(un); un = un -1;
+            }
+        
+
+        while (uo>1 && (uo>0 && uo>2)){
+            println(uo); uo = uo -1;
+            }
+        
+
+        while (up>1 && (up>0 && up>2)){
+            println(up); up = up -1;
+            }
+        
+
+        while (uq>1 && (uq>0 && uq>2)){
+            println(uq); uq = uq -1;
+            }
+        
+
+        while (ur>1 && (ur>0 && ur>2)){
+            println(ur); ur = ur -1;
+            }
+        
+
+        while (us>1 && (us>0 && us>2)){
+            println(us); us = us -1;
+            }
+        
+
+        while (ut>1 && (ut>0 && ut>2)){
+            println(ut); ut = ut -1;
+            }
+        
+
+        while (uu>1 && (uu>0 && uu>2)){
+            println(uu); uu = uu -1;
+            }
+        
+
+        while (uv>1 && (uv>0 && uv>2)){
+            println(uv); uv = uv -1;
+            }
+        
+
+        while (uw>1 && (uw>0 && uw>2)){
+            println(uw); uw = uw -1;
+            }
+        
+
+        while (ux>1 && (ux>0 && ux>2)){
+            println(ux); ux = ux -1;
+            }
+        
+
+        while (uy>1 && (uy>0 && uy>2)){
+            println(uy); uy = uy -1;
+            }
+        
+
+        while (uz>1 && (uz>0 && uz>2)){
+            println(uz); uz = uz -1;
+            }
+        
+
+        while (vb>1 && (vb>0 && vb>2)){
+            println(vb); vb = vb -1;
+            }
+        
+
+        while (vc>1 && (vc>0 && vc>2)){
+            println(vc); vc = vc -1;
+            }
+        
+
+        while (vd>1 && (vd>0 && vd>2)){
+            println(vd); vd = vd -1;
+            }
+        
+
+        while (vf>1 && (vf>0 && vf>2)){
+            println(vf); vf = vf -1;
+            }
+        
+
+        while (vg>1 && (vg>0 && vg>2)){
+            println(vg); vg = vg -1;
+            }
+        
+
+        while (vh>1 && (vh>0 && vh>2)){
+            println(vh); vh = vh -1;
+            }
+        
+
+        while (vj>1 && (vj>0 && vj>2)){
+            println(vj); vj = vj -1;
+            }
+        
+
+        while (vk>1 && (vk>0 && vk>2)){
+            println(vk); vk = vk -1;
+            }
+        
+
+        while (vl>1 && (vl>0 && vl>2)){
+            println(vl); vl = vl -1;
+            }
+        
+
+        while (vm>1 && (vm>0 && vm>2)){
+            println(vm); vm = vm -1;
+            }
+        
+
+        while (vn>1 && (vn>0 && vn>2)){
+            println(vn); vn = vn -1;
+            }
+        
+
+        while (vo>1 && (vo>0 && vo>2)){
+            println(vo); vo = vo -1;
+            }
+        
+
+        while (vp>1 && (vp>0 && vp>2)){
+            println(vp); vp = vp -1;
+            }
+        
+
+        while (vq>1 && (vq>0 && vq>2)){
+            println(vq); vq = vq -1;
+            }
+        
+
+        while (vr>1 && (vr>0 && vr>2)){
+            println(vr); vr = vr -1;
+            }
+        
+
+        while (vs>1 && (vs>0 && vs>2)){
+            println(vs); vs = vs -1;
+            }
+        
+
+        while (vt>1 && (vt>0 && vt>2)){
+            println(vt); vt = vt -1;
+            }
+        
+
+        while (vu>1 && (vu>0 && vu>2)){
+            println(vu); vu = vu -1;
+            }
+        
+
+        while (vv>1 && (vv>0 && vv>2)){
+            println(vv); vv = vv -1;
+            }
+        
+
+        while (vw>1 && (vw>0 && vw>2)){
+            println(vw); vw = vw -1;
+            }
+        
+
+        while (vx>1 && (vx>0 && vx>2)){
+            println(vx); vx = vx -1;
+            }
+        
+
+        while (vy>1 && (vy>0 && vy>2)){
+            println(vy); vy = vy -1;
+            }
+        
+
+        while (vz>1 && (vz>0 && vz>2)){
+            println(vz); vz = vz -1;
+            }
+        
+
+        while (wb>1 && (wb>0 && wb>2)){
+            println(wb); wb = wb -1;
+            }
+        
+
+        while (wc>1 && (wc>0 && wc>2)){
+            println(wc); wc = wc -1;
+            }
+        
+
+        while (wd>1 && (wd>0 && wd>2)){
+            println(wd); wd = wd -1;
+            }
+        
+
+        while (wf>1 && (wf>0 && wf>2)){
+            println(wf); wf = wf -1;
+            }
+        
+
+        while (wg>1 && (wg>0 && wg>2)){
+            println(wg); wg = wg -1;
+            }
+        
+
+        while (wh>1 && (wh>0 && wh>2)){
+            println(wh); wh = wh -1;
+            }
+        
+
+        while (wj>1 && (wj>0 && wj>2)){
+            println(wj); wj = wj -1;
+            }
+        
+
+        while (wk>1 && (wk>0 && wk>2)){
+            println(wk); wk = wk -1;
+            }
+        
+
+        while (wl>1 && (wl>0 && wl>2)){
+            println(wl); wl = wl -1;
+            }
+        
+
+        while (wm>1 && (wm>0 && wm>2)){
+            println(wm); wm = wm -1;
+            }
+        
+
+        while (wn>1 && (wn>0 && wn>2)){
+            println(wn); wn = wn -1;
+            }
+        
+
+        while (wo>1 && (wo>0 && wo>2)){
+            println(wo); wo = wo -1;
+            }
+        
+
+        while (wp>1 && (wp>0 && wp>2)){
+            println(wp); wp = wp -1;
+            }
+        
+
+        while (wq>1 && (wq>0 && wq>2)){
+            println(wq); wq = wq -1;
+            }
+        
+
+        while (wr>1 && (wr>0 && wr>2)){
+            println(wr); wr = wr -1;
+            }
+        
+
+        while (ws>1 && (ws>0 && ws>2)){
+            println(ws); ws = ws -1;
+            }
+        
+
+        while (wt>1 && (wt>0 && wt>2)){
+            println(wt); wt = wt -1;
+            }
+        
+
+        while (wu>1 && (wu>0 && wu>2)){
+            println(wu); wu = wu -1;
+            }
+        
+
+        while (wv>1 && (wv>0 && wv>2)){
+            println(wv); wv = wv -1;
+            }
+        
+
+        while (ww>1 && (ww>0 && ww>2)){
+            println(ww); ww = ww -1;
+            }
+        
+
+        while (wx>1 && (wx>0 && wx>2)){
+            println(wx); wx = wx -1;
+            }
+        
+
+        while (wy>1 && (wy>0 && wy>2)){
+            println(wy); wy = wy -1;
+            }
+        
+
+        while (wz>1 && (wz>0 && wz>2)){
+            println(wz); wz = wz -1;
+            }
+        
+
+        while (xb>1 && (xb>0 && xb>2)){
+            println(xb); xb = xb -1;
+            }
+        
+
+        while (xc>1 && (xc>0 && xc>2)){
+            println(xc); xc = xc -1;
+            }
+        
+
+        while (xd>1 && (xd>0 && xd>2)){
+            println(xd); xd = xd -1;
+            }
+        
+
+        while (xf>1 && (xf>0 && xf>2)){
+            println(xf); xf = xf -1;
+            }
+        
+
+        while (xg>1 && (xg>0 && xg>2)){
+            println(xg); xg = xg -1;
+            }
+        
+
+        while (xh>1 && (xh>0 && xh>2)){
+            println(xh); xh = xh -1;
+            }
+        
+
+        while (xj>1 && (xj>0 && xj>2)){
+            println(xj); xj = xj -1;
+            }
+        
+
+        while (xk>1 && (xk>0 && xk>2)){
+            println(xk); xk = xk -1;
+            }
+        
+
+        while (xl>1 && (xl>0 && xl>2)){
+            println(xl); xl = xl -1;
+            }
+        
+
+        while (xm>1 && (xm>0 && xm>2)){
+            println(xm); xm = xm -1;
+            }
+        
+
+        while (xn>1 && (xn>0 && xn>2)){
+            println(xn); xn = xn -1;
+            }
+        
+
+        while (xo>1 && (xo>0 && xo>2)){
+            println(xo); xo = xo -1;
+            }
+        
+
+        while (xp>1 && (xp>0 && xp>2)){
+            println(xp); xp = xp -1;
+            }
+        
+
+        while (xq>1 && (xq>0 && xq>2)){
+            println(xq); xq = xq -1;
+            }
+        
+
+        while (xr>1 && (xr>0 && xr>2)){
+            println(xr); xr = xr -1;
+            }
+        
+
+        while (xs>1 && (xs>0 && xs>2)){
+            println(xs); xs = xs -1;
+            }
+        
+
+        while (xt>1 && (xt>0 && xt>2)){
+            println(xt); xt = xt -1;
+            }
+        
+
+        while (xu>1 && (xu>0 && xu>2)){
+            println(xu); xu = xu -1;
+            }
+        
+
+        while (xv>1 && (xv>0 && xv>2)){
+            println(xv); xv = xv -1;
+            }
+        
+
+        while (xw>1 && (xw>0 && xw>2)){
+            println(xw); xw = xw -1;
+            }
+        
+
+        while (xx>1 && (xx>0 && xx>2)){
+            println(xx); xx = xx -1;
+            }
+        
+
+        while (xy>1 && (xy>0 && xy>2)){
+            println(xy); xy = xy -1;
+            }
+        
+
+        while (xz>1 && (xz>0 && xz>2)){
+            println(xz); xz = xz -1;
+            }
+        
+
+        while (yb>1 && (yb>0 && yb>2)){
+            println(yb); yb = yb -1;
+            }
+        
+
+        while (yc>1 && (yc>0 && yc>2)){
+            println(yc); yc = yc -1;
+            }
+        
+
+        while (yd>1 && (yd>0 && yd>2)){
+            println(yd); yd = yd -1;
+            }
+        
+
+        while (yf>1 && (yf>0 && yf>2)){
+            println(yf); yf = yf -1;
+            }
+        
+
+        while (yg>1 && (yg>0 && yg>2)){
+            println(yg); yg = yg -1;
+            }
+        
+
+        while (yh>1 && (yh>0 && yh>2)){
+            println(yh); yh = yh -1;
+            }
+        
+
+        while (yj>1 && (yj>0 && yj>2)){
+            println(yj); yj = yj -1;
+            }
+        
+
+        while (yk>1 && (yk>0 && yk>2)){
+            println(yk); yk = yk -1;
+            }
+        
+
+        while (yl>1 && (yl>0 && yl>2)){
+            println(yl); yl = yl -1;
+            }
+        
+
+        while (ym>1 && (ym>0 && ym>2)){
+            println(ym); ym = ym -1;
+            }
+        
+
+        while (yn>1 && (yn>0 && yn>2)){
+            println(yn); yn = yn -1;
+            }
+        
+
+        while (yo>1 && (yo>0 && yo>2)){
+            println(yo); yo = yo -1;
+            }
+        
+
+        while (yp>1 && (yp>0 && yp>2)){
+            println(yp); yp = yp -1;
+            }
+        
+
+        while (yq>1 && (yq>0 && yq>2)){
+            println(yq); yq = yq -1;
+            }
+        
+
+        while (yr>1 && (yr>0 && yr>2)){
+            println(yr); yr = yr -1;
+            }
+        
+
+        while (ys>1 && (ys>0 && ys>2)){
+            println(ys); ys = ys -1;
+            }
+        
+
+        while (yt>1 && (yt>0 && yt>2)){
+            println(yt); yt = yt -1;
+            }
+        
+
+        while (yu>1 && (yu>0 && yu>2)){
+            println(yu); yu = yu -1;
+            }
+        
+
+        while (yv>1 && (yv>0 && yv>2)){
+            println(yv); yv = yv -1;
+            }
+        
+
+        while (yw>1 && (yw>0 && yw>2)){
+            println(yw); yw = yw -1;
+            }
+        
+
+        while (yx>1 && (yx>0 && yx>2)){
+            println(yx); yx = yx -1;
+            }
+        
+
+        while (yy>1 && (yy>0 && yy>2)){
+            println(yy); yy = yy -1;
+            }
+        
+
+        while (yz>1 && (yz>0 && yz>2)){
+            println(yz); yz = yz -1;
+            }
+        
+
+        while (zb>1 && (zb>0 && zb>2)){
+            println(zb); zb = zb -1;
+            }
+        
+
+        while (zc>1 && (zc>0 && zc>2)){
+            println(zc); zc = zc -1;
+            }
+        
+
+        while (zd>1 && (zd>0 && zd>2)){
+            println(zd); zd = zd -1;
+            }
+        
+
+        while (zf>1 && (zf>0 && zf>2)){
+            println(zf); zf = zf -1;
+            }
+        
+
+        while (zg>1 && (zg>0 && zg>2)){
+            println(zg); zg = zg -1;
+            }
+        
+
+        while (zh>1 && (zh>0 && zh>2)){
+            println(zh); zh = zh -1;
+            }
+        
+
+        while (zj>1 && (zj>0 && zj>2)){
+            println(zj); zj = zj -1;
+            }
+        
+
+        while (zk>1 && (zk>0 && zk>2)){
+            println(zk); zk = zk -1;
+            }
+        
+
+        while (zl>1 && (zl>0 && zl>2)){
+            println(zl); zl = zl -1;
+            }
+        
+
+        while (zm>1 && (zm>0 && zm>2)){
+            println(zm); zm = zm -1;
+            }
+        
+
+        while (zn>1 && (zn>0 && zn>2)){
+            println(zn); zn = zn -1;
+            }
+        
+
+        while (zo>1 && (zo>0 && zo>2)){
+            println(zo); zo = zo -1;
+            }
+        
+
+        while (zp>1 && (zp>0 && zp>2)){
+            println(zp); zp = zp -1;
+            }
+        
+
+        while (zq>1 && (zq>0 && zq>2)){
+            println(zq); zq = zq -1;
+            }
+        
+
+        while (zr>1 && (zr>0 && zr>2)){
+            println(zr); zr = zr -1;
+            }
+        
+
+        while (zs>1 && (zs>0 && zs>2)){
+            println(zs); zs = zs -1;
+            }
+        
+
+        while (zt>1 && (zt>0 && zt>2)){
+            println(zt); zt = zt -1;
+            }
+        
+
+        while (zu>1 && (zu>0 && zu>2)){
+            println(zu); zu = zu -1;
+            }
+        
+
+        while (zv>1 && (zv>0 && zv>2)){
+            println(zv); zv = zv -1;
+            }
+        
+
+        while (zw>1 && (zw>0 && zw>2)){
+            println(zw); zw = zw -1;
+            }
+        
+
+        while (zx>1 && (zx>0 && zx>2)){
+            println(zx); zx = zx -1;
+            }
+        
+
+        while (zy>1 && (zy>0 && zy>2)){
+            println(zy); zy = zy -1;
+            }
+        
+
+        while (zz>1 && (zz>0 && zz>2)){
+            println(zz); zz = zz -1;
+            }
+        
+
+        while (bb>1 && (bb>0 && bb>2)){
+            println(bb); bb = bb -1;
+            }
+        
+
+        while (bc>1 && (bc>0 && bc>2)){
+            println(bc); bc = bc -1;
+            }
+        
+
+        while (bd>1 && (bd>0 && bd>2)){
+            println(bd); bd = bd -1;
+            }
+        
+
+        while (bf>1 && (bf>0 && bf>2)){
+            println(bf); bf = bf -1;
+            }
+        
+
+        while (bg>1 && (bg>0 && bg>2)){
+            println(bg); bg = bg -1;
+            }
+        
+
+        while (bh>1 && (bh>0 && bh>2)){
+            println(bh); bh = bh -1;
+            }
+        
+
+        while (bj>1 && (bj>0 && bj>2)){
+            println(bj); bj = bj -1;
+            }
+        
+
+        while (bk>1 && (bk>0 && bk>2)){
+            println(bk); bk = bk -1;
+            }
+        
+
+        while (bl>1 && (bl>0 && bl>2)){
+            println(bl); bl = bl -1;
+            }
+        
+
+        while (bm>1 && (bm>0 && bm>2)){
+            println(bm); bm = bm -1;
+            }
+        
+
+        while (bn>1 && (bn>0 && bn>2)){
+            println(bn); bn = bn -1;
+            }
+        
+
+        while (bo>1 && (bo>0 && bo>2)){
+            println(bo); bo = bo -1;
+            }
+        
+
+        while (bp>1 && (bp>0 && bp>2)){
+            println(bp); bp = bp -1;
+            }
+        
+
+        while (bq>1 && (bq>0 && bq>2)){
+            println(bq); bq = bq -1;
+            }
+        
+
+        while (br>1 && (br>0 && br>2)){
+            println(br); br = br -1;
+            }
+        
+
+        while (bs>1 && (bs>0 && bs>2)){
+            println(bs); bs = bs -1;
+            }
+        
+
+        while (bt>1 && (bt>0 && bt>2)){
+            println(bt); bt = bt -1;
+            }
+        
+
+        while (bu>1 && (bu>0 && bu>2)){
+            println(bu); bu = bu -1;
+            }
+        
+
+        while (bv>1 && (bv>0 && bv>2)){
+            println(bv); bv = bv -1;
+            }
+        
+
+        while (bw>1 && (bw>0 && bw>2)){
+            println(bw); bw = bw -1;
+            }
+        
+
+        while (bx>1 && (bx>0 && bx>2)){
+            println(bx); bx = bx -1;
+            }
+        
+
+        while (by>1 && (by>0 && by>2)){
+            println(by); by = by -1;
+            }
+        
+
+        while (bz>1 && (bz>0 && bz>2)){
+            println(bz); bz = bz -1;
+            }
+        
+
+        while (cb>1 && (cb>0 && cb>2)){
+            println(cb); cb = cb -1;
+            }
+        
+
+        while (cc>1 && (cc>0 && cc>2)){
+            println(cc); cc = cc -1;
+            }
+        
+
+        while (cd>1 && (cd>0 && cd>2)){
+            println(cd); cd = cd -1;
+            }
+        
+
+        while (cf>1 && (cf>0 && cf>2)){
+            println(cf); cf = cf -1;
+            }
+        
+
+        while (cg>1 && (cg>0 && cg>2)){
+            println(cg); cg = cg -1;
+            }
+        
+
+        while (ch>1 && (ch>0 && ch>2)){
+            println(ch); ch = ch -1;
+            }
+        
+
+        while (cj>1 && (cj>0 && cj>2)){
+            println(cj); cj = cj -1;
+            }
+        
+
+        while (ck>1 && (ck>0 && ck>2)){
+            println(ck); ck = ck -1;
+            }
+        
+
+        while (cl>1 && (cl>0 && cl>2)){
+            println(cl); cl = cl -1;
+            }
+        
+
+        while (cm>1 && (cm>0 && cm>2)){
+            println(cm); cm = cm -1;
+            }
+        
+
+        while (cn>1 && (cn>0 && cn>2)){
+            println(cn); cn = cn -1;
+            }
+        
+
+        while (co>1 && (co>0 && co>2)){
+            println(co); co = co -1;
+            }
+        
+
+        while (cp>1 && (cp>0 && cp>2)){
+            println(cp); cp = cp -1;
+            }
+        
+
+        while (cq>1 && (cq>0 && cq>2)){
+            println(cq); cq = cq -1;
+            }
+        
+
+        while (cr>1 && (cr>0 && cr>2)){
+            println(cr); cr = cr -1;
+            }
+        
+
+        while (cs>1 && (cs>0 && cs>2)){
+            println(cs); cs = cs -1;
+            }
+        
+
+        while (ct>1 && (ct>0 && ct>2)){
+            println(ct); ct = ct -1;
+            }
+        
+
+        while (cu>1 && (cu>0 && cu>2)){
+            println(cu); cu = cu -1;
+            }
+        
+
+        while (cv>1 && (cv>0 && cv>2)){
+            println(cv); cv = cv -1;
+            }
+        
+
+        while (cw>1 && (cw>0 && cw>2)){
+            println(cw); cw = cw -1;
+            }
+        
+
+        while (cx>1 && (cx>0 && cx>2)){
+            println(cx); cx = cx -1;
+            }
+        
+
+        while (cy>1 && (cy>0 && cy>2)){
+            println(cy); cy = cy -1;
+            }
+        
+
+        while (cz>1 && (cz>0 && cz>2)){
+            println(cz); cz = cz -1;
+            }
+        
+
+        while (db>1 && (db>0 && db>2)){
+            println(db); db = db -1;
+            }
+        
+
+        while (dc>1 && (dc>0 && dc>2)){
+            println(dc); dc = dc -1;
+            }
+        
+
+        while (dd>1 && (dd>0 && dd>2)){
+            println(dd); dd = dd -1;
+            }
+        
+
+        while (df>1 && (df>0 && df>2)){
+            println(df); df = df -1;
+            }
+        
+
+        while (dg>1 && (dg>0 && dg>2)){
+            println(dg); dg = dg -1;
+            }
+        
+
+        while (dh>1 && (dh>0 && dh>2)){
+            println(dh); dh = dh -1;
+            }
+        
+
+        while (dj>1 && (dj>0 && dj>2)){
+            println(dj); dj = dj -1;
+            }
+        
+
+        while (dk>1 && (dk>0 && dk>2)){
+            println(dk); dk = dk -1;
+            }
+        
+
+        while (dl>1 && (dl>0 && dl>2)){
+            println(dl); dl = dl -1;
+            }
+        
+
+        while (dm>1 && (dm>0 && dm>2)){
+            println(dm); dm = dm -1;
+            }
+        
+
+        while (dn>1 && (dn>0 && dn>2)){
+            println(dn); dn = dn -1;
+            }
+        
+
+        while (do>1 && (do>0 && do>2)){
+            println(do); do = do -1;
+            }
+        
+
+        while (dp>1 && (dp>0 && dp>2)){
+            println(dp); dp = dp -1;
+            }
+        
+
+        while (dq>1 && (dq>0 && dq>2)){
+            println(dq); dq = dq -1;
+            }
+        
+
+        while (dr>1 && (dr>0 && dr>2)){
+            println(dr); dr = dr -1;
+            }
+        
+
+        while (ds>1 && (ds>0 && ds>2)){
+            println(ds); ds = ds -1;
+            }
+        
+
+        while (dt>1 && (dt>0 && dt>2)){
+            println(dt); dt = dt -1;
+            }
+        
+
+        while (du>1 && (du>0 && du>2)){
+            println(du); du = du -1;
+            }
+        
+
+        while (dv>1 && (dv>0 && dv>2)){
+            println(dv); dv = dv -1;
+            }
+        
+
+        while (dw>1 && (dw>0 && dw>2)){
+            println(dw); dw = dw -1;
+            }
+        
+
+        while (dx>1 && (dx>0 && dx>2)){
+            println(dx); dx = dx -1;
+            }
+        
+
+        while (dy>1 && (dy>0 && dy>2)){
+            println(dy); dy = dy -1;
+            }
+        
+
+        while (dz>1 && (dz>0 && dz>2)){
+            println(dz); dz = dz -1;
+            }
+        
+
+        while (fb>1 && (fb>0 && fb>2)){
+            println(fb); fb = fb -1;
+            }
+        
+
+        while (fc>1 && (fc>0 && fc>2)){
+            println(fc); fc = fc -1;
+            }
+        
+
+        while (fd>1 && (fd>0 && fd>2)){
+            println(fd); fd = fd -1;
+            }
+        
+
+        while (ff>1 && (ff>0 && ff>2)){
+            println(ff); ff = ff -1;
+            }
+        
+
+        while (fg>1 && (fg>0 && fg>2)){
+            println(fg); fg = fg -1;
+            }
+        
+
+        while (fh>1 && (fh>0 && fh>2)){
+            println(fh); fh = fh -1;
+            }
+        
+
+        while (fj>1 && (fj>0 && fj>2)){
+            println(fj); fj = fj -1;
+            }
+        
+
+        while (fk>1 && (fk>0 && fk>2)){
+            println(fk); fk = fk -1;
+            }
+        
+
+        while (fl>1 && (fl>0 && fl>2)){
+            println(fl); fl = fl -1;
+            }
+        
+
+        while (fm>1 && (fm>0 && fm>2)){
+            println(fm); fm = fm -1;
+            }
+        
+
+        while (fn>1 && (fn>0 && fn>2)){
+            println(fn); fn = fn -1;
+            }
+        
+
+        while (fo>1 && (fo>0 && fo>2)){
+            println(fo); fo = fo -1;
+            }
+        
+
+        while (fp>1 && (fp>0 && fp>2)){
+            println(fp); fp = fp -1;
+            }
+        
+
+        while (fq>1 && (fq>0 && fq>2)){
+            println(fq); fq = fq -1;
+            }
+        
+
+        while (fr>1 && (fr>0 && fr>2)){
+            println(fr); fr = fr -1;
+            }
+        
+
+        while (fs>1 && (fs>0 && fs>2)){
+            println(fs); fs = fs -1;
+            }
+        
+
+        while (ft>1 && (ft>0 && ft>2)){
+            println(ft); ft = ft -1;
+            }
+        
+
+        while (fu>1 && (fu>0 && fu>2)){
+            println(fu); fu = fu -1;
+            }
+        
+
+        while (fv>1 && (fv>0 && fv>2)){
+            println(fv); fv = fv -1;
+            }
+        
+
+        while (fw>1 && (fw>0 && fw>2)){
+            println(fw); fw = fw -1;
+            }
+        
+
+        while (fx>1 && (fx>0 && fx>2)){
+            println(fx); fx = fx -1;
+            }
+        
+
+        while (fy>1 && (fy>0 && fy>2)){
+            println(fy); fy = fy -1;
+            }
+        
+
+        while (fz>1 && (fz>0 && fz>2)){
+            println(fz); fz = fz -1;
+            }
+        
+
+        while (gb>1 && (gb>0 && gb>2)){
+            println(gb); gb = gb -1;
+            }
+        
+
+        while (gc>1 && (gc>0 && gc>2)){
+            println(gc); gc = gc -1;
+            }
+        
+
+        while (gd>1 && (gd>0 && gd>2)){
+            println(gd); gd = gd -1;
+            }
+        
+
+        while (gf>1 && (gf>0 && gf>2)){
+            println(gf); gf = gf -1;
+            }
+        
+
+        while (gg>1 && (gg>0 && gg>2)){
+            println(gg); gg = gg -1;
+            }
+        
+
+        while (gh>1 && (gh>0 && gh>2)){
+            println(gh); gh = gh -1;
+            }
+        
+
+        while (gj>1 && (gj>0 && gj>2)){
+            println(gj); gj = gj -1;
+            }
+        
+
+        while (gk>1 && (gk>0 && gk>2)){
+            println(gk); gk = gk -1;
+            }
+        
+
+        while (gl>1 && (gl>0 && gl>2)){
+            println(gl); gl = gl -1;
+            }
+        
+
+        while (gm>1 && (gm>0 && gm>2)){
+            println(gm); gm = gm -1;
+            }
+        
+
+        while (gn>1 && (gn>0 && gn>2)){
+            println(gn); gn = gn -1;
+            }
+        
+
+        while (go>1 && (go>0 && go>2)){
+            println(go); go = go -1;
+            }
+        
+
+        while (gp>1 && (gp>0 && gp>2)){
+            println(gp); gp = gp -1;
+            }
+        
+
+        while (gq>1 && (gq>0 && gq>2)){
+            println(gq); gq = gq -1;
+            }
+        
+
+        while (gr>1 && (gr>0 && gr>2)){
+            println(gr); gr = gr -1;
+            }
+        
+
+        while (gs>1 && (gs>0 && gs>2)){
+            println(gs); gs = gs -1;
+            }
+        
+
+        while (gt>1 && (gt>0 && gt>2)){
+            println(gt); gt = gt -1;
+            }
+        
+
+        while (gu>1 && (gu>0 && gu>2)){
+            println(gu); gu = gu -1;
+            }
+        
+
+        while (gv>1 && (gv>0 && gv>2)){
+            println(gv); gv = gv -1;
+            }
+        
+
+        while (gw>1 && (gw>0 && gw>2)){
+            println(gw); gw = gw -1;
+            }
+        
+
+        while (gx>1 && (gx>0 && gx>2)){
+            println(gx); gx = gx -1;
+            }
+        
+
+        while (gy>1 && (gy>0 && gy>2)){
+            println(gy); gy = gy -1;
+            }
+        
+
+        while (gz>1 && (gz>0 && gz>2)){
+            println(gz); gz = gz -1;
+            }
+        
+
+        while (hb>1 && (hb>0 && hb>2)){
+            println(hb); hb = hb -1;
+            }
+        
+
+        while (hc>1 && (hc>0 && hc>2)){
+            println(hc); hc = hc -1;
+            }
+        
+
+        while (hd>1 && (hd>0 && hd>2)){
+            println(hd); hd = hd -1;
+            }
+        
+
+        while (hf>1 && (hf>0 && hf>2)){
+            println(hf); hf = hf -1;
+            }
+        
+
+        while (hg>1 && (hg>0 && hg>2)){
+            println(hg); hg = hg -1;
+            }
+        
+
+        while (hh>1 && (hh>0 && hh>2)){
+            println(hh); hh = hh -1;
+            }
+        
+
+        while (hj>1 && (hj>0 && hj>2)){
+            println(hj); hj = hj -1;
+            }
+        
+
+        while (hk>1 && (hk>0 && hk>2)){
+            println(hk); hk = hk -1;
+            }
+        
+
+        while (hl>1 && (hl>0 && hl>2)){
+            println(hl); hl = hl -1;
+            }
+        
+
+        while (hm>1 && (hm>0 && hm>2)){
+            println(hm); hm = hm -1;
+            }
+        
+
+        while (hn>1 && (hn>0 && hn>2)){
+            println(hn); hn = hn -1;
+            }
+        
+
+        while (ho>1 && (ho>0 && ho>2)){
+            println(ho); ho = ho -1;
+            }
+        
+
+        while (hp>1 && (hp>0 && hp>2)){
+            println(hp); hp = hp -1;
+            }
+        
+
+        while (hq>1 && (hq>0 && hq>2)){
+            println(hq); hq = hq -1;
+            }
+        
+
+        while (hr>1 && (hr>0 && hr>2)){
+            println(hr); hr = hr -1;
+            }
+        
+
+        while (hs>1 && (hs>0 && hs>2)){
+            println(hs); hs = hs -1;
+            }
+        
+
+        while (ht>1 && (ht>0 && ht>2)){
+            println(ht); ht = ht -1;
+            }
+        
+
+        while (hu>1 && (hu>0 && hu>2)){
+            println(hu); hu = hu -1;
+            }
+        
+
+        while (hv>1 && (hv>0 && hv>2)){
+            println(hv); hv = hv -1;
+            }
+        
+
+        while (hw>1 && (hw>0 && hw>2)){
+            println(hw); hw = hw -1;
+            }
+        
+
+        while (hx>1 && (hx>0 && hx>2)){
+            println(hx); hx = hx -1;
+            }
+        
+
+        while (hy>1 && (hy>0 && hy>2)){
+            println(hy); hy = hy -1;
+            }
+        
+
+        while (hz>1 && (hz>0 && hz>2)){
+            println(hz); hz = hz -1;
+            }
+        
+
+        while (jb>1 && (jb>0 && jb>2)){
+            println(jb); jb = jb -1;
+            }
+        
+
+        while (jc>1 && (jc>0 && jc>2)){
+            println(jc); jc = jc -1;
+            }
+        
+
+        while (jd>1 && (jd>0 && jd>2)){
+            println(jd); jd = jd -1;
+            }
+        
+
+        while (jf>1 && (jf>0 && jf>2)){
+            println(jf); jf = jf -1;
+            }
+        
+
+        while (jg>1 && (jg>0 && jg>2)){
+            println(jg); jg = jg -1;
+            }
+        
+
+        while (jh>1 && (jh>0 && jh>2)){
+            println(jh); jh = jh -1;
+            }
+        
+
+        while (jj>1 && (jj>0 && jj>2)){
+            println(jj); jj = jj -1;
+            }
+        
+
+        while (jk>1 && (jk>0 && jk>2)){
+            println(jk); jk = jk -1;
+            }
+        
+
+        while (jl>1 && (jl>0 && jl>2)){
+            println(jl); jl = jl -1;
+            }
+        
+
+        while (jm>1 && (jm>0 && jm>2)){
+            println(jm); jm = jm -1;
+            }
+        
+
+        while (jn>1 && (jn>0 && jn>2)){
+            println(jn); jn = jn -1;
+            }
+        
+
+        while (jo>1 && (jo>0 && jo>2)){
+            println(jo); jo = jo -1;
+            }
+        
+
+        while (jp>1 && (jp>0 && jp>2)){
+            println(jp); jp = jp -1;
+            }
+        
+
+        while (jq>1 && (jq>0 && jq>2)){
+            println(jq); jq = jq -1;
+            }
+        
+
+        while (jr>1 && (jr>0 && jr>2)){
+            println(jr); jr = jr -1;
+            }
+        
+
+        while (js>1 && (js>0 && js>2)){
+            println(js); js = js -1;
+            }
+        
+
+        while (jt>1 && (jt>0 && jt>2)){
+            println(jt); jt = jt -1;
+            }
+        
+
+        while (ju>1 && (ju>0 && ju>2)){
+            println(ju); ju = ju -1;
+            }
+        
+
+        while (jv>1 && (jv>0 && jv>2)){
+            println(jv); jv = jv -1;
+            }
+        
+
+        while (jw>1 && (jw>0 && jw>2)){
+            println(jw); jw = jw -1;
+            }
+        
+
+        while (jx>1 && (jx>0 && jx>2)){
+            println(jx); jx = jx -1;
+            }
+        
+
+        while (jy>1 && (jy>0 && jy>2)){
+            println(jy); jy = jy -1;
+            }
+        
+
+        while (jz>1 && (jz>0 && jz>2)){
+            println(jz); jz = jz -1;
+            }
+        
+
+        while (kb>1 && (kb>0 && kb>2)){
+            println(kb); kb = kb -1;
+            }
+        
+
+        while (kc>1 && (kc>0 && kc>2)){
+            println(kc); kc = kc -1;
+            }
+        
+
+        while (kd>1 && (kd>0 && kd>2)){
+            println(kd); kd = kd -1;
+            }
+        
+
+        while (kf>1 && (kf>0 && kf>2)){
+            println(kf); kf = kf -1;
+            }
+        
+
+        while (kg>1 && (kg>0 && kg>2)){
+            println(kg); kg = kg -1;
+            }
+        
+
+        while (kh>1 && (kh>0 && kh>2)){
+            println(kh); kh = kh -1;
+            }
+        
+
+        while (kj>1 && (kj>0 && kj>2)){
+            println(kj); kj = kj -1;
+            }
+        
+
+        while (kk>1 && (kk>0 && kk>2)){
+            println(kk); kk = kk -1;
+            }
+        
+
+        while (kl>1 && (kl>0 && kl>2)){
+            println(kl); kl = kl -1;
+            }
+        
+
+        while (km>1 && (km>0 && km>2)){
+            println(km); km = km -1;
+            }
+        
+
+        while (kn>1 && (kn>0 && kn>2)){
+            println(kn); kn = kn -1;
+            }
+        
+
+        while (ko>1 && (ko>0 && ko>2)){
+            println(ko); ko = ko -1;
+            }
+        
+
+        while (kp>1 && (kp>0 && kp>2)){
+            println(kp); kp = kp -1;
+            }
+        
+
+        while (kq>1 && (kq>0 && kq>2)){
+            println(kq); kq = kq -1;
+            }
+        
+
+        while (kr>1 && (kr>0 && kr>2)){
+            println(kr); kr = kr -1;
+            }
+        
+
+        while (ks>1 && (ks>0 && ks>2)){
+            println(ks); ks = ks -1;
+            }
+        
+
+        while (kt>1 && (kt>0 && kt>2)){
+            println(kt); kt = kt -1;
+            }
+        
+
+        while (ku>1 && (ku>0 && ku>2)){
+            println(ku); ku = ku -1;
+            }
+        
+
+        while (kv>1 && (kv>0 && kv>2)){
+            println(kv); kv = kv -1;
+            }
+        
+
+        while (kw>1 && (kw>0 && kw>2)){
+            println(kw); kw = kw -1;
+            }
+        
+
+        while (kx>1 && (kx>0 && kx>2)){
+            println(kx); kx = kx -1;
+            }
+        
+
+        while (ky>1 && (ky>0 && ky>2)){
+            println(ky); ky = ky -1;
+            }
+        
+
+        while (kz>1 && (kz>0 && kz>2)){
+            println(kz); kz = kz -1;
+            }
+        
+
+        while (lb>1 && (lb>0 && lb>2)){
+            println(lb); lb = lb -1;
+            }
+        
+
+        while (lc>1 && (lc>0 && lc>2)){
+            println(lc); lc = lc -1;
+            }
+        
+
+        while (ld>1 && (ld>0 && ld>2)){
+            println(ld); ld = ld -1;
+            }
+        
+
+        while (lf>1 && (lf>0 && lf>2)){
+            println(lf); lf = lf -1;
+            }
+        
+
+        while (lg>1 && (lg>0 && lg>2)){
+            println(lg); lg = lg -1;
+            }
+        
+
+        while (lh>1 && (lh>0 && lh>2)){
+            println(lh); lh = lh -1;
+            }
+        
+
+        while (lj>1 && (lj>0 && lj>2)){
+            println(lj); lj = lj -1;
+            }
+        
+
+        while (lk>1 && (lk>0 && lk>2)){
+            println(lk); lk = lk -1;
+            }
+        
+
+        while (ll>1 && (ll>0 && ll>2)){
+            println(ll); ll = ll -1;
+            }
+        
+
+        while (lm>1 && (lm>0 && lm>2)){
+            println(lm); lm = lm -1;
+            }
+        
+
+        while (ln>1 && (ln>0 && ln>2)){
+            println(ln); ln = ln -1;
+            }
+        
+
+        while (lo>1 && (lo>0 && lo>2)){
+            println(lo); lo = lo -1;
+            }
+        
+
+        while (lp>1 && (lp>0 && lp>2)){
+            println(lp); lp = lp -1;
+            }
+        
+
+        while (lq>1 && (lq>0 && lq>2)){
+            println(lq); lq = lq -1;
+            }
+        
+
+        while (lr>1 && (lr>0 && lr>2)){
+            println(lr); lr = lr -1;
+            }
+        
+
+        while (ls>1 && (ls>0 && ls>2)){
+            println(ls); ls = ls -1;
+            }
+        
+
+        while (lt>1 && (lt>0 && lt>2)){
+            println(lt); lt = lt -1;
+            }
+        
+
+        while (lu>1 && (lu>0 && lu>2)){
+            println(lu); lu = lu -1;
+            }
+        
+
+        while (lv>1 && (lv>0 && lv>2)){
+            println(lv); lv = lv -1;
+            }
+        
+
+        while (lw>1 && (lw>0 && lw>2)){
+            println(lw); lw = lw -1;
+            }
+        
+
+        while (lx>1 && (lx>0 && lx>2)){
+            println(lx); lx = lx -1;
+            }
+        
+
+        while (ly>1 && (ly>0 && ly>2)){
+            println(ly); ly = ly -1;
+            }
+        
+
+        while (lz>1 && (lz>0 && lz>2)){
+            println(lz); lz = lz -1;
+            }
+        
+
+        while (mb>1 && (mb>0 && mb>2)){
+            println(mb); mb = mb -1;
+            }
+        
+
+        while (mc>1 && (mc>0 && mc>2)){
+            println(mc); mc = mc -1;
+            }
+        
+
+        while (md>1 && (md>0 && md>2)){
+            println(md); md = md -1;
+            }
+        
+
+        while (mf>1 && (mf>0 && mf>2)){
+            println(mf); mf = mf -1;
+            }
+        
+
+        while (mg>1 && (mg>0 && mg>2)){
+            println(mg); mg = mg -1;
+            }
+        
+
+        while (mh>1 && (mh>0 && mh>2)){
+            println(mh); mh = mh -1;
+            }
+        
+
+        while (mj>1 && (mj>0 && mj>2)){
+            println(mj); mj = mj -1;
+            }
+        
+
+        while (mk>1 && (mk>0 && mk>2)){
+            println(mk); mk = mk -1;
+            }
+        
+
+        while (ml>1 && (ml>0 && ml>2)){
+            println(ml); ml = ml -1;
+            }
+        
+
+        while (mm>1 && (mm>0 && mm>2)){
+            println(mm); mm = mm -1;
+            }
+        
+
+        while (mn>1 && (mn>0 && mn>2)){
+            println(mn); mn = mn -1;
+            }
+        
+
+        while (mo>1 && (mo>0 && mo>2)){
+            println(mo); mo = mo -1;
+            }
+        
+
+        while (mp>1 && (mp>0 && mp>2)){
+            println(mp); mp = mp -1;
+            }
+        
+
+        while (mq>1 && (mq>0 && mq>2)){
+            println(mq); mq = mq -1;
+            }
+        
+
+        while (mr>1 && (mr>0 && mr>2)){
+            println(mr); mr = mr -1;
+            }
+        
+
+        while (ms>1 && (ms>0 && ms>2)){
+            println(ms); ms = ms -1;
+            }
+        
+
+        while (mt>1 && (mt>0 && mt>2)){
+            println(mt); mt = mt -1;
+            }
+        
+
+        while (mu>1 && (mu>0 && mu>2)){
+            println(mu); mu = mu -1;
+            }
+        
+
+        while (mv>1 && (mv>0 && mv>2)){
+            println(mv); mv = mv -1;
+            }
+        
+
+        while (mw>1 && (mw>0 && mw>2)){
+            println(mw); mw = mw -1;
+            }
+        
+
+        while (mx>1 && (mx>0 && mx>2)){
+            println(mx); mx = mx -1;
+            }
+        
+
+        while (my>1 && (my>0 && my>2)){
+            println(my); my = my -1;
+            }
+        
+
+        while (mz>1 && (mz>0 && mz>2)){
+            println(mz); mz = mz -1;
+            }
+        
+
+        while (nb>1 && (nb>0 && nb>2)){
+            println(nb); nb = nb -1;
+            }
+        
+
+        while (nc>1 && (nc>0 && nc>2)){
+            println(nc); nc = nc -1;
+            }
+        
+
+        while (nd>1 && (nd>0 && nd>2)){
+            println(nd); nd = nd -1;
+            }
+        
+
+        while (nf>1 && (nf>0 && nf>2)){
+            println(nf); nf = nf -1;
+            }
+        
+
+        while (ng>1 && (ng>0 && ng>2)){
+            println(ng); ng = ng -1;
+            }
+        
+
+        while (nh>1 && (nh>0 && nh>2)){
+            println(nh); nh = nh -1;
+            }
+        
+
+        while (nj>1 && (nj>0 && nj>2)){
+            println(nj); nj = nj -1;
+            }
+        
+
+        while (nk>1 && (nk>0 && nk>2)){
+            println(nk); nk = nk -1;
+            }
+        
+
+        while (nl>1 && (nl>0 && nl>2)){
+            println(nl); nl = nl -1;
+            }
+        
+
+        while (nm>1 && (nm>0 && nm>2)){
+            println(nm); nm = nm -1;
+            }
+        
+
+        while (nn>1 && (nn>0 && nn>2)){
+            println(nn); nn = nn -1;
+            }
+        
+
+        while (no>1 && (no>0 && no>2)){
+            println(no); no = no -1;
+            }
+        
+
+        while (np>1 && (np>0 && np>2)){
+            println(np); np = np -1;
+            }
+        
+
+        while (nq>1 && (nq>0 && nq>2)){
+            println(nq); nq = nq -1;
+            }
+        
+
+        while (nr>1 && (nr>0 && nr>2)){
+            println(nr); nr = nr -1;
+            }
+        
+
+        while (ns>1 && (ns>0 && ns>2)){
+            println(ns); ns = ns -1;
+            }
+        
+
+        while (nt>1 && (nt>0 && nt>2)){
+            println(nt); nt = nt -1;
+            }
+        
+
+        while (nu>1 && (nu>0 && nu>2)){
+            println(nu); nu = nu -1;
+            }
+        
+
+        while (nv>1 && (nv>0 && nv>2)){
+            println(nv); nv = nv -1;
+            }
+        
+
+        while (nw>1 && (nw>0 && nw>2)){
+            println(nw); nw = nw -1;
+            }
+        
+
+        while (nx>1 && (nx>0 && nx>2)){
+            println(nx); nx = nx -1;
+            }
+        
+
+        while (ny>1 && (ny>0 && ny>2)){
+            println(ny); ny = ny -1;
+            }
+        
+
+        while (nz>1 && (nz>0 && nz>2)){
+            println(nz); nz = nz -1;
+            }
+        
+
+        while (ob>1 && (ob>0 && ob>2)){
+            println(ob); ob = ob -1;
+            }
+        
+
+        while (oc>1 && (oc>0 && oc>2)){
+            println(oc); oc = oc -1;
+            }
+        
+
+        while (od>1 && (od>0 && od>2)){
+            println(od); od = od -1;
+            }
+        
+
+        while (of>1 && (of>0 && of>2)){
+            println(of); of = of -1;
+            }
+        
+
+        while (og>1 && (og>0 && og>2)){
+            println(og); og = og -1;
+            }
+        
+
+        while (oh>1 && (oh>0 && oh>2)){
+            println(oh); oh = oh -1;
+            }
+        
+
+        while (oj>1 && (oj>0 && oj>2)){
+            println(oj); oj = oj -1;
+            }
+        
+
+        while (ok>1 && (ok>0 && ok>2)){
+            println(ok); ok = ok -1;
+            }
+        
+
+        while (ol>1 && (ol>0 && ol>2)){
+            println(ol); ol = ol -1;
+            }
+        
+
+        while (om>1 && (om>0 && om>2)){
+            println(om); om = om -1;
+            }
+        
+
+        while (on>1 && (on>0 && on>2)){
+            println(on); on = on -1;
+            }
+        
+
+        while (oo>1 && (oo>0 && oo>2)){
+            println(oo); oo = oo -1;
+            }
+        
+
+        while (op>1 && (op>0 && op>2)){
+            println(op); op = op -1;
+            }
+        
+
+        while (oq>1 && (oq>0 && oq>2)){
+            println(oq); oq = oq -1;
+            }
+        
+
+        while (or>1 && (or>0 && or>2)){
+            println(or); or = or -1;
+            }
+        
+
+        while (os>1 && (os>0 && os>2)){
+            println(os); os = os -1;
+            }
+        
+
+        while (ot>1 && (ot>0 && ot>2)){
+            println(ot); ot = ot -1;
+            }
+        
+
+        while (ou>1 && (ou>0 && ou>2)){
+            println(ou); ou = ou -1;
+            }
+        
+
+        while (ov>1 && (ov>0 && ov>2)){
+            println(ov); ov = ov -1;
+            }
+        
+
+        while (ow>1 && (ow>0 && ow>2)){
+            println(ow); ow = ow -1;
+            }
+        
+
+        while (ox>1 && (ox>0 && ox>2)){
+            println(ox); ox = ox -1;
+            }
+        
+
+        while (oy>1 && (oy>0 && oy>2)){
+            println(oy); oy = oy -1;
+            }
+        
+
+        while (oz>1 && (oz>0 && oz>2)){
+            println(oz); oz = oz -1;
+            }
+        
+
+        while (pb>1 && (pb>0 && pb>2)){
+            println(pb); pb = pb -1;
+            }
+        
+
+        while (pc>1 && (pc>0 && pc>2)){
+            println(pc); pc = pc -1;
+            }
+        
+
+        while (pd>1 && (pd>0 && pd>2)){
+            println(pd); pd = pd -1;
+            }
+        
+
+        while (pf>1 && (pf>0 && pf>2)){
+            println(pf); pf = pf -1;
+            }
+        
+
+        while (pg>1 && (pg>0 && pg>2)){
+            println(pg); pg = pg -1;
+            }
+        
+
+        while (ph>1 && (ph>0 && ph>2)){
+            println(ph); ph = ph -1;
+            }
+        
+
+        while (pj>1 && (pj>0 && pj>2)){
+            println(pj); pj = pj -1;
+            }
+        
+
+        while (pk>1 && (pk>0 && pk>2)){
+            println(pk); pk = pk -1;
+            }
+        
+
+        while (pl>1 && (pl>0 && pl>2)){
+            println(pl); pl = pl -1;
+            }
+        
+
+        while (pm>1 && (pm>0 && pm>2)){
+            println(pm); pm = pm -1;
+            }
+        
+
+        while (pn>1 && (pn>0 && pn>2)){
+            println(pn); pn = pn -1;
+            }
+        
+
+        while (po>1 && (po>0 && po>2)){
+            println(po); po = po -1;
+            }
+        
+
+        while (pp>1 && (pp>0 && pp>2)){
+            println(pp); pp = pp -1;
+            }
+        
+
+        while (pq>1 && (pq>0 && pq>2)){
+            println(pq); pq = pq -1;
+            }
+        
+
+        while (pr>1 && (pr>0 && pr>2)){
+            println(pr); pr = pr -1;
+            }
+        
+
+        while (ps>1 && (ps>0 && ps>2)){
+            println(ps); ps = ps -1;
+            }
+        
+
+        while (pt>1 && (pt>0 && pt>2)){
+            println(pt); pt = pt -1;
+            }
+        
+
+        while (pu>1 && (pu>0 && pu>2)){
+            println(pu); pu = pu -1;
+            }
+        
+
+        while (pv>1 && (pv>0 && pv>2)){
+            println(pv); pv = pv -1;
+            }
+        
+
+        while (pw>1 && (pw>0 && pw>2)){
+            println(pw); pw = pw -1;
+            }
+        
+
+        while (px>1 && (px>0 && px>2)){
+            println(px); px = px -1;
+            }
+        
+
+        while (py>1 && (py>0 && py>2)){
+            println(py); py = py -1;
+            }
+        
+
+        while (pz>1 && (pz>0 && pz>2)){
+            println(pz); pz = pz -1;
+            }
+        
+
+        while (qb>1 && (qb>0 && qb>2)){
+            println(qb); qb = qb -1;
+            }
+        
+
+        while (qc>1 && (qc>0 && qc>2)){
+            println(qc); qc = qc -1;
+            }
+        
+
+        while (qd>1 && (qd>0 && qd>2)){
+            println(qd); qd = qd -1;
+            }
+        
+
+        while (qf>1 && (qf>0 && qf>2)){
+            println(qf); qf = qf -1;
+            }
+        
+
+        while (qg>1 && (qg>0 && qg>2)){
+            println(qg); qg = qg -1;
+            }
+        
+
+        while (qh>1 && (qh>0 && qh>2)){
+            println(qh); qh = qh -1;
+            }
+        
+
+        while (qj>1 && (qj>0 && qj>2)){
+            println(qj); qj = qj -1;
+            }
+        
+
+        while (qk>1 && (qk>0 && qk>2)){
+            println(qk); qk = qk -1;
+            }
+        
+
+        while (ql>1 && (ql>0 && ql>2)){
+            println(ql); ql = ql -1;
+            }
+        
+
+        while (qm>1 && (qm>0 && qm>2)){
+            println(qm); qm = qm -1;
+            }
+        
+
+        while (qn>1 && (qn>0 && qn>2)){
+            println(qn); qn = qn -1;
+            }
+        
+
+        while (qo>1 && (qo>0 && qo>2)){
+            println(qo); qo = qo -1;
+            }
+        
+
+        while (qp>1 && (qp>0 && qp>2)){
+            println(qp); qp = qp -1;
+            }
+        
+
+        while (qq>1 && (qq>0 && qq>2)){
+            println(qq); qq = qq -1;
+            }
+        
+
+        while (qr>1 && (qr>0 && qr>2)){
+            println(qr); qr = qr -1;
+            }
+        
+
+        while (qs>1 && (qs>0 && qs>2)){
+            println(qs); qs = qs -1;
+            }
+        
+
+        while (qt>1 && (qt>0 && qt>2)){
+            println(qt); qt = qt -1;
+            }
+        
+
+        while (qu>1 && (qu>0 && qu>2)){
+            println(qu); qu = qu -1;
+            }
+        
+
+        while (qv>1 && (qv>0 && qv>2)){
+            println(qv); qv = qv -1;
+            }
+        
+
+        while (qw>1 && (qw>0 && qw>2)){
+            println(qw); qw = qw -1;
+            }
+        
+
+        while (qx>1 && (qx>0 && qx>2)){
+            println(qx); qx = qx -1;
+            }
+        
+
+        while (qy>1 && (qy>0 && qy>2)){
+            println(qy); qy = qy -1;
+            }
+        
+
+        while (qz>1 && (qz>0 && qz>2)){
+            println(qz); qz = qz -1;
+            }
+        
+
+        while (rb>1 && (rb>0 && rb>2)){
+            println(rb); rb = rb -1;
+            }
+        
+
+        while (rc>1 && (rc>0 && rc>2)){
+            println(rc); rc = rc -1;
+            }
+        
+
+        while (rd>1 && (rd>0 && rd>2)){
+            println(rd); rd = rd -1;
+            }
+        
+
+        while (rf>1 && (rf>0 && rf>2)){
+            println(rf); rf = rf -1;
+            }
+        
+
+        while (rg>1 && (rg>0 && rg>2)){
+            println(rg); rg = rg -1;
+            }
+        
+
+        while (rh>1 && (rh>0 && rh>2)){
+            println(rh); rh = rh -1;
+            }
+        
+
+        while (rj>1 && (rj>0 && rj>2)){
+            println(rj); rj = rj -1;
+            }
+        
+
+        while (rk>1 && (rk>0 && rk>2)){
+            println(rk); rk = rk -1;
+            }
+        
+
+        while (rl>1 && (rl>0 && rl>2)){
+            println(rl); rl = rl -1;
+            }
+        
+
+        while (rm>1 && (rm>0 && rm>2)){
+            println(rm); rm = rm -1;
+            }
+        
+
+        while (rn>1 && (rn>0 && rn>2)){
+            println(rn); rn = rn -1;
+            }
+        
+
+        while (ro>1 && (ro>0 && ro>2)){
+            println(ro); ro = ro -1;
+            }
+        
+
+        while (rp>1 && (rp>0 && rp>2)){
+            println(rp); rp = rp -1;
+            }
+        
+
+        while (rq>1 && (rq>0 && rq>2)){
+            println(rq); rq = rq -1;
+            }
+        
+
+        while (rr>1 && (rr>0 && rr>2)){
+            println(rr); rr = rr -1;
+            }
+        
+
+        while (rs>1 && (rs>0 && rs>2)){
+            println(rs); rs = rs -1;
+            }
+        
+
+        while (rt>1 && (rt>0 && rt>2)){
+            println(rt); rt = rt -1;
+            }
+        
+
+        while (ru>1 && (ru>0 && ru>2)){
+            println(ru); ru = ru -1;
+            }
+        
+
+        while (rv>1 && (rv>0 && rv>2)){
+            println(rv); rv = rv -1;
+            }
+        
+
+        while (rw>1 && (rw>0 && rw>2)){
+            println(rw); rw = rw -1;
+            }
+        
+
+        while (rx>1 && (rx>0 && rx>2)){
+            println(rx); rx = rx -1;
+            }
+        
+
+        while (ry>1 && (ry>0 && ry>2)){
+            println(ry); ry = ry -1;
+            }
+        
+
+        while (rz>1 && (rz>0 && rz>2)){
+            println(rz); rz = rz -1;
+            }
+        
+
+        while (sb>1 && (sb>0 && sb>2)){
+            println(sb); sb = sb -1;
+            }
+        
+
+        while (sc>1 && (sc>0 && sc>2)){
+            println(sc); sc = sc -1;
+            }
+        
+
+        while (sd>1 && (sd>0 && sd>2)){
+            println(sd); sd = sd -1;
+            }
+        
+
+        while (sf>1 && (sf>0 && sf>2)){
+            println(sf); sf = sf -1;
+            }
+        
+
+        while (sg>1 && (sg>0 && sg>2)){
+            println(sg); sg = sg -1;
+            }
+        
+
+        while (sh>1 && (sh>0 && sh>2)){
+            println(sh); sh = sh -1;
+            }
+        
+
+        while (sj>1 && (sj>0 && sj>2)){
+            println(sj); sj = sj -1;
+            }
+        
+
+        while (sk>1 && (sk>0 && sk>2)){
+            println(sk); sk = sk -1;
+            }
+        
+
+        while (sl>1 && (sl>0 && sl>2)){
+            println(sl); sl = sl -1;
+            }
+        
+
+        while (sm>1 && (sm>0 && sm>2)){
+            println(sm); sm = sm -1;
+            }
+        
+
+        while (sn>1 && (sn>0 && sn>2)){
+            println(sn); sn = sn -1;
+            }
+        
+
+        while (so>1 && (so>0 && so>2)){
+            println(so); so = so -1;
+            }
+        
+
+        while (sp>1 && (sp>0 && sp>2)){
+            println(sp); sp = sp -1;
+            }
+        
+
+        while (sq>1 && (sq>0 && sq>2)){
+            println(sq); sq = sq -1;
+            }
+        
+
+        while (sr>1 && (sr>0 && sr>2)){
+            println(sr); sr = sr -1;
+            }
+        
+
+        while (ss>1 && (ss>0 && ss>2)){
+            println(ss); ss = ss -1;
+            }
+        
+
+        while (st>1 && (st>0 && st>2)){
+            println(st); st = st -1;
+            }
+        
+
+        while (su>1 && (su>0 && su>2)){
+            println(su); su = su -1;
+            }
+        
+
+        while (sv>1 && (sv>0 && sv>2)){
+            println(sv); sv = sv -1;
+            }
+        
+
+        while (sw>1 && (sw>0 && sw>2)){
+            println(sw); sw = sw -1;
+            }
+        
+
+        while (sx>1 && (sx>0 && sx>2)){
+            println(sx); sx = sx -1;
+            }
+        
+
+        while (sy>1 && (sy>0 && sy>2)){
+            println(sy); sy = sy -1;
+            }
+        
+
+        while (sz>1 && (sz>0 && sz>2)){
+            println(sz); sz = sz -1;
+            }
+        
+
+        while (tb>1 && (tb>0 && tb>2)){
+            println(tb); tb = tb -1;
+            }
+        
+
+        while (tc>1 && (tc>0 && tc>2)){
+            println(tc); tc = tc -1;
+            }
+        
+
+        while (td>1 && (td>0 && td>2)){
+            println(td); td = td -1;
+            }
+        
+
+        while (tf>1 && (tf>0 && tf>2)){
+            println(tf); tf = tf -1;
+            }
+        
+
+        while (tg>1 && (tg>0 && tg>2)){
+            println(tg); tg = tg -1;
+            }
+        
+
+        while (th>1 && (th>0 && th>2)){
+            println(th); th = th -1;
+            }
+        
+
+        while (tj>1 && (tj>0 && tj>2)){
+            println(tj); tj = tj -1;
+            }
+        
+
+        while (tk>1 && (tk>0 && tk>2)){
+            println(tk); tk = tk -1;
+            }
+        
+
+        while (tl>1 && (tl>0 && tl>2)){
+            println(tl); tl = tl -1;
+            }
+        
+
+        while (tm>1 && (tm>0 && tm>2)){
+            println(tm); tm = tm -1;
+            }
+        
+
+        while (tn>1 && (tn>0 && tn>2)){
+            println(tn); tn = tn -1;
+            }
+        
+
+        while (to>1 && (to>0 && to>2)){
+            println(to); to = to -1;
+            }
+        
+
+        while (tp>1 && (tp>0 && tp>2)){
+            println(tp); tp = tp -1;
+            }
+        
+
+        while (tq>1 && (tq>0 && tq>2)){
+            println(tq); tq = tq -1;
+            }
+        
+
+        while (tr>1 && (tr>0 && tr>2)){
+            println(tr); tr = tr -1;
+            }
+        
+
+        while (ts>1 && (ts>0 && ts>2)){
+            println(ts); ts = ts -1;
+            }
+        
+
+        while (tt>1 && (tt>0 && tt>2)){
+            println(tt); tt = tt -1;
+            }
+        
+
+        while (tu>1 && (tu>0 && tu>2)){
+            println(tu); tu = tu -1;
+            }
+        
+
+        while (tv>1 && (tv>0 && tv>2)){
+            println(tv); tv = tv -1;
+            }
+        
+
+        while (tw>1 && (tw>0 && tw>2)){
+            println(tw); tw = tw -1;
+            }
+        
+
+        while (tx>1 && (tx>0 && tx>2)){
+            println(tx); tx = tx -1;
+            }
+        
+
+        while (ty>1 && (ty>0 && ty>2)){
+            println(ty); ty = ty -1;
+            }
+        
+
+        while (tz>1 && (tz>0 && tz>2)){
+            println(tz); tz = tz -1;
+            }
+        
+
+        while (ub>1 && (ub>0 && ub>2)){
+            println(ub); ub = ub -1;
+            }
+        
+
+        while (uc>1 && (uc>0 && uc>2)){
+            println(uc); uc = uc -1;
+            }
+        
+
+        while (ud>1 && (ud>0 && ud>2)){
+            println(ud); ud = ud -1;
+            }
+        
+
+        while (uf>1 && (uf>0 && uf>2)){
+            println(uf); uf = uf -1;
+            }
+        
+
+        while (ug>1 && (ug>0 && ug>2)){
+            println(ug); ug = ug -1;
+            }
+        
+
+        while (uh>1 && (uh>0 && uh>2)){
+            println(uh); uh = uh -1;
+            }
+        
+
+        while (uj>1 && (uj>0 && uj>2)){
+            println(uj); uj = uj -1;
+            }
+        
+
+        while (uk>1 && (uk>0 && uk>2)){
+            println(uk); uk = uk -1;
+            }
+        
+
+        while (ul>1 && (ul>0 && ul>2)){
+            println(ul); ul = ul -1;
+            }
+        
+
+        while (um>1 && (um>0 && um>2)){
+            println(um); um = um -1;
+            }
+        
+
+        while (un>1 && (un>0 && un>2)){
+            println(un); un = un -1;
+            }
+        
+
+        while (uo>1 && (uo>0 && uo>2)){
+            println(uo); uo = uo -1;
+            }
+        
+
+        while (up>1 && (up>0 && up>2)){
+            println(up); up = up -1;
+            }
+        
+
+        while (uq>1 && (uq>0 && uq>2)){
+            println(uq); uq = uq -1;
+            }
+        
+
+        while (ur>1 && (ur>0 && ur>2)){
+            println(ur); ur = ur -1;
+            }
+        
+
+        while (us>1 && (us>0 && us>2)){
+            println(us); us = us -1;
+            }
+        
+
+        while (ut>1 && (ut>0 && ut>2)){
+            println(ut); ut = ut -1;
+            }
+        
+
+        while (uu>1 && (uu>0 && uu>2)){
+            println(uu); uu = uu -1;
+            }
+        
+
+        while (uv>1 && (uv>0 && uv>2)){
+            println(uv); uv = uv -1;
+            }
+        
+
+        while (uw>1 && (uw>0 && uw>2)){
+            println(uw); uw = uw -1;
+            }
+        
+
+        while (ux>1 && (ux>0 && ux>2)){
+            println(ux); ux = ux -1;
+            }
+        
+
+        while (uy>1 && (uy>0 && uy>2)){
+            println(uy); uy = uy -1;
+            }
+        
+
+        while (uz>1 && (uz>0 && uz>2)){
+            println(uz); uz = uz -1;
+            }
+        
+
+        while (vb>1 && (vb>0 && vb>2)){
+            println(vb); vb = vb -1;
+            }
+        
+
+        while (vc>1 && (vc>0 && vc>2)){
+            println(vc); vc = vc -1;
+            }
+        
+
+        while (vd>1 && (vd>0 && vd>2)){
+            println(vd); vd = vd -1;
+            }
+        
+
+        while (vf>1 && (vf>0 && vf>2)){
+            println(vf); vf = vf -1;
+            }
+        
+
+        while (vg>1 && (vg>0 && vg>2)){
+            println(vg); vg = vg -1;
+            }
+        
+
+        while (vh>1 && (vh>0 && vh>2)){
+            println(vh); vh = vh -1;
+            }
+        
+
+        while (vj>1 && (vj>0 && vj>2)){
+            println(vj); vj = vj -1;
+            }
+        
+
+        while (vk>1 && (vk>0 && vk>2)){
+            println(vk); vk = vk -1;
+            }
+        
+
+        while (vl>1 && (vl>0 && vl>2)){
+            println(vl); vl = vl -1;
+            }
+        
+
+        while (vm>1 && (vm>0 && vm>2)){
+            println(vm); vm = vm -1;
+            }
+        
+
+        while (vn>1 && (vn>0 && vn>2)){
+            println(vn); vn = vn -1;
+            }
+        
+
+        while (vo>1 && (vo>0 && vo>2)){
+            println(vo); vo = vo -1;
+            }
+        
+
+        while (vp>1 && (vp>0 && vp>2)){
+            println(vp); vp = vp -1;
+            }
+        
+
+        while (vq>1 && (vq>0 && vq>2)){
+            println(vq); vq = vq -1;
+            }
+        
+
+        while (vr>1 && (vr>0 && vr>2)){
+            println(vr); vr = vr -1;
+            }
+        
+
+        while (vs>1 && (vs>0 && vs>2)){
+            println(vs); vs = vs -1;
+            }
+        
+
+        while (vt>1 && (vt>0 && vt>2)){
+            println(vt); vt = vt -1;
+            }
+        
+
+        while (vu>1 && (vu>0 && vu>2)){
+            println(vu); vu = vu -1;
+            }
+        
+
+        while (vv>1 && (vv>0 && vv>2)){
+            println(vv); vv = vv -1;
+            }
+        
+
+        while (vw>1 && (vw>0 && vw>2)){
+            println(vw); vw = vw -1;
+            }
+        
+
+        while (vx>1 && (vx>0 && vx>2)){
+            println(vx); vx = vx -1;
+            }
+        
+
+        while (vy>1 && (vy>0 && vy>2)){
+            println(vy); vy = vy -1;
+            }
+        
+
+        while (vz>1 && (vz>0 && vz>2)){
+            println(vz); vz = vz -1;
+            }
+        
+
+        while (wb>1 && (wb>0 && wb>2)){
+            println(wb); wb = wb -1;
+            }
+        
+
+        while (wc>1 && (wc>0 && wc>2)){
+            println(wc); wc = wc -1;
+            }
+        
+
+        while (wd>1 && (wd>0 && wd>2)){
+            println(wd); wd = wd -1;
+            }
+        
+
+        while (wf>1 && (wf>0 && wf>2)){
+            println(wf); wf = wf -1;
+            }
+        
+
+        while (wg>1 && (wg>0 && wg>2)){
+            println(wg); wg = wg -1;
+            }
+        
+
+        while (wh>1 && (wh>0 && wh>2)){
+            println(wh); wh = wh -1;
+            }
+        
+
+        while (wj>1 && (wj>0 && wj>2)){
+            println(wj); wj = wj -1;
+            }
+        
+
+        while (wk>1 && (wk>0 && wk>2)){
+            println(wk); wk = wk -1;
+            }
+        
+
+        while (wl>1 && (wl>0 && wl>2)){
+            println(wl); wl = wl -1;
+            }
+        
+
+        while (wm>1 && (wm>0 && wm>2)){
+            println(wm); wm = wm -1;
+            }
+        
+
+        while (wn>1 && (wn>0 && wn>2)){
+            println(wn); wn = wn -1;
+            }
+        
+
+        while (wo>1 && (wo>0 && wo>2)){
+            println(wo); wo = wo -1;
+            }
+        
+
+        while (wp>1 && (wp>0 && wp>2)){
+            println(wp); wp = wp -1;
+            }
+        
+
+        while (wq>1 && (wq>0 && wq>2)){
+            println(wq); wq = wq -1;
+            }
+        
+
+        while (wr>1 && (wr>0 && wr>2)){
+            println(wr); wr = wr -1;
+            }
+        
+
+        while (ws>1 && (ws>0 && ws>2)){
+            println(ws); ws = ws -1;
+            }
+        
+
+        while (wt>1 && (wt>0 && wt>2)){
+            println(wt); wt = wt -1;
+            }
+        
+
+        while (wu>1 && (wu>0 && wu>2)){
+            println(wu); wu = wu -1;
+            }
+        
+
+        while (wv>1 && (wv>0 && wv>2)){
+            println(wv); wv = wv -1;
+            }
+        
+
+        while (ww>1 && (ww>0 && ww>2)){
+            println(ww); ww = ww -1;
+            }
+        
+
+        while (wx>1 && (wx>0 && wx>2)){
+            println(wx); wx = wx -1;
+            }
+        
+
+        while (wy>1 && (wy>0 && wy>2)){
+            println(wy); wy = wy -1;
+            }
+        
+
+        while (wz>1 && (wz>0 && wz>2)){
+            println(wz); wz = wz -1;
+            }
+        
+
+        while (xb>1 && (xb>0 && xb>2)){
+            println(xb); xb = xb -1;
+            }
+        
+
+        while (xc>1 && (xc>0 && xc>2)){
+            println(xc); xc = xc -1;
+            }
+        
+
+        while (xd>1 && (xd>0 && xd>2)){
+            println(xd); xd = xd -1;
+            }
+        
+
+        while (xf>1 && (xf>0 && xf>2)){
+            println(xf); xf = xf -1;
+            }
+        
+
+        while (xg>1 && (xg>0 && xg>2)){
+            println(xg); xg = xg -1;
+            }
+        
+
+        while (xh>1 && (xh>0 && xh>2)){
+            println(xh); xh = xh -1;
+            }
+        
+
+        while (xj>1 && (xj>0 && xj>2)){
+            println(xj); xj = xj -1;
+            }
+        
+
+        while (xk>1 && (xk>0 && xk>2)){
+            println(xk); xk = xk -1;
+            }
+        
+
+        while (xl>1 && (xl>0 && xl>2)){
+            println(xl); xl = xl -1;
+            }
+        
+
+        while (xm>1 && (xm>0 && xm>2)){
+            println(xm); xm = xm -1;
+            }
+        
+
+        while (xn>1 && (xn>0 && xn>2)){
+            println(xn); xn = xn -1;
+            }
+        
+
+        while (xo>1 && (xo>0 && xo>2)){
+            println(xo); xo = xo -1;
+            }
+        
+
+        while (xp>1 && (xp>0 && xp>2)){
+            println(xp); xp = xp -1;
+            }
+        
+
+        while (xq>1 && (xq>0 && xq>2)){
+            println(xq); xq = xq -1;
+            }
+        
+
+        while (xr>1 && (xr>0 && xr>2)){
+            println(xr); xr = xr -1;
+            }
+        
+
+        while (xs>1 && (xs>0 && xs>2)){
+            println(xs); xs = xs -1;
+            }
+        
+
+        while (xt>1 && (xt>0 && xt>2)){
+            println(xt); xt = xt -1;
+            }
+        
+
+        while (xu>1 && (xu>0 && xu>2)){
+            println(xu); xu = xu -1;
+            }
+        
+
+        while (xv>1 && (xv>0 && xv>2)){
+            println(xv); xv = xv -1;
+            }
+        
+
+        while (xw>1 && (xw>0 && xw>2)){
+            println(xw); xw = xw -1;
+            }
+        
+
+        while (xx>1 && (xx>0 && xx>2)){
+            println(xx); xx = xx -1;
+            }
+        
+
+        while (xy>1 && (xy>0 && xy>2)){
+            println(xy); xy = xy -1;
+            }
+        
+
+        while (xz>1 && (xz>0 && xz>2)){
+            println(xz); xz = xz -1;
+            }
+        
+
+        while (yb>1 && (yb>0 && yb>2)){
+            println(yb); yb = yb -1;
+            }
+        
+
+        while (yc>1 && (yc>0 && yc>2)){
+            println(yc); yc = yc -1;
+            }
+        
+
+        while (yd>1 && (yd>0 && yd>2)){
+            println(yd); yd = yd -1;
+            }
+        
+
+        while (yf>1 && (yf>0 && yf>2)){
+            println(yf); yf = yf -1;
+            }
+        
+
+        while (yg>1 && (yg>0 && yg>2)){
+            println(yg); yg = yg -1;
+            }
+        
+
+        while (yh>1 && (yh>0 && yh>2)){
+            println(yh); yh = yh -1;
+            }
+        
+
+        while (yj>1 && (yj>0 && yj>2)){
+            println(yj); yj = yj -1;
+            }
+        
+
+        while (yk>1 && (yk>0 && yk>2)){
+            println(yk); yk = yk -1;
+            }
+        
+
+        while (yl>1 && (yl>0 && yl>2)){
+            println(yl); yl = yl -1;
+            }
+        
+
+        while (ym>1 && (ym>0 && ym>2)){
+            println(ym); ym = ym -1;
+            }
+        
+
+        while (yn>1 && (yn>0 && yn>2)){
+            println(yn); yn = yn -1;
+            }
+        
+
+        while (yo>1 && (yo>0 && yo>2)){
+            println(yo); yo = yo -1;
+            }
+        
+
+        while (yp>1 && (yp>0 && yp>2)){
+            println(yp); yp = yp -1;
+            }
+        
+
+        while (yq>1 && (yq>0 && yq>2)){
+            println(yq); yq = yq -1;
+            }
+        
+
+        while (yr>1 && (yr>0 && yr>2)){
+            println(yr); yr = yr -1;
+            }
+        
+
+        while (ys>1 && (ys>0 && ys>2)){
+            println(ys); ys = ys -1;
+            }
+        
+
+        while (yt>1 && (yt>0 && yt>2)){
+            println(yt); yt = yt -1;
+            }
+        
+
+        while (yu>1 && (yu>0 && yu>2)){
+            println(yu); yu = yu -1;
+            }
+        
+
+        while (yv>1 && (yv>0 && yv>2)){
+            println(yv); yv = yv -1;
+            }
+        
+
+        while (yw>1 && (yw>0 && yw>2)){
+            println(yw); yw = yw -1;
+            }
+        
+
+        while (yx>1 && (yx>0 && yx>2)){
+            println(yx); yx = yx -1;
+            }
+        
+
+        while (yy>1 && (yy>0 && yy>2)){
+            println(yy); yy = yy -1;
+            }
+        
+
+        while (yz>1 && (yz>0 && yz>2)){
+            println(yz); yz = yz -1;
+            }
+        
+
+        while (zb>1 && (zb>0 && zb>2)){
+            println(zb); zb = zb -1;
+            }
+        
+
+        while (zc>1 && (zc>0 && zc>2)){
+            println(zc); zc = zc -1;
+            }
+        
+
+        while (zd>1 && (zd>0 && zd>2)){
+            println(zd); zd = zd -1;
+            }
+        
+
+        while (zf>1 && (zf>0 && zf>2)){
+            println(zf); zf = zf -1;
+            }
+        
+
+        while (zg>1 && (zg>0 && zg>2)){
+            println(zg); zg = zg -1;
+            }
+        
+
+        while (zh>1 && (zh>0 && zh>2)){
+            println(zh); zh = zh -1;
+            }
+        
+
+        while (zj>1 && (zj>0 && zj>2)){
+            println(zj); zj = zj -1;
+            }
+        
+
+        while (zk>1 && (zk>0 && zk>2)){
+            println(zk); zk = zk -1;
+            }
+        
+
+        while (zl>1 && (zl>0 && zl>2)){
+            println(zl); zl = zl -1;
+            }
+        
+
+        while (zm>1 && (zm>0 && zm>2)){
+            println(zm); zm = zm -1;
+            }
+        
+
+        while (zn>1 && (zn>0 && zn>2)){
+            println(zn); zn = zn -1;
+            }
+        
+
+        while (zo>1 && (zo>0 && zo>2)){
+            println(zo); zo = zo -1;
+            }
+        
+
+        while (zp>1 && (zp>0 && zp>2)){
+            println(zp); zp = zp -1;
+            }
+        
+
+        while (zq>1 && (zq>0 && zq>2)){
+            println(zq); zq = zq -1;
+            }
+        
+
+        while (zr>1 && (zr>0 && zr>2)){
+            println(zr); zr = zr -1;
+            }
+        
+
+        while (zs>1 && (zs>0 && zs>2)){
+            println(zs); zs = zs -1;
+            }
+        
+
+        while (zt>1 && (zt>0 && zt>2)){
+            println(zt); zt = zt -1;
+            }
+        
+
+        while (zu>1 && (zu>0 && zu>2)){
+            println(zu); zu = zu -1;
+            }
+        
+
+        while (zv>1 && (zv>0 && zv>2)){
+            println(zv); zv = zv -1;
+            }
+        
+
+        while (zw>1 && (zw>0 && zw>2)){
+            println(zw); zw = zw -1;
+            }
+        
+
+        while (zx>1 && (zx>0 && zx>2)){
+            println(zx); zx = zx -1;
+            }
+        
+
+        while (zy>1 && (zy>0 && zy>2)){
+            println(zy); zy = zy -1;
+            }
+        
+
+        while (zz>1 && (zz>0 && zz>2)){
+            println(zz); zz = zz -1;
+            }
+        
+
+        while (bb>1 && (bb>0 && bb>2)){
+            println(bb); bb = bb -1;
+            }
+        
+
+        while (bc>1 && (bc>0 && bc>2)){
+            println(bc); bc = bc -1;
+            }
+        
+
+        while (bd>1 && (bd>0 && bd>2)){
+            println(bd); bd = bd -1;
+            }
+        
+
+        while (bf>1 && (bf>0 && bf>2)){
+            println(bf); bf = bf -1;
+            }
+        
+
+        while (bg>1 && (bg>0 && bg>2)){
+            println(bg); bg = bg -1;
+            }
+        
+
+        while (bh>1 && (bh>0 && bh>2)){
+            println(bh); bh = bh -1;
+            }
+        
+
+        while (bj>1 && (bj>0 && bj>2)){
+            println(bj); bj = bj -1;
+            }
+        
+
+        while (bk>1 && (bk>0 && bk>2)){
+            println(bk); bk = bk -1;
+            }
+        
+
+        while (bl>1 && (bl>0 && bl>2)){
+            println(bl); bl = bl -1;
+            }
+        
+
+        while (bm>1 && (bm>0 && bm>2)){
+            println(bm); bm = bm -1;
+            }
+        
+
+        while (bn>1 && (bn>0 && bn>2)){
+            println(bn); bn = bn -1;
+            }
+        
+
+        while (bo>1 && (bo>0 && bo>2)){
+            println(bo); bo = bo -1;
+            }
+        
+
+        while (bp>1 && (bp>0 && bp>2)){
+            println(bp); bp = bp -1;
+            }
+        
+
+        while (bq>1 && (bq>0 && bq>2)){
+            println(bq); bq = bq -1;
+            }
+        
+
+        while (br>1 && (br>0 && br>2)){
+            println(br); br = br -1;
+            }
+        
+
+        while (bs>1 && (bs>0 && bs>2)){
+            println(bs); bs = bs -1;
+            }
+        
+
+        while (bt>1 && (bt>0 && bt>2)){
+            println(bt); bt = bt -1;
+            }
+        
+
+        while (bu>1 && (bu>0 && bu>2)){
+            println(bu); bu = bu -1;
+            }
+        
+
+        while (bv>1 && (bv>0 && bv>2)){
+            println(bv); bv = bv -1;
+            }
+        
+
+        while (bw>1 && (bw>0 && bw>2)){
+            println(bw); bw = bw -1;
+            }
+        
+
+        while (bx>1 && (bx>0 && bx>2)){
+            println(bx); bx = bx -1;
+            }
+        
+
+        while (by>1 && (by>0 && by>2)){
+            println(by); by = by -1;
+            }
+        
+
+        while (bz>1 && (bz>0 && bz>2)){
+            println(bz); bz = bz -1;
+            }
+        
+
+        while (cb>1 && (cb>0 && cb>2)){
+            println(cb); cb = cb -1;
+            }
+        
+
+        while (cc>1 && (cc>0 && cc>2)){
+            println(cc); cc = cc -1;
+            }
+        
+
+        while (cd>1 && (cd>0 && cd>2)){
+            println(cd); cd = cd -1;
+            }
+        
+
+        while (cf>1 && (cf>0 && cf>2)){
+            println(cf); cf = cf -1;
+            }
+        
+
+        while (cg>1 && (cg>0 && cg>2)){
+            println(cg); cg = cg -1;
+            }
+        
+
+        while (ch>1 && (ch>0 && ch>2)){
+            println(ch); ch = ch -1;
+            }
+        
+
+        while (cj>1 && (cj>0 && cj>2)){
+            println(cj); cj = cj -1;
+            }
+        
+
+        while (ck>1 && (ck>0 && ck>2)){
+            println(ck); ck = ck -1;
+            }
+        
+
+        while (cl>1 && (cl>0 && cl>2)){
+            println(cl); cl = cl -1;
+            }
+        
+
+        while (cm>1 && (cm>0 && cm>2)){
+            println(cm); cm = cm -1;
+            }
+        
+
+        while (cn>1 && (cn>0 && cn>2)){
+            println(cn); cn = cn -1;
+            }
+        
+
+        while (co>1 && (co>0 && co>2)){
+            println(co); co = co -1;
+            }
+        
+
+        while (cp>1 && (cp>0 && cp>2)){
+            println(cp); cp = cp -1;
+            }
+        
+
+        while (cq>1 && (cq>0 && cq>2)){
+            println(cq); cq = cq -1;
+            }
+        
+
+        while (cr>1 && (cr>0 && cr>2)){
+            println(cr); cr = cr -1;
+            }
+        
+
+        while (cs>1 && (cs>0 && cs>2)){
+            println(cs); cs = cs -1;
+            }
+        
+
+        while (ct>1 && (ct>0 && ct>2)){
+            println(ct); ct = ct -1;
+            }
+        
+
+        while (cu>1 && (cu>0 && cu>2)){
+            println(cu); cu = cu -1;
+            }
+        
+
+        while (cv>1 && (cv>0 && cv>2)){
+            println(cv); cv = cv -1;
+            }
+        
+
+        while (cw>1 && (cw>0 && cw>2)){
+            println(cw); cw = cw -1;
+            }
+        
+
+        while (cx>1 && (cx>0 && cx>2)){
+            println(cx); cx = cx -1;
+            }
+        
+
+        while (cy>1 && (cy>0 && cy>2)){
+            println(cy); cy = cy -1;
+            }
+        
+
+        while (cz>1 && (cz>0 && cz>2)){
+            println(cz); cz = cz -1;
+            }
+        
+
+        while (db>1 && (db>0 && db>2)){
+            println(db); db = db -1;
+            }
+        
+
+        while (dc>1 && (dc>0 && dc>2)){
+            println(dc); dc = dc -1;
+            }
+        
+
+        while (dd>1 && (dd>0 && dd>2)){
+            println(dd); dd = dd -1;
+            }
+        
+
+        while (df>1 && (df>0 && df>2)){
+            println(df); df = df -1;
+            }
+        
+
+        while (dg>1 && (dg>0 && dg>2)){
+            println(dg); dg = dg -1;
+            }
+        
+
+        while (dh>1 && (dh>0 && dh>2)){
+            println(dh); dh = dh -1;
+            }
+        
+
+        while (dj>1 && (dj>0 && dj>2)){
+            println(dj); dj = dj -1;
+            }
+        
+
+        while (dk>1 && (dk>0 && dk>2)){
+            println(dk); dk = dk -1;
+            }
+        
+
+        while (dl>1 && (dl>0 && dl>2)){
+            println(dl); dl = dl -1;
+            }
+        
+
+        while (dm>1 && (dm>0 && dm>2)){
+            println(dm); dm = dm -1;
+            }
+        
+
+        while (dn>1 && (dn>0 && dn>2)){
+            println(dn); dn = dn -1;
+            }
+        
+
+        while (do>1 && (do>0 && do>2)){
+            println(do); do = do -1;
+            }
+        
+
+        while (dp>1 && (dp>0 && dp>2)){
+            println(dp); dp = dp -1;
+            }
+        
+
+        while (dq>1 && (dq>0 && dq>2)){
+            println(dq); dq = dq -1;
+            }
+        
+
+        while (dr>1 && (dr>0 && dr>2)){
+            println(dr); dr = dr -1;
+            }
+        
+
+        while (ds>1 && (ds>0 && ds>2)){
+            println(ds); ds = ds -1;
+            }
+        
+
+        while (dt>1 && (dt>0 && dt>2)){
+            println(dt); dt = dt -1;
+            }
+        
+
+        while (du>1 && (du>0 && du>2)){
+            println(du); du = du -1;
+            }
+        
+
+        while (dv>1 && (dv>0 && dv>2)){
+            println(dv); dv = dv -1;
+            }
+        
+
+        while (dw>1 && (dw>0 && dw>2)){
+            println(dw); dw = dw -1;
+            }
+        
+
+        while (dx>1 && (dx>0 && dx>2)){
+            println(dx); dx = dx -1;
+            }
+        
+
+        while (dy>1 && (dy>0 && dy>2)){
+            println(dy); dy = dy -1;
+            }
+        
+
+        while (dz>1 && (dz>0 && dz>2)){
+            println(dz); dz = dz -1;
+            }
+        
+
+        while (fb>1 && (fb>0 && fb>2)){
+            println(fb); fb = fb -1;
+            }
+        
+
+        while (fc>1 && (fc>0 && fc>2)){
+            println(fc); fc = fc -1;
+            }
+        
+
+        while (fd>1 && (fd>0 && fd>2)){
+            println(fd); fd = fd -1;
+            }
+        
+
+        while (ff>1 && (ff>0 && ff>2)){
+            println(ff); ff = ff -1;
+            }
+        
+
+        while (fg>1 && (fg>0 && fg>2)){
+            println(fg); fg = fg -1;
+            }
+        
+
+        while (fh>1 && (fh>0 && fh>2)){
+            println(fh); fh = fh -1;
+            }
+        
+
+        while (fj>1 && (fj>0 && fj>2)){
+            println(fj); fj = fj -1;
+            }
+        
+
+        while (fk>1 && (fk>0 && fk>2)){
+            println(fk); fk = fk -1;
+            }
+        
+
+        while (fl>1 && (fl>0 && fl>2)){
+            println(fl); fl = fl -1;
+            }
+        
+
+        while (fm>1 && (fm>0 && fm>2)){
+            println(fm); fm = fm -1;
+            }
+        
+
+        while (fn>1 && (fn>0 && fn>2)){
+            println(fn); fn = fn -1;
+            }
+        
+
+        while (fo>1 && (fo>0 && fo>2)){
+            println(fo); fo = fo -1;
+            }
+        
+
+        while (fp>1 && (fp>0 && fp>2)){
+            println(fp); fp = fp -1;
+            }
+        
+
+        while (fq>1 && (fq>0 && fq>2)){
+            println(fq); fq = fq -1;
+            }
+        
+
+        while (fr>1 && (fr>0 && fr>2)){
+            println(fr); fr = fr -1;
+            }
+        
+
+        while (fs>1 && (fs>0 && fs>2)){
+            println(fs); fs = fs -1;
+            }
+        
+
+        while (ft>1 && (ft>0 && ft>2)){
+            println(ft); ft = ft -1;
+            }
+        
+
+        while (fu>1 && (fu>0 && fu>2)){
+            println(fu); fu = fu -1;
+            }
+        
+
+        while (fv>1 && (fv>0 && fv>2)){
+            println(fv); fv = fv -1;
+            }
+        
+
+        while (fw>1 && (fw>0 && fw>2)){
+            println(fw); fw = fw -1;
+            }
+        
+
+        while (fx>1 && (fx>0 && fx>2)){
+            println(fx); fx = fx -1;
+            }
+        
+
+        while (fy>1 && (fy>0 && fy>2)){
+            println(fy); fy = fy -1;
+            }
+        
+
+        while (fz>1 && (fz>0 && fz>2)){
+            println(fz); fz = fz -1;
+            }
+        
+
+        while (gb>1 && (gb>0 && gb>2)){
+            println(gb); gb = gb -1;
+            }
+        
+
+        while (gc>1 && (gc>0 && gc>2)){
+            println(gc); gc = gc -1;
+            }
+        
+
+        while (gd>1 && (gd>0 && gd>2)){
+            println(gd); gd = gd -1;
+            }
+        
+
+        while (gf>1 && (gf>0 && gf>2)){
+            println(gf); gf = gf -1;
+            }
+        
+
+        while (gg>1 && (gg>0 && gg>2)){
+            println(gg); gg = gg -1;
+            }
+        
+
+        while (gh>1 && (gh>0 && gh>2)){
+            println(gh); gh = gh -1;
+            }
+        
+
+        while (gj>1 && (gj>0 && gj>2)){
+            println(gj); gj = gj -1;
+            }
+        
+
+        while (gk>1 && (gk>0 && gk>2)){
+            println(gk); gk = gk -1;
+            }
+        
+
+        while (gl>1 && (gl>0 && gl>2)){
+            println(gl); gl = gl -1;
+            }
+        
+
+        while (gm>1 && (gm>0 && gm>2)){
+            println(gm); gm = gm -1;
+            }
+        
+
+        while (gn>1 && (gn>0 && gn>2)){
+            println(gn); gn = gn -1;
+            }
+        
+
+        while (go>1 && (go>0 && go>2)){
+            println(go); go = go -1;
+            }
+        
+
+        while (gp>1 && (gp>0 && gp>2)){
+            println(gp); gp = gp -1;
+            }
+        
+
+        while (gq>1 && (gq>0 && gq>2)){
+            println(gq); gq = gq -1;
+            }
+        
+
+        while (gr>1 && (gr>0 && gr>2)){
+            println(gr); gr = gr -1;
+            }
+        
+
+        while (gs>1 && (gs>0 && gs>2)){
+            println(gs); gs = gs -1;
+            }
+        
+
+        while (gt>1 && (gt>0 && gt>2)){
+            println(gt); gt = gt -1;
+            }
+        
+
+        while (gu>1 && (gu>0 && gu>2)){
+            println(gu); gu = gu -1;
+            }
+        
+
+        while (gv>1 && (gv>0 && gv>2)){
+            println(gv); gv = gv -1;
+            }
+        
+
+        while (gw>1 && (gw>0 && gw>2)){
+            println(gw); gw = gw -1;
+            }
+        
+
+        while (gx>1 && (gx>0 && gx>2)){
+            println(gx); gx = gx -1;
+            }
+        
+
+        while (gy>1 && (gy>0 && gy>2)){
+            println(gy); gy = gy -1;
+            }
+        
+
+        while (gz>1 && (gz>0 && gz>2)){
+            println(gz); gz = gz -1;
+            }
+        
+
+        while (hb>1 && (hb>0 && hb>2)){
+            println(hb); hb = hb -1;
+            }
+        
+
+        while (hc>1 && (hc>0 && hc>2)){
+            println(hc); hc = hc -1;
+            }
+        
+
+        while (hd>1 && (hd>0 && hd>2)){
+            println(hd); hd = hd -1;
+            }
+        
+
+        while (hf>1 && (hf>0 && hf>2)){
+            println(hf); hf = hf -1;
+            }
+        
+
+        while (hg>1 && (hg>0 && hg>2)){
+            println(hg); hg = hg -1;
+            }
+        
+
+        while (hh>1 && (hh>0 && hh>2)){
+            println(hh); hh = hh -1;
+            }
+        
+
+        while (hj>1 && (hj>0 && hj>2)){
+            println(hj); hj = hj -1;
+            }
+        
+
+        while (hk>1 && (hk>0 && hk>2)){
+            println(hk); hk = hk -1;
+            }
+        
+
+        while (hl>1 && (hl>0 && hl>2)){
+            println(hl); hl = hl -1;
+            }
+        
+
+        while (hm>1 && (hm>0 && hm>2)){
+            println(hm); hm = hm -1;
+            }
+        
+
+        while (hn>1 && (hn>0 && hn>2)){
+            println(hn); hn = hn -1;
+            }
+        
+
+        while (ho>1 && (ho>0 && ho>2)){
+            println(ho); ho = ho -1;
+            }
+        
+
+        while (hp>1 && (hp>0 && hp>2)){
+            println(hp); hp = hp -1;
+            }
+        
+
+        while (hq>1 && (hq>0 && hq>2)){
+            println(hq); hq = hq -1;
+            }
+        
+
+        while (hr>1 && (hr>0 && hr>2)){
+            println(hr); hr = hr -1;
+            }
+        
+
+        while (hs>1 && (hs>0 && hs>2)){
+            println(hs); hs = hs -1;
+            }
+        
+
+        while (ht>1 && (ht>0 && ht>2)){
+            println(ht); ht = ht -1;
+            }
+        
+
+        while (hu>1 && (hu>0 && hu>2)){
+            println(hu); hu = hu -1;
+            }
+        
+
+        while (hv>1 && (hv>0 && hv>2)){
+            println(hv); hv = hv -1;
+            }
+        
+
+        while (hw>1 && (hw>0 && hw>2)){
+            println(hw); hw = hw -1;
+            }
+        
+
+        while (hx>1 && (hx>0 && hx>2)){
+            println(hx); hx = hx -1;
+            }
+        
+
+        while (hy>1 && (hy>0 && hy>2)){
+            println(hy); hy = hy -1;
+            }
+        
+
+        while (hz>1 && (hz>0 && hz>2)){
+            println(hz); hz = hz -1;
+            }
+        
+
+        while (jb>1 && (jb>0 && jb>2)){
+            println(jb); jb = jb -1;
+            }
+        
+
+        while (jc>1 && (jc>0 && jc>2)){
+            println(jc); jc = jc -1;
+            }
+        
+
+        while (jd>1 && (jd>0 && jd>2)){
+            println(jd); jd = jd -1;
+            }
+        
+
+        while (jf>1 && (jf>0 && jf>2)){
+            println(jf); jf = jf -1;
+            }
+        
+
+        while (jg>1 && (jg>0 && jg>2)){
+            println(jg); jg = jg -1;
+            }
+        
+
+        while (jh>1 && (jh>0 && jh>2)){
+            println(jh); jh = jh -1;
+            }
+        
+
+        while (jj>1 && (jj>0 && jj>2)){
+            println(jj); jj = jj -1;
+            }
+        
+
+        while (jk>1 && (jk>0 && jk>2)){
+            println(jk); jk = jk -1;
+            }
+        
+
+        while (jl>1 && (jl>0 && jl>2)){
+            println(jl); jl = jl -1;
+            }
+        
+
+        while (jm>1 && (jm>0 && jm>2)){
+            println(jm); jm = jm -1;
+            }
+        
+
+        while (jn>1 && (jn>0 && jn>2)){
+            println(jn); jn = jn -1;
+            }
+        
+
+        while (jo>1 && (jo>0 && jo>2)){
+            println(jo); jo = jo -1;
+            }
+        
+
+        while (jp>1 && (jp>0 && jp>2)){
+            println(jp); jp = jp -1;
+            }
+        
+
+        while (jq>1 && (jq>0 && jq>2)){
+            println(jq); jq = jq -1;
+            }
+        
+
+        while (jr>1 && (jr>0 && jr>2)){
+            println(jr); jr = jr -1;
+            }
+        
+
+        while (js>1 && (js>0 && js>2)){
+            println(js); js = js -1;
+            }
+        
+
+        while (jt>1 && (jt>0 && jt>2)){
+            println(jt); jt = jt -1;
+            }
+        
+
+        while (ju>1 && (ju>0 && ju>2)){
+            println(ju); ju = ju -1;
+            }
+        
+
+        while (jv>1 && (jv>0 && jv>2)){
+            println(jv); jv = jv -1;
+            }
+        
+
+        while (jw>1 && (jw>0 && jw>2)){
+            println(jw); jw = jw -1;
+            }
+        
+
+        while (jx>1 && (jx>0 && jx>2)){
+            println(jx); jx = jx -1;
+            }
+        
+
+        while (jy>1 && (jy>0 && jy>2)){
+            println(jy); jy = jy -1;
+            }
+        
+
+        while (jz>1 && (jz>0 && jz>2)){
+            println(jz); jz = jz -1;
+            }
+        
+
+        while (kb>1 && (kb>0 && kb>2)){
+            println(kb); kb = kb -1;
+            }
+        
+
+        while (kc>1 && (kc>0 && kc>2)){
+            println(kc); kc = kc -1;
+            }
+        
+
+        while (kd>1 && (kd>0 && kd>2)){
+            println(kd); kd = kd -1;
+            }
+        
+
+        while (kf>1 && (kf>0 && kf>2)){
+            println(kf); kf = kf -1;
+            }
+        
+
+        while (kg>1 && (kg>0 && kg>2)){
+            println(kg); kg = kg -1;
+            }
+        
+
+        while (kh>1 && (kh>0 && kh>2)){
+            println(kh); kh = kh -1;
+            }
+        
+
+        while (kj>1 && (kj>0 && kj>2)){
+            println(kj); kj = kj -1;
+            }
+        
+
+        while (kk>1 && (kk>0 && kk>2)){
+            println(kk); kk = kk -1;
+            }
+        
+
+        while (kl>1 && (kl>0 && kl>2)){
+            println(kl); kl = kl -1;
+            }
+        
+
+        while (km>1 && (km>0 && km>2)){
+            println(km); km = km -1;
+            }
+        
+
+        while (kn>1 && (kn>0 && kn>2)){
+            println(kn); kn = kn -1;
+            }
+        
+
+        while (ko>1 && (ko>0 && ko>2)){
+            println(ko); ko = ko -1;
+            }
+        
+
+        while (kp>1 && (kp>0 && kp>2)){
+            println(kp); kp = kp -1;
+            }
+        
+
+        while (kq>1 && (kq>0 && kq>2)){
+            println(kq); kq = kq -1;
+            }
+        
+
+        while (kr>1 && (kr>0 && kr>2)){
+            println(kr); kr = kr -1;
+            }
+        
+
+        while (ks>1 && (ks>0 && ks>2)){
+            println(ks); ks = ks -1;
+            }
+        
+
+        while (kt>1 && (kt>0 && kt>2)){
+            println(kt); kt = kt -1;
+            }
+        
+
+        while (ku>1 && (ku>0 && ku>2)){
+            println(ku); ku = ku -1;
+            }
+        
+
+        while (kv>1 && (kv>0 && kv>2)){
+            println(kv); kv = kv -1;
+            }
+        
+
+        while (kw>1 && (kw>0 && kw>2)){
+            println(kw); kw = kw -1;
+            }
+        
+
+        while (kx>1 && (kx>0 && kx>2)){
+            println(kx); kx = kx -1;
+            }
+        
+
+        while (ky>1 && (ky>0 && ky>2)){
+            println(ky); ky = ky -1;
+            }
+        
+
+        while (kz>1 && (kz>0 && kz>2)){
+            println(kz); kz = kz -1;
+            }
+        
+
+        while (lb>1 && (lb>0 && lb>2)){
+            println(lb); lb = lb -1;
+            }
+        
+
+        while (lc>1 && (lc>0 && lc>2)){
+            println(lc); lc = lc -1;
+            }
+        
+
+        while (ld>1 && (ld>0 && ld>2)){
+            println(ld); ld = ld -1;
+            }
+        
+
+        while (lf>1 && (lf>0 && lf>2)){
+            println(lf); lf = lf -1;
+            }
+        
+
+        while (lg>1 && (lg>0 && lg>2)){
+            println(lg); lg = lg -1;
+            }
+        
+
+        while (lh>1 && (lh>0 && lh>2)){
+            println(lh); lh = lh -1;
+            }
+        
+
+        while (lj>1 && (lj>0 && lj>2)){
+            println(lj); lj = lj -1;
+            }
+        
+
+        while (lk>1 && (lk>0 && lk>2)){
+            println(lk); lk = lk -1;
+            }
+        
+
+        while (ll>1 && (ll>0 && ll>2)){
+            println(ll); ll = ll -1;
+            }
+        
+
+        while (lm>1 && (lm>0 && lm>2)){
+            println(lm); lm = lm -1;
+            }
+        
+
+        while (ln>1 && (ln>0 && ln>2)){
+            println(ln); ln = ln -1;
+            }
+        
+
+        while (lo>1 && (lo>0 && lo>2)){
+            println(lo); lo = lo -1;
+            }
+        
+
+        while (lp>1 && (lp>0 && lp>2)){
+            println(lp); lp = lp -1;
+            }
+        
+
+        while (lq>1 && (lq>0 && lq>2)){
+            println(lq); lq = lq -1;
+            }
+        
+
+        while (lr>1 && (lr>0 && lr>2)){
+            println(lr); lr = lr -1;
+            }
+        
+
+        while (ls>1 && (ls>0 && ls>2)){
+            println(ls); ls = ls -1;
+            }
+        
+
+        while (lt>1 && (lt>0 && lt>2)){
+            println(lt); lt = lt -1;
+            }
+        
+
+        while (lu>1 && (lu>0 && lu>2)){
+            println(lu); lu = lu -1;
+            }
+        
+
+        while (lv>1 && (lv>0 && lv>2)){
+            println(lv); lv = lv -1;
+            }
+        
+
+        while (lw>1 && (lw>0 && lw>2)){
+            println(lw); lw = lw -1;
+            }
+        
+
+        while (lx>1 && (lx>0 && lx>2)){
+            println(lx); lx = lx -1;
+            }
+        
+
+        while (ly>1 && (ly>0 && ly>2)){
+            println(ly); ly = ly -1;
+            }
+        
+
+        while (lz>1 && (lz>0 && lz>2)){
+            println(lz); lz = lz -1;
+            }
+        
+
+        while (mb>1 && (mb>0 && mb>2)){
+            println(mb); mb = mb -1;
+            }
+        
+
+        while (mc>1 && (mc>0 && mc>2)){
+            println(mc); mc = mc -1;
+            }
+        
+
+        while (md>1 && (md>0 && md>2)){
+            println(md); md = md -1;
+            }
+        
+
+        while (mf>1 && (mf>0 && mf>2)){
+            println(mf); mf = mf -1;
+            }
+        
+
+        while (mg>1 && (mg>0 && mg>2)){
+            println(mg); mg = mg -1;
+            }
+        
+
+        while (mh>1 && (mh>0 && mh>2)){
+            println(mh); mh = mh -1;
+            }
+        
+
+        while (mj>1 && (mj>0 && mj>2)){
+            println(mj); mj = mj -1;
+            }
+        
+
+        while (mk>1 && (mk>0 && mk>2)){
+            println(mk); mk = mk -1;
+            }
+        
+
+        while (ml>1 && (ml>0 && ml>2)){
+            println(ml); ml = ml -1;
+            }
+        
+
+        while (mm>1 && (mm>0 && mm>2)){
+            println(mm); mm = mm -1;
+            }
+        
+
+        while (mn>1 && (mn>0 && mn>2)){
+            println(mn); mn = mn -1;
+            }
+        
+
+        while (mo>1 && (mo>0 && mo>2)){
+            println(mo); mo = mo -1;
+            }
+        
+
+        while (mp>1 && (mp>0 && mp>2)){
+            println(mp); mp = mp -1;
+            }
+        
+
+        while (mq>1 && (mq>0 && mq>2)){
+            println(mq); mq = mq -1;
+            }
+        
+
+        while (mr>1 && (mr>0 && mr>2)){
+            println(mr); mr = mr -1;
+            }
+        
+
+        while (ms>1 && (ms>0 && ms>2)){
+            println(ms); ms = ms -1;
+            }
+        
+
+        while (mt>1 && (mt>0 && mt>2)){
+            println(mt); mt = mt -1;
+            }
+        
+
+        while (mu>1 && (mu>0 && mu>2)){
+            println(mu); mu = mu -1;
+            }
+        
+
+        while (mv>1 && (mv>0 && mv>2)){
+            println(mv); mv = mv -1;
+            }
+        
+
+        while (mw>1 && (mw>0 && mw>2)){
+            println(mw); mw = mw -1;
+            }
+        
+
+        while (mx>1 && (mx>0 && mx>2)){
+            println(mx); mx = mx -1;
+            }
+        
+
+        while (my>1 && (my>0 && my>2)){
+            println(my); my = my -1;
+            }
+        
+
+        while (mz>1 && (mz>0 && mz>2)){
+            println(mz); mz = mz -1;
+            }
+        
+
+        while (nb>1 && (nb>0 && nb>2)){
+            println(nb); nb = nb -1;
+            }
+        
+
+        while (nc>1 && (nc>0 && nc>2)){
+            println(nc); nc = nc -1;
+            }
+        
+
+        while (nd>1 && (nd>0 && nd>2)){
+            println(nd); nd = nd -1;
+            }
+        
+
+        while (nf>1 && (nf>0 && nf>2)){
+            println(nf); nf = nf -1;
+            }
+        
+
+        while (ng>1 && (ng>0 && ng>2)){
+            println(ng); ng = ng -1;
+            }
+        
+
+        while (nh>1 && (nh>0 && nh>2)){
+            println(nh); nh = nh -1;
+            }
+        
+
+        while (nj>1 && (nj>0 && nj>2)){
+            println(nj); nj = nj -1;
+            }
+        
+
+        while (nk>1 && (nk>0 && nk>2)){
+            println(nk); nk = nk -1;
+            }
+        
+
+        while (nl>1 && (nl>0 && nl>2)){
+            println(nl); nl = nl -1;
+            }
+        
+
+        while (nm>1 && (nm>0 && nm>2)){
+            println(nm); nm = nm -1;
+            }
+        
+
+        while (nn>1 && (nn>0 && nn>2)){
+            println(nn); nn = nn -1;
+            }
+        
+
+        while (no>1 && (no>0 && no>2)){
+            println(no); no = no -1;
+            }
+        
+
+        while (np>1 && (np>0 && np>2)){
+            println(np); np = np -1;
+            }
+        
+
+        while (nq>1 && (nq>0 && nq>2)){
+            println(nq); nq = nq -1;
+            }
+        
+
+        while (nr>1 && (nr>0 && nr>2)){
+            println(nr); nr = nr -1;
+            }
+        
+
+        while (ns>1 && (ns>0 && ns>2)){
+            println(ns); ns = ns -1;
+            }
+        
+
+        while (nt>1 && (nt>0 && nt>2)){
+            println(nt); nt = nt -1;
+            }
+        
+
+        while (nu>1 && (nu>0 && nu>2)){
+            println(nu); nu = nu -1;
+            }
+        
+
+        while (nv>1 && (nv>0 && nv>2)){
+            println(nv); nv = nv -1;
+            }
+        
+
+        while (nw>1 && (nw>0 && nw>2)){
+            println(nw); nw = nw -1;
+            }
+        
+
+        while (nx>1 && (nx>0 && nx>2)){
+            println(nx); nx = nx -1;
+            }
+        
+
+        while (ny>1 && (ny>0 && ny>2)){
+            println(ny); ny = ny -1;
+            }
+        
+
+        while (nz>1 && (nz>0 && nz>2)){
+            println(nz); nz = nz -1;
+            }
+        
+
+        while (ob>1 && (ob>0 && ob>2)){
+            println(ob); ob = ob -1;
+            }
+        
+
+        while (oc>1 && (oc>0 && oc>2)){
+            println(oc); oc = oc -1;
+            }
+        
+
+        while (od>1 && (od>0 && od>2)){
+            println(od); od = od -1;
+            }
+        
+
+        while (of>1 && (of>0 && of>2)){
+            println(of); of = of -1;
+            }
+        
+
+        while (og>1 && (og>0 && og>2)){
+            println(og); og = og -1;
+            }
+        
+
+        while (oh>1 && (oh>0 && oh>2)){
+            println(oh); oh = oh -1;
+            }
+        
+
+        while (oj>1 && (oj>0 && oj>2)){
+            println(oj); oj = oj -1;
+            }
+        
+
+        while (ok>1 && (ok>0 && ok>2)){
+            println(ok); ok = ok -1;
+            }
+        
+
+        while (ol>1 && (ol>0 && ol>2)){
+            println(ol); ol = ol -1;
+            }
+        
+
+        while (om>1 && (om>0 && om>2)){
+            println(om); om = om -1;
+            }
+        
+
+        while (on>1 && (on>0 && on>2)){
+            println(on); on = on -1;
+            }
+        
+
+        while (oo>1 && (oo>0 && oo>2)){
+            println(oo); oo = oo -1;
+            }
+        
+
+        while (op>1 && (op>0 && op>2)){
+            println(op); op = op -1;
+            }
+        
+
+        while (oq>1 && (oq>0 && oq>2)){
+            println(oq); oq = oq -1;
+            }
+        
+
+        while (or>1 && (or>0 && or>2)){
+            println(or); or = or -1;
+            }
+        
+
+        while (os>1 && (os>0 && os>2)){
+            println(os); os = os -1;
+            }
+        
+
+        while (ot>1 && (ot>0 && ot>2)){
+            println(ot); ot = ot -1;
+            }
+        
+
+        while (ou>1 && (ou>0 && ou>2)){
+            println(ou); ou = ou -1;
+            }
+        
+
+        while (ov>1 && (ov>0 && ov>2)){
+            println(ov); ov = ov -1;
+            }
+        
+
+        while (ow>1 && (ow>0 && ow>2)){
+            println(ow); ow = ow -1;
+            }
+        
+
+        while (ox>1 && (ox>0 && ox>2)){
+            println(ox); ox = ox -1;
+            }
+        
+
+        while (oy>1 && (oy>0 && oy>2)){
+            println(oy); oy = oy -1;
+            }
+        
+
+        while (oz>1 && (oz>0 && oz>2)){
+            println(oz); oz = oz -1;
+            }
+        
+
+        while (pb>1 && (pb>0 && pb>2)){
+            println(pb); pb = pb -1;
+            }
+        
+
+        while (pc>1 && (pc>0 && pc>2)){
+            println(pc); pc = pc -1;
+            }
+        
+
+        while (pd>1 && (pd>0 && pd>2)){
+            println(pd); pd = pd -1;
+            }
+        
+
+        while (pf>1 && (pf>0 && pf>2)){
+            println(pf); pf = pf -1;
+            }
+        
+
+        while (pg>1 && (pg>0 && pg>2)){
+            println(pg); pg = pg -1;
+            }
+        
+
+        while (ph>1 && (ph>0 && ph>2)){
+            println(ph); ph = ph -1;
+            }
+        
+
+        while (pj>1 && (pj>0 && pj>2)){
+            println(pj); pj = pj -1;
+            }
+        
+
+        while (pk>1 && (pk>0 && pk>2)){
+            println(pk); pk = pk -1;
+            }
+        
+
+        while (pl>1 && (pl>0 && pl>2)){
+            println(pl); pl = pl -1;
+            }
+        
+
+        while (pm>1 && (pm>0 && pm>2)){
+            println(pm); pm = pm -1;
+            }
+        
+
+        while (pn>1 && (pn>0 && pn>2)){
+            println(pn); pn = pn -1;
+            }
+        
+
+        while (po>1 && (po>0 && po>2)){
+            println(po); po = po -1;
+            }
+        
+
+        while (pp>1 && (pp>0 && pp>2)){
+            println(pp); pp = pp -1;
+            }
+        
+
+        while (pq>1 && (pq>0 && pq>2)){
+            println(pq); pq = pq -1;
+            }
+        
+
+        while (pr>1 && (pr>0 && pr>2)){
+            println(pr); pr = pr -1;
+            }
+        
+
+        while (ps>1 && (ps>0 && ps>2)){
+            println(ps); ps = ps -1;
+            }
+        
+
+        while (pt>1 && (pt>0 && pt>2)){
+            println(pt); pt = pt -1;
+            }
+        
+
+        while (pu>1 && (pu>0 && pu>2)){
+            println(pu); pu = pu -1;
+            }
+        
+
+        while (pv>1 && (pv>0 && pv>2)){
+            println(pv); pv = pv -1;
+            }
+        
+
+        while (pw>1 && (pw>0 && pw>2)){
+            println(pw); pw = pw -1;
+            }
+        
+
+        while (px>1 && (px>0 && px>2)){
+            println(px); px = px -1;
+            }
+        
+
+        while (py>1 && (py>0 && py>2)){
+            println(py); py = py -1;
+            }
+        
+
+        while (pz>1 && (pz>0 && pz>2)){
+            println(pz); pz = pz -1;
+            }
+        
+
+        while (qb>1 && (qb>0 && qb>2)){
+            println(qb); qb = qb -1;
+            }
+        
+
+        while (qc>1 && (qc>0 && qc>2)){
+            println(qc); qc = qc -1;
+            }
+        
+
+        while (qd>1 && (qd>0 && qd>2)){
+            println(qd); qd = qd -1;
+            }
+        
+
+        while (qf>1 && (qf>0 && qf>2)){
+            println(qf); qf = qf -1;
+            }
+        
+
+        while (qg>1 && (qg>0 && qg>2)){
+            println(qg); qg = qg -1;
+            }
+        
+
+        while (qh>1 && (qh>0 && qh>2)){
+            println(qh); qh = qh -1;
+            }
+        
+
+        while (qj>1 && (qj>0 && qj>2)){
+            println(qj); qj = qj -1;
+            }
+        
+
+        while (qk>1 && (qk>0 && qk>2)){
+            println(qk); qk = qk -1;
+            }
+        
+
+        while (ql>1 && (ql>0 && ql>2)){
+            println(ql); ql = ql -1;
+            }
+        
+
+        while (qm>1 && (qm>0 && qm>2)){
+            println(qm); qm = qm -1;
+            }
+        
+
+        while (qn>1 && (qn>0 && qn>2)){
+            println(qn); qn = qn -1;
+            }
+        
+
+        while (qo>1 && (qo>0 && qo>2)){
+            println(qo); qo = qo -1;
+            }
+        
+
+        while (qp>1 && (qp>0 && qp>2)){
+            println(qp); qp = qp -1;
+            }
+        
+
+        while (qq>1 && (qq>0 && qq>2)){
+            println(qq); qq = qq -1;
+            }
+        
+
+        while (qr>1 && (qr>0 && qr>2)){
+            println(qr); qr = qr -1;
+            }
+        
+
+        while (qs>1 && (qs>0 && qs>2)){
+            println(qs); qs = qs -1;
+            }
+        
+
+        while (qt>1 && (qt>0 && qt>2)){
+            println(qt); qt = qt -1;
+            }
+        
+
+        while (qu>1 && (qu>0 && qu>2)){
+            println(qu); qu = qu -1;
+            }
+        
+
+        while (qv>1 && (qv>0 && qv>2)){
+            println(qv); qv = qv -1;
+            }
+        
+
+        while (qw>1 && (qw>0 && qw>2)){
+            println(qw); qw = qw -1;
+            }
+        
+
+        while (qx>1 && (qx>0 && qx>2)){
+            println(qx); qx = qx -1;
+            }
+        
+
+        while (qy>1 && (qy>0 && qy>2)){
+            println(qy); qy = qy -1;
+            }
+        
+
+        while (qz>1 && (qz>0 && qz>2)){
+            println(qz); qz = qz -1;
+            }
+        
+
+        while (rb>1 && (rb>0 && rb>2)){
+            println(rb); rb = rb -1;
+            }
+        
+
+        while (rc>1 && (rc>0 && rc>2)){
+            println(rc); rc = rc -1;
+            }
+        
+
+        while (rd>1 && (rd>0 && rd>2)){
+            println(rd); rd = rd -1;
+            }
+        
+
+        while (rf>1 && (rf>0 && rf>2)){
+            println(rf); rf = rf -1;
+            }
+        
+
+        while (rg>1 && (rg>0 && rg>2)){
+            println(rg); rg = rg -1;
+            }
+        
+
+        while (rh>1 && (rh>0 && rh>2)){
+            println(rh); rh = rh -1;
+            }
+        
+
+        while (rj>1 && (rj>0 && rj>2)){
+            println(rj); rj = rj -1;
+            }
+        
+
+        while (rk>1 && (rk>0 && rk>2)){
+            println(rk); rk = rk -1;
+            }
+        
+
+        while (rl>1 && (rl>0 && rl>2)){
+            println(rl); rl = rl -1;
+            }
+        
+
+        while (rm>1 && (rm>0 && rm>2)){
+            println(rm); rm = rm -1;
+            }
+        
+
+        while (rn>1 && (rn>0 && rn>2)){
+            println(rn); rn = rn -1;
+            }
+        
+
+        while (ro>1 && (ro>0 && ro>2)){
+            println(ro); ro = ro -1;
+            }
+        
+
+        while (rp>1 && (rp>0 && rp>2)){
+            println(rp); rp = rp -1;
+            }
+        
+
+        while (rq>1 && (rq>0 && rq>2)){
+            println(rq); rq = rq -1;
+            }
+        
+
+        while (rr>1 && (rr>0 && rr>2)){
+            println(rr); rr = rr -1;
+            }
+        
+
+        while (rs>1 && (rs>0 && rs>2)){
+            println(rs); rs = rs -1;
+            }
+        
+
+        while (rt>1 && (rt>0 && rt>2)){
+            println(rt); rt = rt -1;
+            }
+        
+
+        while (ru>1 && (ru>0 && ru>2)){
+            println(ru); ru = ru -1;
+            }
+        
+
+        while (rv>1 && (rv>0 && rv>2)){
+            println(rv); rv = rv -1;
+            }
+        
+
+        while (rw>1 && (rw>0 && rw>2)){
+            println(rw); rw = rw -1;
+            }
+        
+
+        while (rx>1 && (rx>0 && rx>2)){
+            println(rx); rx = rx -1;
+            }
+        
+
+        while (ry>1 && (ry>0 && ry>2)){
+            println(ry); ry = ry -1;
+            }
+        
+
+        while (rz>1 && (rz>0 && rz>2)){
+            println(rz); rz = rz -1;
+            }
+        
+
+        while (sb>1 && (sb>0 && sb>2)){
+            println(sb); sb = sb -1;
+            }
+        
+
+        while (sc>1 && (sc>0 && sc>2)){
+            println(sc); sc = sc -1;
+            }
+        
+
+        while (sd>1 && (sd>0 && sd>2)){
+            println(sd); sd = sd -1;
+            }
+        
+
+        while (sf>1 && (sf>0 && sf>2)){
+            println(sf); sf = sf -1;
+            }
+        
+
+        while (sg>1 && (sg>0 && sg>2)){
+            println(sg); sg = sg -1;
+            }
+        
+
+        while (sh>1 && (sh>0 && sh>2)){
+            println(sh); sh = sh -1;
+            }
+        
+
+        while (sj>1 && (sj>0 && sj>2)){
+            println(sj); sj = sj -1;
+            }
+        
+
+        while (sk>1 && (sk>0 && sk>2)){
+            println(sk); sk = sk -1;
+            }
+        
+
+        while (sl>1 && (sl>0 && sl>2)){
+            println(sl); sl = sl -1;
+            }
+        
+
+        while (sm>1 && (sm>0 && sm>2)){
+            println(sm); sm = sm -1;
+            }
+        
+
+        while (sn>1 && (sn>0 && sn>2)){
+            println(sn); sn = sn -1;
+            }
+        
+
+        while (so>1 && (so>0 && so>2)){
+            println(so); so = so -1;
+            }
+        
+
+        while (sp>1 && (sp>0 && sp>2)){
+            println(sp); sp = sp -1;
+            }
+        
+
+        while (sq>1 && (sq>0 && sq>2)){
+            println(sq); sq = sq -1;
+            }
+        
+
+        while (sr>1 && (sr>0 && sr>2)){
+            println(sr); sr = sr -1;
+            }
+        
+
+        while (ss>1 && (ss>0 && ss>2)){
+            println(ss); ss = ss -1;
+            }
+        
+
+        while (st>1 && (st>0 && st>2)){
+            println(st); st = st -1;
+            }
+        
+
+        while (su>1 && (su>0 && su>2)){
+            println(su); su = su -1;
+            }
+        
+
+        while (sv>1 && (sv>0 && sv>2)){
+            println(sv); sv = sv -1;
+            }
+        
+
+        while (sw>1 && (sw>0 && sw>2)){
+            println(sw); sw = sw -1;
+            }
+        
+
+        while (sx>1 && (sx>0 && sx>2)){
+            println(sx); sx = sx -1;
+            }
+        
+
+        while (sy>1 && (sy>0 && sy>2)){
+            println(sy); sy = sy -1;
+            }
+        
+
+        while (sz>1 && (sz>0 && sz>2)){
+            println(sz); sz = sz -1;
+            }
+        
+
+        while (tb>1 && (tb>0 && tb>2)){
+            println(tb); tb = tb -1;
+            }
+        
+
+        while (tc>1 && (tc>0 && tc>2)){
+            println(tc); tc = tc -1;
+            }
+        
+
+        while (td>1 && (td>0 && td>2)){
+            println(td); td = td -1;
+            }
+        
+
+        while (tf>1 && (tf>0 && tf>2)){
+            println(tf); tf = tf -1;
+            }
+        
+
+        while (tg>1 && (tg>0 && tg>2)){
+            println(tg); tg = tg -1;
+            }
+        
+
+        while (th>1 && (th>0 && th>2)){
+            println(th); th = th -1;
+            }
+        
+
+        while (tj>1 && (tj>0 && tj>2)){
+            println(tj); tj = tj -1;
+            }
+        
+
+        while (tk>1 && (tk>0 && tk>2)){
+            println(tk); tk = tk -1;
+            }
+        
+
+        while (tl>1 && (tl>0 && tl>2)){
+            println(tl); tl = tl -1;
+            }
+        
+
+        while (tm>1 && (tm>0 && tm>2)){
+            println(tm); tm = tm -1;
+            }
+        
+
+        while (tn>1 && (tn>0 && tn>2)){
+            println(tn); tn = tn -1;
+            }
+        
+
+        while (to>1 && (to>0 && to>2)){
+            println(to); to = to -1;
+            }
+        
+
+        while (tp>1 && (tp>0 && tp>2)){
+            println(tp); tp = tp -1;
+            }
+        
+
+        while (tq>1 && (tq>0 && tq>2)){
+            println(tq); tq = tq -1;
+            }
+        
+
+        while (tr>1 && (tr>0 && tr>2)){
+            println(tr); tr = tr -1;
+            }
+        
+
+        while (ts>1 && (ts>0 && ts>2)){
+            println(ts); ts = ts -1;
+            }
+        
+
+        while (tt>1 && (tt>0 && tt>2)){
+            println(tt); tt = tt -1;
+            }
+        
+
+        while (tu>1 && (tu>0 && tu>2)){
+            println(tu); tu = tu -1;
+            }
+        
+
+        while (tv>1 && (tv>0 && tv>2)){
+            println(tv); tv = tv -1;
+            }
+        
+
+        while (tw>1 && (tw>0 && tw>2)){
+            println(tw); tw = tw -1;
+            }
+        
+
+        while (tx>1 && (tx>0 && tx>2)){
+            println(tx); tx = tx -1;
+            }
+        
+
+        while (ty>1 && (ty>0 && ty>2)){
+            println(ty); ty = ty -1;
+            }
+        
+
+        while (tz>1 && (tz>0 && tz>2)){
+            println(tz); tz = tz -1;
+            }
+        
+
+        while (ub>1 && (ub>0 && ub>2)){
+            println(ub); ub = ub -1;
+            }
+        
+
+        while (uc>1 && (uc>0 && uc>2)){
+            println(uc); uc = uc -1;
+            }
+        
+
+        while (ud>1 && (ud>0 && ud>2)){
+            println(ud); ud = ud -1;
+            }
+        
+
+        while (uf>1 && (uf>0 && uf>2)){
+            println(uf); uf = uf -1;
+            }
+        
+
+        while (ug>1 && (ug>0 && ug>2)){
+            println(ug); ug = ug -1;
+            }
+        
+
+        while (uh>1 && (uh>0 && uh>2)){
+            println(uh); uh = uh -1;
+            }
+        
+
+        while (uj>1 && (uj>0 && uj>2)){
+            println(uj); uj = uj -1;
+            }
+        
+
+        while (uk>1 && (uk>0 && uk>2)){
+            println(uk); uk = uk -1;
+            }
+        
+
+        while (ul>1 && (ul>0 && ul>2)){
+            println(ul); ul = ul -1;
+            }
+        
+
+        while (um>1 && (um>0 && um>2)){
+            println(um); um = um -1;
+            }
+        
+
+        while (un>1 && (un>0 && un>2)){
+            println(un); un = un -1;
+            }
+        
+
+        while (uo>1 && (uo>0 && uo>2)){
+            println(uo); uo = uo -1;
+            }
+        
+
+        while (up>1 && (up>0 && up>2)){
+            println(up); up = up -1;
+            }
+        
+
+        while (uq>1 && (uq>0 && uq>2)){
+            println(uq); uq = uq -1;
+            }
+        
+
+        while (ur>1 && (ur>0 && ur>2)){
+            println(ur); ur = ur -1;
+            }
+        
+
+        while (us>1 && (us>0 && us>2)){
+            println(us); us = us -1;
+            }
+        
+
+        while (ut>1 && (ut>0 && ut>2)){
+            println(ut); ut = ut -1;
+            }
+        
+
+        while (uu>1 && (uu>0 && uu>2)){
+            println(uu); uu = uu -1;
+            }
+        
+
+        while (uv>1 && (uv>0 && uv>2)){
+            println(uv); uv = uv -1;
+            }
+        
+
+        while (uw>1 && (uw>0 && uw>2)){
+            println(uw); uw = uw -1;
+            }
+        
+
+        while (ux>1 && (ux>0 && ux>2)){
+            println(ux); ux = ux -1;
+            }
+        
+
+        while (uy>1 && (uy>0 && uy>2)){
+            println(uy); uy = uy -1;
+            }
+        
+
+        while (uz>1 && (uz>0 && uz>2)){
+            println(uz); uz = uz -1;
+            }
+        
+
+        while (vb>1 && (vb>0 && vb>2)){
+            println(vb); vb = vb -1;
+            }
+        
+
+        while (vc>1 && (vc>0 && vc>2)){
+            println(vc); vc = vc -1;
+            }
+        
+
+        while (vd>1 && (vd>0 && vd>2)){
+            println(vd); vd = vd -1;
+            }
+        
+
+        while (vf>1 && (vf>0 && vf>2)){
+            println(vf); vf = vf -1;
+            }
+        
+
+        while (vg>1 && (vg>0 && vg>2)){
+            println(vg); vg = vg -1;
+            }
+        
+
+        while (vh>1 && (vh>0 && vh>2)){
+            println(vh); vh = vh -1;
+            }
+        
+
+        while (vj>1 && (vj>0 && vj>2)){
+            println(vj); vj = vj -1;
+            }
+        
+
+        while (vk>1 && (vk>0 && vk>2)){
+            println(vk); vk = vk -1;
+            }
+        
+
+        while (vl>1 && (vl>0 && vl>2)){
+            println(vl); vl = vl -1;
+            }
+        
+
+        while (vm>1 && (vm>0 && vm>2)){
+            println(vm); vm = vm -1;
+            }
+        
+
+        while (vn>1 && (vn>0 && vn>2)){
+            println(vn); vn = vn -1;
+            }
+        
+
+        while (vo>1 && (vo>0 && vo>2)){
+            println(vo); vo = vo -1;
+            }
+        
+
+        while (vp>1 && (vp>0 && vp>2)){
+            println(vp); vp = vp -1;
+            }
+        
+
+        while (vq>1 && (vq>0 && vq>2)){
+            println(vq); vq = vq -1;
+            }
+        
+
+        while (vr>1 && (vr>0 && vr>2)){
+            println(vr); vr = vr -1;
+            }
+        
+
+        while (vs>1 && (vs>0 && vs>2)){
+            println(vs); vs = vs -1;
+            }
+        
+
+        while (vt>1 && (vt>0 && vt>2)){
+            println(vt); vt = vt -1;
+            }
+        
+
+        while (vu>1 && (vu>0 && vu>2)){
+            println(vu); vu = vu -1;
+            }
+        
+
+        while (vv>1 && (vv>0 && vv>2)){
+            println(vv); vv = vv -1;
+            }
+        
+
+        while (vw>1 && (vw>0 && vw>2)){
+            println(vw); vw = vw -1;
+            }
+        
+
+        while (vx>1 && (vx>0 && vx>2)){
+            println(vx); vx = vx -1;
+            }
+        
+
+        while (vy>1 && (vy>0 && vy>2)){
+            println(vy); vy = vy -1;
+            }
+        
+
+        while (vz>1 && (vz>0 && vz>2)){
+            println(vz); vz = vz -1;
+            }
+        
+
+        while (wb>1 && (wb>0 && wb>2)){
+            println(wb); wb = wb -1;
+            }
+        
+
+        while (wc>1 && (wc>0 && wc>2)){
+            println(wc); wc = wc -1;
+            }
+        
+
+        while (wd>1 && (wd>0 && wd>2)){
+            println(wd); wd = wd -1;
+            }
+        
+
+        while (wf>1 && (wf>0 && wf>2)){
+            println(wf); wf = wf -1;
+            }
+        
+
+        while (wg>1 && (wg>0 && wg>2)){
+            println(wg); wg = wg -1;
+            }
+        
+
+        while (wh>1 && (wh>0 && wh>2)){
+            println(wh); wh = wh -1;
+            }
+        
+
+        while (wj>1 && (wj>0 && wj>2)){
+            println(wj); wj = wj -1;
+            }
+        
+
+        while (wk>1 && (wk>0 && wk>2)){
+            println(wk); wk = wk -1;
+            }
+        
+
+        while (wl>1 && (wl>0 && wl>2)){
+            println(wl); wl = wl -1;
+            }
+        
+
+        while (wm>1 && (wm>0 && wm>2)){
+            println(wm); wm = wm -1;
+            }
+        
+
+        while (wn>1 && (wn>0 && wn>2)){
+            println(wn); wn = wn -1;
+            }
+        
+
+        while (wo>1 && (wo>0 && wo>2)){
+            println(wo); wo = wo -1;
+            }
+        
+
+        while (wp>1 && (wp>0 && wp>2)){
+            println(wp); wp = wp -1;
+            }
+        
+
+        while (wq>1 && (wq>0 && wq>2)){
+            println(wq); wq = wq -1;
+            }
+        
+
+        while (wr>1 && (wr>0 && wr>2)){
+            println(wr); wr = wr -1;
+            }
+        
+
+        while (ws>1 && (ws>0 && ws>2)){
+            println(ws); ws = ws -1;
+            }
+        
+
+        while (wt>1 && (wt>0 && wt>2)){
+            println(wt); wt = wt -1;
+            }
+        
+
+        while (wu>1 && (wu>0 && wu>2)){
+            println(wu); wu = wu -1;
+            }
+        
+
+        while (wv>1 && (wv>0 && wv>2)){
+            println(wv); wv = wv -1;
+            }
+        
+
+        while (ww>1 && (ww>0 && ww>2)){
+            println(ww); ww = ww -1;
+            }
+        
+
+        while (wx>1 && (wx>0 && wx>2)){
+            println(wx); wx = wx -1;
+            }
+        
+
+        while (wy>1 && (wy>0 && wy>2)){
+            println(wy); wy = wy -1;
+            }
+        
+
+        while (wz>1 && (wz>0 && wz>2)){
+            println(wz); wz = wz -1;
+            }
+        
+
+        while (xb>1 && (xb>0 && xb>2)){
+            println(xb); xb = xb -1;
+            }
+        
+
+        while (xc>1 && (xc>0 && xc>2)){
+            println(xc); xc = xc -1;
+            }
+        
+
+        while (xd>1 && (xd>0 && xd>2)){
+            println(xd); xd = xd -1;
+            }
+        
+
+        while (xf>1 && (xf>0 && xf>2)){
+            println(xf); xf = xf -1;
+            }
+        
+
+        while (xg>1 && (xg>0 && xg>2)){
+            println(xg); xg = xg -1;
+            }
+        
+
+        while (xh>1 && (xh>0 && xh>2)){
+            println(xh); xh = xh -1;
+            }
+        
+
+        while (xj>1 && (xj>0 && xj>2)){
+            println(xj); xj = xj -1;
+            }
+        
+
+        while (xk>1 && (xk>0 && xk>2)){
+            println(xk); xk = xk -1;
+            }
+        
+
+        while (xl>1 && (xl>0 && xl>2)){
+            println(xl); xl = xl -1;
+            }
+        
+
+        while (xm>1 && (xm>0 && xm>2)){
+            println(xm); xm = xm -1;
+            }
+        
+
+        while (xn>1 && (xn>0 && xn>2)){
+            println(xn); xn = xn -1;
+            }
+        
+
+        while (xo>1 && (xo>0 && xo>2)){
+            println(xo); xo = xo -1;
+            }
+        
+
+        while (xp>1 && (xp>0 && xp>2)){
+            println(xp); xp = xp -1;
+            }
+        
+
+        while (xq>1 && (xq>0 && xq>2)){
+            println(xq); xq = xq -1;
+            }
+        
+
+        while (xr>1 && (xr>0 && xr>2)){
+            println(xr); xr = xr -1;
+            }
+        
+
+        while (xs>1 && (xs>0 && xs>2)){
+            println(xs); xs = xs -1;
+            }
+        
+
+        while (xt>1 && (xt>0 && xt>2)){
+            println(xt); xt = xt -1;
+            }
+        
+
+        while (xu>1 && (xu>0 && xu>2)){
+            println(xu); xu = xu -1;
+            }
+        
+
+        while (xv>1 && (xv>0 && xv>2)){
+            println(xv); xv = xv -1;
+            }
+        
+
+        while (xw>1 && (xw>0 && xw>2)){
+            println(xw); xw = xw -1;
+            }
+        
+
+        while (xx>1 && (xx>0 && xx>2)){
+            println(xx); xx = xx -1;
+            }
+        
+
+        while (xy>1 && (xy>0 && xy>2)){
+            println(xy); xy = xy -1;
+            }
+        
+
+        while (xz>1 && (xz>0 && xz>2)){
+            println(xz); xz = xz -1;
+            }
+        
+
+        while (yb>1 && (yb>0 && yb>2)){
+            println(yb); yb = yb -1;
+            }
+        
+
+        while (yc>1 && (yc>0 && yc>2)){
+            println(yc); yc = yc -1;
+            }
+        
+
+        while (yd>1 && (yd>0 && yd>2)){
+            println(yd); yd = yd -1;
+            }
+        
+
+        while (yf>1 && (yf>0 && yf>2)){
+            println(yf); yf = yf -1;
+            }
+        
+
+        while (yg>1 && (yg>0 && yg>2)){
+            println(yg); yg = yg -1;
+            }
+        
+
+        while (yh>1 && (yh>0 && yh>2)){
+            println(yh); yh = yh -1;
+            }
+        
+
+        while (yj>1 && (yj>0 && yj>2)){
+            println(yj); yj = yj -1;
+            }
+        
+
+        while (yk>1 && (yk>0 && yk>2)){
+            println(yk); yk = yk -1;
+            }
+        
+
+        while (yl>1 && (yl>0 && yl>2)){
+            println(yl); yl = yl -1;
+            }
+        
+
+        while (ym>1 && (ym>0 && ym>2)){
+            println(ym); ym = ym -1;
+            }
+        
+
+        while (yn>1 && (yn>0 && yn>2)){
+            println(yn); yn = yn -1;
+            }
+        
+
+        while (yo>1 && (yo>0 && yo>2)){
+            println(yo); yo = yo -1;
+            }
+        
+
+        while (yp>1 && (yp>0 && yp>2)){
+            println(yp); yp = yp -1;
+            }
+        
+
+        while (yq>1 && (yq>0 && yq>2)){
+            println(yq); yq = yq -1;
+            }
+        
+
+        while (yr>1 && (yr>0 && yr>2)){
+            println(yr); yr = yr -1;
+            }
+        
+
+        while (ys>1 && (ys>0 && ys>2)){
+            println(ys); ys = ys -1;
+            }
+        
+
+        while (yt>1 && (yt>0 && yt>2)){
+            println(yt); yt = yt -1;
+            }
+        
+
+        while (yu>1 && (yu>0 && yu>2)){
+            println(yu); yu = yu -1;
+            }
+        
+
+        while (yv>1 && (yv>0 && yv>2)){
+            println(yv); yv = yv -1;
+            }
+        
+
+        while (yw>1 && (yw>0 && yw>2)){
+            println(yw); yw = yw -1;
+            }
+        
+
+        while (yx>1 && (yx>0 && yx>2)){
+            println(yx); yx = yx -1;
+            }
+        
+
+        while (yy>1 && (yy>0 && yy>2)){
+            println(yy); yy = yy -1;
+            }
+        
+
+        while (yz>1 && (yz>0 && yz>2)){
+            println(yz); yz = yz -1;
+            }
+        
+
+        while (zb>1 && (zb>0 && zb>2)){
+            println(zb); zb = zb -1;
+            }
+        
+
+        while (zc>1 && (zc>0 && zc>2)){
+            println(zc); zc = zc -1;
+            }
+        
+
+        while (zd>1 && (zd>0 && zd>2)){
+            println(zd); zd = zd -1;
+            }
+        
+
+        while (zf>1 && (zf>0 && zf>2)){
+            println(zf); zf = zf -1;
+            }
+        
+
+        while (zg>1 && (zg>0 && zg>2)){
+            println(zg); zg = zg -1;
+            }
+        
+
+        while (zh>1 && (zh>0 && zh>2)){
+            println(zh); zh = zh -1;
+            }
+        
+
+        while (zj>1 && (zj>0 && zj>2)){
+            println(zj); zj = zj -1;
+            }
+        
+
+        while (zk>1 && (zk>0 && zk>2)){
+            println(zk); zk = zk -1;
+            }
+        
+
+        while (zl>1 && (zl>0 && zl>2)){
+            println(zl); zl = zl -1;
+            }
+        
+
+        while (zm>1 && (zm>0 && zm>2)){
+            println(zm); zm = zm -1;
+            }
+        
+
+        while (zn>1 && (zn>0 && zn>2)){
+            println(zn); zn = zn -1;
+            }
+        
+
+        while (zo>1 && (zo>0 && zo>2)){
+            println(zo); zo = zo -1;
+            }
+        
+
+        while (zp>1 && (zp>0 && zp>2)){
+            println(zp); zp = zp -1;
+            }
+        
+
+        while (zq>1 && (zq>0 && zq>2)){
+            println(zq); zq = zq -1;
+            }
+        
+
+        while (zr>1 && (zr>0 && zr>2)){
+            println(zr); zr = zr -1;
+            }
+        
+
+        while (zs>1 && (zs>0 && zs>2)){
+            println(zs); zs = zs -1;
+            }
+        
+
+        while (zt>1 && (zt>0 && zt>2)){
+            println(zt); zt = zt -1;
+            }
+        
+
+        while (zu>1 && (zu>0 && zu>2)){
+            println(zu); zu = zu -1;
+            }
+        
+
+        while (zv>1 && (zv>0 && zv>2)){
+            println(zv); zv = zv -1;
+            }
+        
+
+        while (zw>1 && (zw>0 && zw>2)){
+            println(zw); zw = zw -1;
+            }
+        
+
+        while (zx>1 && (zx>0 && zx>2)){
+            println(zx); zx = zx -1;
+            }
+        
+
+        while (zy>1 && (zy>0 && zy>2)){
+            println(zy); zy = zy -1;
+            }
+        
+
+        while (zz>1 && (zz>0 && zz>2)){
+            println(zz); zz = zz -1;
+            }
+        
+}

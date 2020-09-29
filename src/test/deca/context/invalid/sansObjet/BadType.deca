@@ -1,0 +1,9 @@
+class A{
+    int x;
+}
+class B{
+    int y;
+}
+{
+    A var = new B();
+}

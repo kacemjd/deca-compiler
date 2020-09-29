@@ -1,0 +1,15 @@
+/** @version 1.0
+    Title : use of : &&
+*/
+{
+  boolean passed = true;
+  boolean failed = false;
+  if (passed && failed)
+  {
+    println("This is impossible");
+  }
+  else
+  {
+    println(" This is always true");
+  }
+}

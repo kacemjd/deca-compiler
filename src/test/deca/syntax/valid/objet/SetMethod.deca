@@ -1,0 +1,33 @@
+class A{
+    int x;
+    int y;
+   
+
+    int somme(){
+        return this.x+this.y;
+    }
+    float getX(){
+        return this.x;
+    }
+    float getY(){
+        return this.y;
+    }
+
+    void setX(float x){
+        this.x= x;
+    }
+    void setY(float y){
+        this.y=y;
+    }
+}
+
+{
+    A a = new A();
+    int resultat;
+
+    a.setX(1);
+    a.setY(2);
+
+    resultat = a.somme();
+    println("resultat = ",resultat);
+}

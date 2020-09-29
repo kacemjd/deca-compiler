@@ -1,0 +1,14 @@
+/** @version 1.0
+    Title : Cast
+*/
+{
+  int a = 1;
+  float b = 3.6;
+  if (a < 0)
+  {
+    b = (a / 10);
+    a = (int) (b + 1);
+    println(a);
+  }
+
+}

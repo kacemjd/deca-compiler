@@ -1,0 +1,22 @@
+//2 4 5 3
+class point{
+    int x;
+    int y;
+    int getX(){
+        return x;
+    }
+    int getY(){
+        return y;
+    }
+    void translate(int i, int j){
+	this.x = this.x + i;
+	this.y = this.y + j;
+}
+}
+{
+point p1 = new point();
+point p2 = new point();
+p1.translate(2, 4);
+p2.translate(5, 3);
+println(p1.getX(), p1.getY(), p2.getX(), p2.getY());
+}

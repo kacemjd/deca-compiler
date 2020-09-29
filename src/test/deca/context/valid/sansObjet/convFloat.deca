@@ -1,0 +1,13 @@
+/** @version 1.0
+    Title : use of : ConvFloat
+*/
+{
+  int a  = 1 + 4;
+  float b = 100 / 16.6;
+
+  float x;
+  // on doit convertir la somme :
+  x = b + a;
+  println("Le résultat est clair :", x);
+
+}

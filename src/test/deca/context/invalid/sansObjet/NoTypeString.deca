@@ -1,0 +1,19 @@
+{
+  // list decl var
+  float b = 7.6;
+  int a = 8;
+  String s = "Hallo";
+  boolean x = false;
+
+
+  // list inst
+  b = a + b;
+  b  =(a * b) + 1.6;
+  println(-a);
+  b = 2;
+  a = a + 6;
+  println(!a);
+  println(s, a, b);
+  print(5 + 7.6 + a);
+
+}

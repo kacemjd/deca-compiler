@@ -1,0 +1,36 @@
+class BreakPoints{
+    Methods m = new Methods();
+
+    float breakPoint(int j, int k){
+        return m.power(2.0F, -j)*(1 + k/8);
+    }
+
+    Couple BPOptVal(float value){
+        Couple index = new Couple();
+        float BP = this.breakPoint(1, 0);
+        int temoin = 0;
+        int j = 1;
+        int k = 0;
+        while (j < 5){
+            while (k < 8){
+                if(m.abs(BP - value) > m.abs(this.breakPoint(j, k) - value)){
+                    temoin = 1;
+                    BP = this.breakPoint(j, k);
+                    index.setX(j);
+                    index.setY(k);
+                }
+                k = k+1;
+            }
+            k = 0;
+            j = j+1;
+        }
+        if (temoin == 0){
+            index.x = 1;
+            index.y = 0;
+        }
+
+        return index;
+    }
+
+}
+

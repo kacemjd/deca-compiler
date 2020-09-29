@@ -1,0 +1,11 @@
+{
+    boolean a;
+    boolean b;
+    boolean z;
+    a = true;
+    b = false;
+    z = a && b;
+    z = z || false;
+    print(z);
+    print("z == false");
+}

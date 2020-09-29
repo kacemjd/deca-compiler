@@ -1,0 +1,6 @@
+{
+    int x=2;
+    if (else){
+        println("x=2");
+    }
+}

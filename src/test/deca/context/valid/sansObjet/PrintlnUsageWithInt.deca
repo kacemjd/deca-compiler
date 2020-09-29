@@ -1,0 +1,6 @@
+{
+    int x = 20;
+    int y = 2020;
+    int z = x+y;
+    println(z);
+}

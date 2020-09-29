@@ -1,0 +1,8 @@
+{
+    boolean a = true;
+    if (!a){
+        print("Ah Dommage");
+    }else {
+        print ("Oui ici c'est parfait");
+    }
+}

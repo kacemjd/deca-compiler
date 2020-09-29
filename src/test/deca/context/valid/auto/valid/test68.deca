@@ -1,0 +1,10 @@
+{
+boolean x4 = (true || false) || (1 < 5914.359);
+boolean x5;
+boolean b = (3 > 325) || (922.69 >= 295) && (!true) || (2693 == 5914.359);
+float y;
+boolean c;
+float a;
+float x3 = (922.69 / 3) - (-3);
+x5 = (x5 && true) || (8 == 9) || (1 < 91313.5509) && (x5 && false);
+}

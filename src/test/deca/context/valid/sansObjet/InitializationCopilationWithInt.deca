@@ -1,0 +1,7 @@
+{
+    int x  = 0 ;
+    int y = x;
+    int z = y;
+    int w = 20;
+    int I = x;
+}

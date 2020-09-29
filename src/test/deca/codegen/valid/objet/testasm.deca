@@ -1,0 +1,8 @@
+class A{
+    void m()
+        asm("WSTR \"test asm\"");
+}
+{
+A a = new A();
+a.m();
+}

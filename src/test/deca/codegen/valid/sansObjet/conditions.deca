@@ -1,0 +1,16 @@
+//ok2
+{
+int x = 5;
+boolean b2 = (x<=7) && (x > 2) && (x > 3) && (x >= 5)&& (x != 19);
+boolean b1 = (x>1)&&(x>2)&&(x>3)&&(x>5);
+boolean b3 = (x>5) || (x == 0);
+if(b1){
+    println("ok1");
+}
+else if(b2){
+    println("ok2");
+}
+else if(b3){
+    println("ok3");
+}
+}

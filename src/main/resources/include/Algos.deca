@@ -1,0 +1,248 @@
+#include "Methods.deca"
+#include "ChebychevValues.deca"
+#include "Couple.deca"
+#include "RangeReduction.deca"
+#include "BreakPoints.deca"
+
+
+class Taylor {
+
+    Methods m = new Methods();
+
+
+    float coefTaylorSinus(int n, float x){
+        return m.power(-1.0,n) * m.power(x, ((2*n)+1)) /m.factoriel((2*n)+1);
+    }
+
+    float taylorSinus(float x, int n){
+        float s = 0;
+        int i = 0;
+        while (i < n) {
+            s = s + this.coefTaylorSinus(i, x);
+            i = i + 1;
+        }
+        return s;
+    }
+
+    float coefTaylorCosinus(int n, float x){
+        return m.power(-1.0, n) * m.power(x, (2*n))/m.factoriel(2*n);
+    }
+
+    float taylorCosinus(float x, int n){
+        float s = 0;
+        int i = 0;
+        while (i < n) {
+            s = s + this.coefTaylorCosinus(i, x);
+            i = i + 1;
+        }
+        return s;
+    }
+
+    float coefTaylorArctan(int n, float x){
+        return m.power(-1.0, n) * m.power( x, (2*n + 1)) / (2*n + 1) ;
+    }
+
+    float taylorArctan(float x, int n){
+        float s = 0;
+        int i = 0;
+        while (i < n) {
+            s = s + this.coefTaylorArctan(i, x);
+            i = i + 1;
+        }
+
+        return s;
+    }
+
+    float coefTaylorArcsin(int n, float x){
+        return ( m.power(-1.0, n) * m.power(x, (2*n) + 1) * (m.factoriel(2*n)) / ((2*n+1) * m.power(2.0,2*n) * m.power((float)(m.factoriel(n)), 2)));
+    }
+
+    float taylorArcsin(float x, int n){
+        float s = 0;
+        int i = 0;
+        while (i < n) {
+            s = s + this.coefTaylorArcsin(i, x);
+            i = i + 1;
+        }
+        return s;
+    }
+
+}
+
+class ChebyApproxi32{
+    Methods methods = new Methods();
+
+    float ChebychevActan(float x){
+        float c1 = 137.772398556992967072803545f;
+        float c2 = 311.6092089800060900355248812f;
+        float c3 = 243.2657933898208264206733648f;
+        float c4 = 76.1179448121611233450964866f;
+        float c5 = 8.1327059582002624490996398f;
+        float c6 = 0.1342077928230059190697038f;
+        float q1 = 137.7723985569929670728035493f;
+        float q2 = 357.5333418323370790597777492f;
+        float q3 = 334.8890942892012593679882767f;
+        float q4 = 135.9227450335766811043244001f;
+        float q5 = 22.23061618444266557469256796f;
+
+        return (c1 * x + c2 * methods.power(x, 3) + c3 * methods.power(x, 5) + c4 * methods.power(x, 7) + c5 * methods.power(x, 9) + c6 * methods.power(x, 11))
+                /(q1 + q2 * methods.power(x, 2) + q3 * methods.power(x, 4) + q4 * methods.power(x, 6) + q5 * methods.power(x, 8));
+    }
+
+    float ChebychevSinus(float r ){
+
+        float a1 = -0.16666666666666666666421f;
+        float a2 = 0.008333333333333312907f;
+        float a3 = -0.0001984126983563939f;
+        float a4 = 0.00000275566861f;
+
+        return (r + a1*methods.power(r, 3) + a2*methods.power(r, 5) + a3*methods.power(r, 7)+ a4*methods.power(r, 9));
+    }
+
+    float ChebychevCosinus(float r ){
+        float result=0.0f;
+        float a1 = -0.49999999999999999999999995425696F;
+        float a2 = 0.0416666666666666666660027496F;
+        float a3 = -0.001388888888885759632F;
+        float a4 = 0.0000248015872951505636F;
+        float a5 = -0.000000275567182072F;
+        result = (1.0F + a1*methods.power(r, 2) + a2*methods.power(r, 4) + a3*methods.power(r, 6) + a4*methods.power(r, 8) + a5*methods.power(r, 10));
+        return result;
+    }
+
+}
+
+class Chebychev {
+    float Pi = 3.1415926f;
+    ChebychevValues values = new ChebychevValues();
+    Couple c = new Couple();
+    Methods m = new Methods();
+    RangeReduction range = new RangeReduction();
+    ChebyApproxi32 a = new ChebyApproxi32();
+    BreakPoints b = new BreakPoints();
+
+
+
+    float sinCheb(float value){
+        Couple c = new Couple();
+        float BP = 0.0F;
+        float r = 0.0F;
+        float newValue = 0.0F;
+
+        if (value <= Pi/4 && value >= 0){
+            if(m.abs(value) <= 0.03125f){
+                return a.ChebychevSinus(value);
+            }
+            else{
+                c = b.BPOptVal(value);
+                BP = b.breakPoint(c.getX(), c.getY());
+                r = value - BP;
+                return (values.ChebyValuesSin(c.getX(), c.getY())*a.ChebychevCosinus(r)) + (values.ChebyValuesCos(c.getX(),c.getY())*a.ChebychevSinus(r));
+            }
+        }
+
+        else if (value < 0){
+            return -this.sinCheb(-value);
+        }
+
+        else {
+            if (value > Pi){
+                newValue = range.FirstReductionSin(value);
+                return this.sinCheb(newValue);
+            }
+
+            else if (value > Pi/2){
+                return this.cosCheb(Pi/2 - value);
+            }
+
+            else {
+                return 2 * this.sinCheb(value/2) * this.cosCheb(value/2);
+            }
+        }
+
+    }
+
+    float cosCheb(float value){
+        Couple c = new Couple();
+        float BP = 0.0F;
+        float r = 0.0F;
+        float newValue = 0.0F;
+
+        if (value <= Pi/4 && value >= 0){
+            if(m.abs(value) <= 0.03125f){
+                return a.ChebychevCosinus(value);
+            }
+            else{
+                c = b.BPOptVal(value);
+                BP = b.breakPoint(c.getX(), c.getY());
+                r = value - BP;
+                return ((values.ChebyValuesCos(c.getX(), c.getY())*a.ChebychevCosinus(r)) - (values.ChebyValuesSin(c.getX(), c.getY())*a.ChebychevSinus(r)));
+            }
+        }
+
+        else if (value < 0){
+            return this.cosCheb(-value);
+        }
+
+        else {
+            if (value > 2* Pi){
+                newValue = range.FirstReductionCos(value);
+                return this.cosCheb(newValue);
+            }
+            else if (value > Pi && value < 2*Pi){
+                return -this.cosCheb(value - Pi);
+            }
+
+            else if (value > Pi/2){
+                return this.sinCheb(Pi/2 - value);
+            }
+
+            else {
+                return 1 - 2 * m.power(this.sinCheb(value/2), 2);
+            }
+        }
+    }
+
+    int getIndexActan(float value){
+        int i = 1;
+        while (i < 9){
+            if (value < values.ChebyValuesActan(i) && values.ChebyValuesActan(i - 1) < value){
+                return i;
+            }
+            i = i + 1;
+        }
+        if (i==9){
+            return i;
+        }
+    }
+
+    float arctanCheb(float value){
+        float tanCoef = 0.09849140335716425f;
+        float Pi32 = 0.09817477042468103f;
+        int i = 0;
+        float x= 0.0f;
+        float t=0.0f;
+
+        if(value < 0){
+            return -this.arctanCheb(-value);
+        }
+
+        else if (value >= 0 && value <= tanCoef){
+            return a.ChebychevActan(value);
+        }
+
+        else {
+            i = this.getIndexActan(value);
+            x = values.otherActanVal(i - 1);
+            t = (1/x) - ((m.power(x, -2) + 1)/(m.power(x, -1) + value));
+            return (2 * i - 2) * Pi32 + this.arctanCheb(t);
+        }
+    }
+
+    float arcsinCheb(float value){
+        float newVal = value / m.racine(1.0f - m.power(value, 2));
+        float result = this.arctanCheb(newVal);
+        return result;
+    }
+
+}

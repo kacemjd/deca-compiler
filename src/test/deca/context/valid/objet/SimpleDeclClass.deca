@@ -1,0 +1,8 @@
+class Simple{
+    int x;
+    int y;
+    int z;
+}
+{
+    
+}

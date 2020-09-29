@@ -1,0 +1,11 @@
+class Maclasse{
+    protected int x;
+    void setX(int x){
+        this.x=x;
+    }
+}
+
+{
+    Maclasse x = new Maclasse();
+    x.setX(3);
+}

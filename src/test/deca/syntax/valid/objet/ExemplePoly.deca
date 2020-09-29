@@ -1,0 +1,12 @@
+
+class Compteur {
+    int x;
+    void incr() {
+        x = x + 1;
+    }
+}
+
+{
+    Compteur c = new Compteur();
+    c.incr();
+}

@@ -1,0 +1,8 @@
+{
+    int x = 2020;
+    float y = 2020.0f;
+    x = -x;
+    y = -(true);
+    println(x);
+    print("y = ",y);
+}

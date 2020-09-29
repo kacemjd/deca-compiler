@@ -1,0 +1,7 @@
+class Maclasse {
+    float f;
+}
+{
+    Maclasse a = new Maclasse();
+    a.f;
+}
