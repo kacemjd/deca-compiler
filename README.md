@@ -39,5 +39,5 @@ Ce code génère 100 tests contextuellement valides d'une manière aléatoire.
 * **Nabil Bensrhier** - *Dev Partie B* -
 * **Ayman Aboueloula** - *Dev Partie C* -
 * **Omar Benchekroun** - *Dev Partie C* -
-* **Redouane Yagouti** - *testeur et dev extention trigo* -
 * **Kacem Jedoui** - *testeur et dev extention trigo* -
+* **Redouane Yagouti** - *testeur et dev extention trigo* -
